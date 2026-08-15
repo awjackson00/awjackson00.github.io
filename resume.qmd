@@ -9,7 +9,6 @@ toc-title: "Contents"
 ## Alexander Jackson
 
 [awjackson00@gmail.com](mailto:awjackson00@gmail.com)  
-+1 (805)-350-1654  
 [LinkedIn](https://www.linkedin.com/in/alexander-jackson5/) | [GitHub](https://github.com/awjackson00)
 
 [📄 Download PDF Resume](assets/resume.pdf){.btn .btn-primary role="button"}
