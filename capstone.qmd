@@ -2,6 +2,7 @@
 title: "Risky Business"
 subtitle: "Portfolio Resilience: Backtesting Asset Allocation Strategies During Financial Crises"
 date: 2026-07-27
+image: projects/capstone/featured.png
 categories: [capstone, finance, backtesting, python]
 toc: true
 ---
