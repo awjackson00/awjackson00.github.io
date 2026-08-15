@@ -3,6 +3,7 @@ title: "Alexander Jackson"
 subtitle: "Data Science · Analytics · Product"
 about:
   template: trestles
+  image: images/profile.png
   links:
     - icon: github
       text: GitHub
