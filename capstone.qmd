@@ -1,84 +1,412 @@
 ---
-title: "Capstone: [Your Capstone Title]"
-subtitle: "A one-sentence hook: what you built and who it helps."
+title: "Risky Business"
+subtitle: "Portfolio Resilience: Backtesting Asset Allocation Strategies During Financial Crises"
 date: 2026-07-27
-image: projects/capstone/featured.svg
-categories: [capstone, machine-learning, R]
+categories: [capstone, finance, backtesting, python]
 toc: true
 ---
 
-::: {.callout-note appearance="simple"}
-This is the anchor of your portfolio. A hiring manager who reads only one page
-should read this one. Replace every bracketed placeholder, then delete this note.
-:::
+## Overview
 
-## The one-liner
+**Risky Business: Quantitative Portfolio Management for Optimized Risk** evaluates how different portfolio constructions perform during periods of economic growth, financial crisis, and market uncertainty.
 
-> We integrated **\[data sources\]** into **\[dataset\]** so that
-> **\[stakeholder\]** can **\[decision they can now make\]**.
+Rather than asking only which portfolio generated the highest return, we examined the tradeoff between **return potential, volatility, downside risk, and resilience across changing market environments**.
 
-**Role:** \[e.g. I led the data pipeline and validation.\]
-**Team:** \[solo, or name + link teammates.\]
-**Repo:** [github.com/your_github_username/your-capstone-repo](https://github.com/your_github_username/your-capstone-repo)
+**Role:** Co-collaborator responsible for the project's professional writing, exploratory data analysis (EDA) pipeline, and preparation of statistical models used to evaluate portfolio performance.
 
-## The question
+**Team:** Alexander Jackson and Dane Herrin
 
-What problem were you solving, and why does it matter to a real stakeholder?
-Two or three sentences. No jargon a hiring manager would have to look up.
+**Course:** DATA 510 Data Science Capstone, Willamette University
 
-## The data
+**Repository:** [View the project on GitHub](https://github.com/awjackson00/data510--Quant-Back-Testing-){.btn .btn-primary}
 
-Where the data came from, how much of it, and the one hard thing about it
-(missingness, joins across sources, scale, privacy). This is your data
-engineering story — the part the repo link backs up.
+---
 
-## The approach
+## The Question
 
-Your method at portfolio depth: shorter than your M4 write-up, longer than a
-tweet. What did you try, what did you keep, and why.
+Our primary research question was:
 
-## Findings
+> **How can portfolio optimization help stakeholders construct portfolios that preserve return potential while reducing drawdowns during periods of financial crisis and market uncertainty?**
 
-Lead with your best figure or your architecture diagram.
+We also investigated several supporting questions:
 
-![Replace with your key result or system diagram.](projects/capstone/featured.svg){fig-alt="Placeholder capstone figure" width="90%"}
+1. Do drawdown-resistant portfolios sacrifice gains during strong growth periods?
+2. How does portfolio performance change between crisis periods and normal market conditions?
+3. How do Sharpe and Sortino ratios change during periods of market uncertainty?
+4. How do technology, energy, real estate, consumer staples, and defensive Treasury-based portfolios respond to different forms of financial stress?
 
-State the finding in plain language, then the caveat. Sparse and true beats
-full and shaky.
+The goal was to move beyond simply identifying the portfolio with the highest historical return and instead evaluate how different portfolio structures respond when market conditions change.
 
-## The full write-up
+---
 
-Pick the option that matches where your write-up lives, keep one, delete the rest.
+## My Contribution
 
-::: {.panel-tabset}
+As a **co-collaborator**, my primary responsibilities included:
 
-### A · Native Quarto
+- Developing and maintaining the project's **exploratory data analysis pipeline**
+- Preparing the **statistical modeling workflow**
+- Preparing the data and portfolio return series used for statistical analysis
+- Supporting the development and evaluation of the **ARIMA time-series models**
+- Producing the project's **professional and technical writing**
+- Translating quantitative findings into clear explanations for stakeholders
+- Supporting the interpretation and presentation of portfolio performance across different market regimes
 
-If your write-up is a `.qmd`, copy it into `projects/capstone/index.qmd` and
-link it, or fold its sections directly into this page. Set `eval: false` (or
-rely on `freeze`) on any chunk that needs data the public repo does not contain.
+This work required connecting the project's technical analysis with its broader business and financial interpretation.
 
-### B · Embedded PDF
+---
 
-```markdown
-[Download the write-up (PDF)](projects/capstone/writeup.pdf){.btn .btn-primary}
+## The Data
 
-<iframe src="projects/capstone/writeup.pdf" width="100%" height="800px"
-  style="border: 1px solid #ddd;"></iframe>
-```
+Historical daily market-price data were collected from **Yahoo Finance using Python and the `yfinance` package**.
 
-### C · Published Google Doc
+The final analysis covered:
 
-```markdown
-[Read the full write-up](https://docs.google.com/document/d/e/XXXX/pub){.btn .btn-primary}
+**January 1, 2000 through May 1, 2025**
 
-<iframe src="https://docs.google.com/document/d/e/XXXX/pub?embedded=true"
-  width="100%" height="800px" style="border: 1px solid #ddd;"></iframe>
-```
+We constructed and evaluated five different portfolios.
 
-:::
+### Barbell Portfolio
 
-## Dig deeper
+A defensive portfolio consisting of:
 
-- 📦 **Code & pipeline:** [your-capstone-repo](https://github.com/your_github_username/your-capstone-repo)
-- 📊 **Slides / poster:** \[link if you have one\]
+- **95% IEF** for intermediate-term U.S. Treasury exposure
+- **5% VIX** as a volatility-sensitive analytical proxy
+
+The VIX portion is theoretical because the VIX itself is not directly investable.
+
+### Mega-Cap Technology
+
+An equal-weight portfolio consisting of:
+
+- Apple
+- Microsoft
+- NVIDIA
+- Amazon
+- Google
+- Meta
+- Broadcom
+- Tesla
+
+When all eight securities were available, each received a target weight of **12.5%**.
+
+Because several companies did not have public trading histories during the earliest periods in the study, available securities were dynamically equal-weighted.
+
+### Energy
+
+An equal-weight portfolio including:
+
+- ExxonMobil
+- Chevron
+- ConocoPhillips
+- EOG Resources
+- Schlumberger
+- NextEra Energy
+- Duke Energy
+- Constellation Energy
+- Southern Company
+- Dominion Energy
+
+When all ten securities were available, each received a target weight of **10%**.
+
+### Real Estate
+
+The Real Estate portfolio consisted of:
+
+**100% Vanguard Real Estate ETF (VNQ)**
+
+VNQ began trading in 2004, so it does not have results for the Dot-com crash regime.
+
+### Fast-Moving Consumer Goods
+
+The FMCG portfolio included:
+
+- Walmart
+- Costco
+- Target
+- Procter & Gamble
+- Unilever
+- Kimberly-Clark
+- Coca-Cola
+- PepsiCo
+- Nestlé
+- General Mills
+
+Each security received a target weight of **10%**.
+
+---
+
+## EDA and Data Pipeline
+
+A major component of my contribution was the exploratory data analysis and preparation pipeline used to transform raw financial data into portfolio-level results.
+
+The general workflow was:
+
+**Portfolio definitions → historical prices → daily returns → portfolio weighting → portfolio returns → market-regime labels → performance metrics → visualizations**
+
+The EDA process was designed to identify:
+
+- Missing historical price data
+- Differences in asset inception dates
+- Periods in which portfolio holdings were unavailable
+- Changes in volatility through time
+- Differences between portfolio behavior during growth and crisis periods
+- Potential issues before the data entered the statistical modeling stage
+
+Dynamic weighting was used when securities did not yet have historical data rather than treating unavailable securities as if they had existed.
+
+---
+
+## Market Regimes
+
+Instead of evaluating only overall historical performance, we divided the data into **nine distinct market regimes**.
+
+| Market Regime | Date Range |
+|---|---|
+| Dot-com Crash | January 1, 2000 – October 9, 2002 |
+| Recovery | October 10, 2002 – December 31, 2007 |
+| Global Financial Crisis | January 1, 2008 – December 31, 2009 |
+| Recovery / ZIRP | January 1, 2010 – December 31, 2015 |
+| Pre-COVID | January 1, 2016 – December 31, 2019 |
+| COVID | January 1, 2020 – December 31, 2021 |
+| 2022 Rate Cycle | January 1, 2022 – December 31, 2022 |
+| Regional Banking Stress | March 1, 2023 – May 31, 2023 |
+| Post-Crisis | June 1, 2023 – May 1, 2025 |
+
+This allowed us to evaluate whether a portfolio that performed well in one economic environment continued to perform well when the nature of market risk changed.
+
+---
+
+## Evaluation Metrics
+
+Each portfolio was evaluated using several measures rather than relying on return alone:
+
+- **Annualized return**
+- **Annualized volatility**
+- **Sharpe ratio**
+- **Sortino ratio**
+- **Cumulative return**
+- **Rolling one-year Sharpe ratio**
+- **Crisis-period performance**
+- **Recovery-period performance**
+- **Broad-market benchmark comparisons**
+
+The **Sharpe ratio** measures return relative to overall volatility.
+
+The **Sortino ratio** focuses specifically on downside volatility, making it particularly relevant to our research question about protecting portfolios during adverse market conditions.
+
+Using multiple metrics allowed us to distinguish between portfolios that simply generated high returns and portfolios that generated returns more efficiently relative to the risks they assumed.
+
+---
+
+## Statistical Modeling
+
+We also evaluated **ARIMA time-series models** using portfolio-level daily return series.
+
+The purpose of ARIMA was not to create an automated trading strategy. Instead, we used it as a statistical baseline to determine whether daily portfolio returns contained sufficiently stable autoregressive patterns to support short-term forecasting.
+
+The models generally produced forecasts close to zero and did not demonstrate strong or consistent predictive structure.
+
+Rather than forcing ARIMA into the final recommendation, we treated this as a useful **null result**.
+
+The strongest evidence for the project therefore remained:
+
+- Historical backtesting
+- Risk-adjusted performance metrics
+- Benchmark comparisons
+- Regime-specific portfolio behavior
+
+---
+
+## Key Findings
+
+The clearest overall result was:
+
+> **No single portfolio consistently performed best across all nine market regimes.**
+
+Different portfolio constructions reacted very differently depending on the nature of the economic environment.
+
+### Mega-Cap Technology
+
+Mega-Cap Technology generated some of the strongest upside in the analysis.
+
+During the **2002–2007 Recovery**, it produced:
+
+- **50.31% annualized return**
+- **1.731 Sharpe ratio**
+- **2.662 Sortino ratio**
+
+During the **Pre-COVID period**, it produced:
+
+- **29.88% annualized return**
+- **1.308 Sharpe ratio**
+
+During the **2020–2021 COVID regime**, it generated:
+
+- **63.10% annualized return**
+- **1.833 Sharpe ratio**
+- **2.162 Sortino ratio**
+
+However, the same portfolio experienced substantial losses during the **2022 Rate Cycle**:
+
+- **-46.35% annualized return**
+- **-1.179 Sharpe ratio**
+- **-1.973 Sortino ratio**
+
+This demonstrated the downside tradeoff associated with concentrated growth exposure.
+
+---
+
+### Energy
+
+Energy responded very differently depending on the type of market stress.
+
+During the **Global Financial Crisis**, Energy generated:
+
+- **0.95% annualized return**
+- **0.006 Sharpe ratio**
+
+During the **2022 Rate Cycle**, however, Energy became the strongest portfolio in the comparison:
+
+- **39.60% annualized return**
+- **1.484 Sharpe ratio**
+- **2.230 Sortino ratio**
+
+This demonstrated that a sector's defensive characteristics depend heavily on the type of crisis being examined.
+
+---
+
+### Fast-Moving Consumer Goods
+
+FMCG generally demonstrated more moderate behavior.
+
+During the **2022 Rate Cycle**, FMCG produced an annualized return of:
+
+**-1.13%**
+
+That compared with:
+
+| Portfolio | 2022 Annualized Return |
+|---|---:|
+| Energy | **39.60%** |
+| FMCG | **-1.13%** |
+| Barbell | **-11.15%** |
+| Real Estate | **-27.51%** |
+| Mega-Cap Technology | **-46.35%** |
+
+FMCG did not capture the same upside as Mega-Cap Technology during major growth periods, but its downside behavior during 2022 was substantially less severe.
+
+---
+
+### Barbell
+
+The Barbell portfolio provided a useful defensive comparison but was not immune to losses.
+
+During the **Recovery / ZIRP** period, it produced:
+
+- **0.817 Sharpe ratio**
+- **1.504 Sortino ratio**
+- **8.58% annualized return**
+
+During the **2022 Rate Cycle**, however, it produced:
+
+- **-11.15% annualized return**
+- **-1.259 Sharpe ratio**
+
+This reinforced an important finding from the analysis: labeling a portfolio "defensive" does not mean that it will perform positively during every form of market stress.
+
+---
+
+### Real Estate
+
+Real Estate was particularly sensitive to changing financial conditions.
+
+During the **2022 Rate Cycle**, VNQ generated:
+
+- **-27.51% annualized return**
+- **-1.194 Sharpe ratio**
+
+During **Regional Banking Stress**, VNQ generated:
+
+- **-21.00% annualized return**
+
+These results highlight the sensitivity of real-estate assets to interest rates and changing financial conditions.
+
+---
+
+## Main Takeaway
+
+The project demonstrates that **portfolio resilience cannot be represented by a single metric**.
+
+Different measures answer different questions:
+
+- **Cumulative return** measures overall growth
+- **Annualized return** standardizes portfolio performance
+- **Volatility** measures instability
+- **Sharpe ratio** measures return relative to total risk
+- **Sortino ratio** focuses specifically on downside risk
+- **Regime analysis** determines whether those relationships remain stable when market conditions change
+
+A portfolio with the highest historical return may also expose an investor to significantly larger losses during certain types of market stress.
+
+The strongest practical conclusion from our analysis is that stakeholders should identify the types of risk they are willing to tolerate and evaluate portfolio performance across multiple market environments rather than selecting a strategy based solely on historical return.
+
+---
+
+## Limitations
+
+Several limitations are important when interpreting the results.
+
+- Historical performance does not guarantee future performance.
+- Backtesting introduces hindsight bias because historical crisis outcomes are already known.
+- Survivorship bias may affect the securities included in the portfolios.
+- Different assets have different inception dates.
+- VNQ does not have data for the Dot-com crash period.
+- IEF provides only partial coverage of the Dot-com period.
+- The VIX is not directly investable.
+- Transaction costs, taxes, bid-ask spreads, and portfolio rebalancing costs were not included.
+- The Regional Banking Stress regime covers only three months, making annualized values especially sensitive.
+- Yahoo Finance adjusted historical prices may change over time.
+- ARIMA forecasting did not reveal stable predictive structure in daily portfolio returns.
+
+---
+
+## Future Work
+
+Future versions of the project could extend the analysis by:
+
+- Calculating formal maximum drawdown statistics for every portfolio and regime
+- Testing alternative definitions of financial crises
+- Incorporating transaction costs and taxes
+- Comparing multiple portfolio rebalancing schedules
+- Replacing direct VIX exposure with an investable volatility strategy
+- Optimizing portfolio weights prospectively
+- Testing additional forecasting or machine-learning approaches
+
+---
+
+## Reproducibility
+
+The complete project repository contains the notebooks, portfolio-construction methodology, statistical analysis, and supporting materials used to produce the final results.
+
+[View the Capstone Repository](https://github.com/awjackson00/data510--Quant-Back-Testing-){.btn .btn-primary}
+
+### Primary Analysis Notebooks
+
+- `EDA Capstone.ipynb`
+- `SharpeRatioSheet.ipynb`
+- `portfolioConstruction.ipynb`
+- `ARIMA Time-Series Modeling.ipynb`
+
+The project was developed primarily using:
+
+**Python · pandas · NumPy · yfinance · matplotlib · statsmodels · scikit-learn**
+
+---
+
+## Responsible Use
+
+All data used in this project are public financial-market data. No personally identifiable information, private investor information, or account-level financial data were used.
+
+The results are based on historical backtesting and should not be interpreted as predictions of future market performance.
+
+**This project is intended for educational and analytical purposes only and does not constitute investment advice.**
