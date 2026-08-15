@@ -2,7 +2,6 @@ project:
   type: website
   output-dir: _site
 
-# Freeze computational output so GitHub Actions does NOT need R or Python.
 execute:
   freeze: auto
 
@@ -27,7 +26,7 @@ website:
         href: https://github.com/awjackson00
         aria-label: GitHub
       - icon: linkedin
-        href: YOUR_LINKEDIN_URL
+        href: https://www.linkedin.com/in/alexander-jackson5/
         aria-label: LinkedIn
 
   page-footer:
