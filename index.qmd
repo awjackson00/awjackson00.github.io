@@ -1,38 +1,27 @@
 ---
-title: "Blitz Bearcat"
-subtitle: "M.S. Data Science Candidate · Willamette University"
-image: images/profile.png
+title: "Alexander Jackson"
+subtitle: "Data Science · Analytics · Product"
 about:
   template: trestles
-  image-shape: round
-  image-width: 16em
   links:
     - icon: github
       text: GitHub
-      href: https://github.com/your_github_username
+      href: https://github.com/awjackson00
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com/in/your_github_username
-    - icon: envelope
-      text: Email
-      href: mailto:you@willamette.edu
+      href: https://www.linkedin.com/in/alexander-jackson5/
     - icon: file-earmark-pdf
       text: Resume
       href: resume.qmd
 ---
 
-I build data pipelines and turn messy data into decisions people can act on.
-Right now I am finishing my M.S. in Data Science at **Willamette University**,
-where my capstone [predicts \[your one-line problem\]](capstone.qmd) for
-\[your stakeholder\].
+I combine **data science, software development, and business strategy** to turn complex data into practical decisions.
 
-I care about \[topics you actually care about — e.g. housing, health equity,
-sports analytics\], reproducible workflows, and explaining a model to the person
-who has to trust it.
+I am completing an **M.S. in Data Science and MBA at Willamette University**, with a background in computer science and experience working across analytics, data engineering, software development, and product strategy.
 
-**Currently looking for** \[data analyst / data scientist / ML engineer\] roles
-starting \[month year\]. [Get in touch](about.qmd) or grab my
-[resume](resume.qmd).
+My work ranges from building data pipelines and analytical applications to portfolio backtesting, business intelligence, and data-driven product development. I am especially interested in roles where technical problem solving and business decision-making overlap.
+
+**Currently interested in** opportunities across data analytics, business intelligence, data science, and product-focused technology. Explore my [capstone](capstone.qmd), see my [projects](projects.qmd), or view my [resume](resume.qmd).
 
 ---
 
@@ -40,20 +29,33 @@ starting \[month year\]. [Get in touch](about.qmd) or grab my
 
 ::: {.g-col-12 .g-col-md-4}
 ### 🎓 Education
-M.S. Data Science
-Willamette University, 2026
+
+**M.S. Data Science**  
+Willamette University
+
+**MBA**  
+Willamette University
+
+**B.A. Computer Science**  
+Whitman College
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ### 🛠️ Toolkit
-R · Python · SQL
-Quarto · Git · \[add yours\]
+
+Python · R · SQL  
+Power BI · PostgreSQL  
+Git · Quarto  
+Data Engineering · Analytics
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### 📍 Based in
-Salem, OR
-Open to \[remote / relocation\]
+### 🎯 Focus
+
+Data Analytics  
+Business Intelligence  
+Product & Technology  
+Data Science
 :::
 
 :::
