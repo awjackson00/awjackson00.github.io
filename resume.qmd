@@ -1,46 +1,123 @@
 ---
 title: "Resume"
 toc: true
+toc-title: "Contents"
 ---
 
-[📄 Download PDF](assets/resume.pdf){.btn .btn-primary role="button"}
+<div class="text-center">
 
-::: {.callout-note appearance="simple"}
-Drop your typeset resume at `assets/resume.pdf` and it appears below. Any PDF
-works tonight — export from Word, Google Docs, or a `vitae`/LaTeX template. The
-web summary below is what recruiters skim; the PDF is what they download.
-:::
+## Alexander Jackson
 
-<iframe src="assets/resume.pdf" width="100%" height="800px"
-  style="border: 1px solid #ddd; margin-top: 1rem;">
-</iframe>
+[awjackson00@gmail.com](mailto:awjackson00@gmail.com)  
++1 (805)-350-1654  
+[LinkedIn](https://www.linkedin.com/in/alexander-jackson5/) | [GitHub](https://github.com/awjackson00)
+
+[📄 Download PDF Resume](assets/resume.pdf){.btn .btn-primary role="button"}
+
+</div>
+
+---
+
+## Professional Summary
+
+Data analyst with a background in computer science, data science, and business, experienced transforming complex data into actionable insights, improving reporting workflows, and supporting cross-functional decision-making.
+
+Proficient in SQL, Python, Power BI, Tableau, and Excel, with experience analyzing operational and financial data, optimizing processes, and improving data accessibility and reporting reliability.
+
+---
 
 ## Education
 
-**M.S. Data Science** — Willamette University, Salem, OR *(2026)*
-**B.S. \[Your Major\]** — \[Your University\], \[City\] *(\[year\])*
+### Willamette University
+
+**Master of Business Administration**  
+**Master of Science in Data Science**  
+*Expected August 2026*
+
+- Business and Technology Association President
+- Atkinson Student Association Treasurer
+- **Relevant coursework:** Data visualization, business analytics, statistics, database systems, financial analysis
+
+### Whitman College
+
+**Bachelor of Arts in Computer Science**  
+*December 2022*
+
+- Whitman Achievement Scholarship
+
+---
+
+## Professional Experience
+
+### Database Manager and Cloud Administrator
+**Macfarlane Faletti & Co**  
+*March 2023 - August 2024*
+
+- Analyzed database and workflow bottlenecks affecting 150+ weekly client processes, identifying improvements that reduced latency by 20-30%
+- Improved data accessibility and reporting reliability across financial and operational workflows, supporting more consistent business reporting and decision-making
+- Led migration of legacy systems to modernized data architecture, reducing processing time by approximately 25% and improving business access to critical information
+- Created dashboard and reporting outputs that improved visibility into operational and financial workflows
+- Resolved 22+ infrastructure and data issues, maintaining uptime, reporting continuity, and business data access
+
+### Operations Analyst
+**Marion Berries Baseball Club**  
+*April 2025 - August 2025*
+
+- Analyzed fan engagement and event data to identify trends, support decisions, and improve user experience
+- Improved ticketing and event workflows via process analysis, reducing inefficiencies and increasing speed by 15%
+- Monitored attendance and event outcomes to help identify which promotions and activities drove stronger engagement
+
+### Software Developer
+**LA Dodgers**  
+*August 2022 - January 2023*
+
+- Developed a Python analytics platform evaluating 100+ variables for player assessment and decision-making
+- Partnered with end users to gather requirements, improve analysis workflows, and reduce manual work through stronger data organization and reporting
+- Improved consistency of evaluation outputs by supporting more structured data inputs and analysis workflows
+
+### Services Engineer Intern
+**Lanspeed**  
+*June 2021 - August 2021*
+
+- Supported client operations for 50+ clients, reducing downtime through proactive issue resolution
+- Executed 30+ server backups, maintaining reliable access to systems and business data
+- Communicated technical issues and updates clearly to clients, helping support smoother day-to-day operations
+
+---
+
+## Leadership & Community Engagement
+
+### Angel Fund Investment Analyst
+**Willamette Angel Fund / OVF Angel Fund**  
+*August 2025 - Present*
+
+- Evaluated early-stage startups through market and financial analysis to support investment decisions
+- Conducted due diligence on growth, business models, and financial considerations, presenting structured recommendations
+
+### Resident Assistant
+**Whitman College**  
+*August 2021 - December 2022*
+
+- Managed operations and conflict resolution for 130 residents, strengthening leadership and stakeholder management skills
+
+---
 
 ## Skills
 
-| Area | Tools |
-|------|-------|
-| **Languages** | R, Python, SQL |
-| **Data & ML** | \[tidyverse / pandas, scikit-learn, ...\] |
-| **Workflow** | Git, Quarto, \[Docker, cloud, ...\] |
-| **Communication** | Technical writing, data visualization |
+**Technical:** SQL, Python, Power BI, Tableau, Excel, R
 
-## Experience
+**Analytics:** Data Visualization, Dashboarding, Reporting, ETL
 
-**\[Job Title\]** — \[Organization\], \[Location\] *(\[dates\])*
+**Business:** Stakeholder Management
 
-- Accomplishment framed as impact, not a task description.
-- Another accomplishment with a number in it if you have one.
+---
 
-## Projects
+## PDF Resume
 
-**\[Capstone Title\]** — see the [Capstone page](capstone.qmd) for the full story.
+You can also view the original formatted version below.
 
-- One line on the problem and your role.
-
-*Placeholders in brackets are fine while you build. Replace them with real,
-defensible entries as they materialize — sparse and true beats full and shaky.*
+<iframe src="assets/resume.pdf"
+        width="100%"
+        height="1000px"
+        style="border: 1px solid #ddd; margin-top: 1rem;">
+</iframe>
