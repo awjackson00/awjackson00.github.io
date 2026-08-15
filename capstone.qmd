@@ -61,7 +61,7 @@ Historical daily market-price data were collected from **Yahoo Finance using Pyt
 
 The final analysis covered:
 
-**January 1, 2000 through May 1, 2025**
+**January 1, 2000 through June 28, 2026**
 
 We constructed and evaluated five different portfolios.
 
