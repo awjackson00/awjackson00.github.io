@@ -1,19 +1,26 @@
 ---
-title: "Other Projects"
-subtitle: "Course work, side projects, and things I built to learn."
-listing:
-  contents: projects
-  type: grid
-  sort: "date desc"
-  categories: true
-  sort-ui: false
-  filter-ui: false
-  fields: [image, date, title, description, categories]
+title: "Projects"
+subtitle: "Selected data science, analytics, and software projects."
 ---
 
-Your capstone lives on [its own page](capstone.qmd). Everything else — course
-projects, analyses you did for fun, contributions — collects here automatically.
+## Featured Capstone
 
-Each project is a folder under `projects/` with an `index.qmd`. Add a folder,
-re-render, and a new card shows up. Delete the example below once you have one
-real project of your own.
+### Risky Business: Quantitative Portfolio Management for Optimized Risk
+
+**Portfolio Resilience: Backtesting Asset Allocation Strategies During Financial Crises**
+
+A quantitative backtesting project examining how different portfolio constructions respond to growth periods, financial crises, interest-rate shocks, and other changing market environments.
+
+The project evaluates five portfolio strategies across nine historical market regimes using annualized return, volatility, Sharpe ratio, Sortino ratio, cumulative return, and other risk-adjusted performance measures.
+
+My role as a **co-collaborator** included professional and technical writing, development of the exploratory data analysis pipeline, and preparation of the statistical modeling workflow.
+
+[View Full Capstone](capstone.qmd){.btn .btn-primary}
+
+[View GitHub Repository](https://github.com/awjackson00/data510--Quant-Back-Testing-){.btn .btn-outline-primary}
+
+---
+
+## Additional Projects
+
+Additional data science, analytics, and software projects will be added here.
