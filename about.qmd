@@ -1,0 +1,35 @@
+---
+title: "About"
+image: images/profile.png
+about:
+  template: solana
+  image-shape: round
+  image-width: 12em
+---
+
+## Hi, I'm Blitz 👋
+
+The home page is the ten-second version. This is the longer story — write it in
+your own voice.
+
+I came to data science from \[your path: a major, a job, a question that would
+not leave you alone\]. What keeps me here is \[the part of the work you genuinely
+enjoy — the modeling, the wrangling, the moment a chart makes something click\].
+
+At Willamette my focus has been \[your emphasis: forecasting, causal inference,
+NLP, data engineering, ...\]. My [capstone](capstone.qmd) is where that comes
+together.
+
+### Beyond the terminal
+
+- 🌲 \[Something human — a hobby, a place, a cause.\]
+- 📚 \[Currently reading / learning / building.\]
+- 🎯 \[What you want to be doing in two years.\]
+
+### Get in touch
+
+I'm happy to talk about \[data work, collaborations, roles\].
+
+- ✉️ [you@willamette.edu](mailto:you@willamette.edu)
+- 💼 [LinkedIn](https://linkedin.com/in/your_github_username)
+- 💻 [GitHub](https://github.com/your_github_username)

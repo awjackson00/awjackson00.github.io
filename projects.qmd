@@ -1,0 +1,19 @@
+---
+title: "Other Projects"
+subtitle: "Course work, side projects, and things I built to learn."
+listing:
+  contents: projects
+  type: grid
+  sort: "date desc"
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  fields: [image, date, title, description, categories]
+---
+
+Your capstone lives on [its own page](capstone.qmd). Everything else — course
+projects, analyses you did for fun, contributions — collects here automatically.
+
+Each project is a folder under `projects/` with an `index.qmd`. Add a folder,
+re-render, and a new card shows up. Delete the example below once you have one
+real project of your own.

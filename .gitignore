@@ -1,0 +1,18 @@
+# Quarto build output — GitHub Actions renders this, so never commit it.
+/_site/
+/.quarto/
+
+# Do NOT ignore /_freeze/ — commit it so CI can skip running your code.
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*~
+.Rproj.user
+.Rhistory
+.RData
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+**/*.quarto_ipynb

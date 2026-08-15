@@ -1,0 +1,49 @@
+name: Publish portfolio
+
+# Rebuilds and deploys the site every time you push to main.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Permissions the deploy-to-Pages step needs.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Let a newer push cancel an in-flight build.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      # No R or Python setup here on purpose: computational output is frozen
+      # (see execute.freeze in _quarto.yml), so CI only needs Quarto itself.
+      - name: Render site
+        run: quarto render
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

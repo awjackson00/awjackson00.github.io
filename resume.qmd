@@ -1,0 +1,46 @@
+---
+title: "Resume"
+toc: true
+---
+
+[📄 Download PDF](assets/resume.pdf){.btn .btn-primary role="button"}
+
+::: {.callout-note appearance="simple"}
+Drop your typeset resume at `assets/resume.pdf` and it appears below. Any PDF
+works tonight — export from Word, Google Docs, or a `vitae`/LaTeX template. The
+web summary below is what recruiters skim; the PDF is what they download.
+:::
+
+<iframe src="assets/resume.pdf" width="100%" height="800px"
+  style="border: 1px solid #ddd; margin-top: 1rem;">
+</iframe>
+
+## Education
+
+**M.S. Data Science** — Willamette University, Salem, OR *(2026)*
+**B.S. \[Your Major\]** — \[Your University\], \[City\] *(\[year\])*
+
+## Skills
+
+| Area | Tools |
+|------|-------|
+| **Languages** | R, Python, SQL |
+| **Data & ML** | \[tidyverse / pandas, scikit-learn, ...\] |
+| **Workflow** | Git, Quarto, \[Docker, cloud, ...\] |
+| **Communication** | Technical writing, data visualization |
+
+## Experience
+
+**\[Job Title\]** — \[Organization\], \[Location\] *(\[dates\])*
+
+- Accomplishment framed as impact, not a task description.
+- Another accomplishment with a number in it if you have one.
+
+## Projects
+
+**\[Capstone Title\]** — see the [Capstone page](capstone.qmd) for the full story.
+
+- One line on the problem and your role.
+
+*Placeholders in brackets are fine while you build. Replace them with real,
+defensible entries as they materialize — sparse and true beats full and shaky.*
