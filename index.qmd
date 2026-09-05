@@ -1,64 +1,107 @@
 ---
-title: "Alexander Jackson"
-subtitle: "Technical Product Manager · Product Strategy · Analytics"
-about:
-  template: trestles
-  image: images/profile.png
-  links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/awjackson00
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/alexander-jackson5/
-    - icon: envelope
-      text: Email
-      href: mailto:awjackson00@gmail.com
-    - icon: file-earmark-pdf
-      text: Resume
-      href: resume.qmd
+title: false
+toc: false
+page-layout: full
 ---
 
-I turn **complex problems into clear, useful products** by working at the intersection of users, technology, data, and business strategy.
+::: {.landing-shell}
 
-My background spans **computer science, data science, software development, cloud and database systems, project leadership, and early-stage investing**. I completed an **MBA and M.S. in Data Science at Willamette University** after earning a **B.A. in Computer Science from Whitman College**.
+::: {.hero-clean}
 
-I have built a scouting analytics platform with the **Los Angeles Dodgers**, improved technical systems supporting **150+ weekly clients**, led project work for the **Marion Berries Baseball Club's inaugural season**, evaluated startups through angel and venture investing, and built products of my own from idea through implementation.
+::: {.hero-copy}
+<p class="eyebrow">TECHNICAL PRODUCT MANAGER</p>
 
-I am at my best when the problem is still messy: understanding what users actually need, getting close to the technical details, using data to make tradeoffs, and creating enough clarity for a team to move.
+# Alexander Jackson
 
-**Currently focused on** Product Manager and Technical Product Manager opportunities where I can combine product judgment, technical fluency, analytics, and cross-functional leadership. Explore my [projects](projects.qmd), see my [experience](experience.qmd), or view my [resume](resume.qmd).
+<p class="hero-lede">I turn complex technical problems into products people can actually use.</p>
 
----
+<p class="hero-summary">My background combines computer science, data science, business, software development, infrastructure, and product leadership. I like getting close to users, understanding the system underneath the problem, and using data to decide what matters most.</p>
 
-::: {.grid}
+<div class="hero-actions">
+<a class="btn btn-primary hero-btn" href="projects.qmd">View Projects</a>
+<a class="btn btn-outline-primary hero-btn" href="resume.qmd">View Resume</a>
+<a class="text-link" href="https://www.linkedin.com/in/alexander-jackson5/">LinkedIn ↗</a>
+</div>
 
-::: {.g-col-12 .g-col-md-4}
-### 🎯 Product
-
-Product Strategy  
-Requirements Gathering  
-Feature Prioritization  
-Product Analytics  
-Cross-functional Execution
+<div class="credential-line">
+<span>MBA</span>
+<span>M.S. Data Science</span>
+<span>B.A. Computer Science</span>
+</div>
 :::
 
-::: {.g-col-12 .g-col-md-4}
-### ⚙️ Technical
-
-Python · SQL · Java · C++  
-React · Next.js · Supabase  
-APIs · Databases · Cloud  
-Systems Thinking
+::: {.hero-photo-wrap}
+<img src="images/profile.png" class="hero-photo" alt="Alexander Jackson">
+<div class="photo-accent"></div>
 :::
 
-::: {.g-col-12 .g-col-md-4}
-### 📈 Analytics
+:::
 
-Data Science  
-Power BI · Tableau  
-Experimentation · KPIs  
-Business Analysis
+<div class="section-rule"></div>
+
+::: {.focus-row}
+::: {.focus-item}
+<span class="focus-number">01</span>
+### Product
+<p>Strategy, discovery, requirements, prioritization, roadmaps, and cross-functional execution.</p>
+:::
+
+::: {.focus-item}
+<span class="focus-number">02</span>
+### Technical
+<p>Software, APIs, databases, cloud systems, architecture, and enough code to stay close to implementation.</p>
+:::
+
+::: {.focus-item}
+<span class="focus-number">03</span>
+### Analytics
+<p>Product metrics, experimentation, data analysis, dashboards, modeling, and evidence-based decisions.</p>
+:::
+:::
+
+<div class="section-rule"></div>
+
+::: {.home-section}
+<div class="section-kicker">SELECTED EXPERIENCE</div>
+
+## Product thinking grounded in real systems and real users
+
+::: {.experience-list}
+<div class="experience-row">
+  <div class="experience-org">Los Angeles Dodgers</div>
+  <div class="experience-copy">Built a scouting analytics platform around 100+ player variables and worked directly with scouts to translate their workflows into product requirements.</div>
+</div>
+
+<div class="experience-row">
+  <div class="experience-org">Macfarlane Faletti & Co</div>
+  <div class="experience-copy">Improved technical systems supporting 150+ weekly clients, reducing latency by roughly 20–30% and improving data-processing performance by about 25%.</div>
+</div>
+
+<div class="experience-row">
+  <div class="experience-org">Marion Berries Baseball Club</div>
+  <div class="experience-copy">Managed priorities, timelines, stakeholder coordination, and analytics for the club's inaugural-season marketing campaign.</div>
+</div>
+:::
+
+<div class="home-link-row">
+<a href="experience.qmd">See full experience →</a>
+<a href="projects.qmd">Explore projects →</a>
+</div>
+:::
+
+<div class="section-rule"></div>
+
+::: {.home-section .closing-section}
+<div class="section-kicker">WHAT I AM LOOKING FOR</div>
+
+## Product roles where technical depth and business judgment both matter.
+
+I am focused on Product Manager and Technical Product Manager opportunities where I can work across users, engineering, analytics, and strategy without losing sight of the outcome the team is trying to create.
+
+<div class="hero-actions closing-actions">
+<a class="btn btn-primary hero-btn" href="mailto:awjackson00@gmail.com">Get in Touch</a>
+<a class="text-link" href="about.qmd">More about me →</a>
+</div>
 :::
 
 :::

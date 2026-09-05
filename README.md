@@ -1,17 +1,19 @@
-# PM portfolio patch for awjackson00.github.io
+# Cleaner PM landing page update
 
-This is a drop-in redesign of the existing Quarto capstone portfolio. It preserves the same overall structure and `trestles` home-page style while repositioning the site around Product Management.
+Replace these two files in the root of `awjackson00.github.io`:
 
-Replace the matching files in the repository with these files. Keep the existing `images/profile.png`, `resume.pdf`, and `.github/workflows/publish.yml` unless you want to replace those separately.
+- `index.qmd`
+- `styles.scss`
 
-The main navigation is now:
+This keeps the existing Quarto structure, navbar, resume, projects, experience, about page, and GitHub Pages workflow.
 
-- Home
-- Projects
-- Experience
-- Resume
-- About
+The landing page is intentionally less card-based. It uses:
 
-`projects.qmd` replaces the old Projects page with the PM-focused portfolio content, including PairName, the Dodgers scouting platform, the Marion Berries inaugural-season campaign, and cloud/database infrastructure optimization.
+- a large editorial hero
+- subtle professional navy-to-blue gradients
+- a single portrait instead of a boxed "about" component
+- simple capability columns
+- horizontal experience rows
+- restrained buttons and links
 
-The old `capstone.qmd` and `projects/` folder can remain in the repository for reference, but the capstone is no longer a primary navigation item.
+After uploading the two files, commit to `main` and wait for the GitHub Pages action to finish.
