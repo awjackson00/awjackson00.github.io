@@ -27,7 +27,7 @@ I have built a scouting analytics platform with the **Los Angeles Dodgers**, imp
 
 I am at my best when the problem is still messy: understanding what users actually need, getting close to the technical details, using data to make tradeoffs, and creating enough clarity for a team to move.
 
-**Currently focused on** Product Manager and Technical Product Manager opportunities where I can combine product judgment, technical fluency, analytics, and cross-functional leadership. Explore my [work](work.qmd), see my [experience](experience.qmd), or view my [resume](resume.qmd).
+**Currently focused on** Product Manager and Technical Product Manager opportunities where I can combine product judgment, technical fluency, analytics, and cross-functional leadership. Explore my [projects](projects.qmd), see my [experience](experience.qmd), or view my [resume](resume.qmd).
 
 ---
 
