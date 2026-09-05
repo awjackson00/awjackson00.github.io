@@ -19,6 +19,24 @@ I owned the product from concept through implementation, including user flows, m
 :::
 
 ::: {.project-card}
+## Risky Business: Portfolio Resilience Capstone
+
+**Data science capstone · Financial analytics · Statistical modeling**
+
+Co-developed a quantitative portfolio analysis project evaluating how different asset-allocation strategies performed across periods of economic growth, financial crisis, and market uncertainty.
+
+I owned major parts of the **exploratory data analysis pipeline, statistical-modeling workflow, data preparation, and technical writing**, helping translate quantitative results into clear recommendations for stakeholders.
+
+The analysis compared portfolio behavior across **nine market regimes** using annualized return, volatility, Sharpe ratio, Sortino ratio, cumulative return, benchmark comparisons, and ARIMA time-series modeling.
+
+**Key finding:** No single portfolio consistently performed best across every market environment, reinforcing the importance of evaluating risk, return, and resilience together rather than optimizing around one metric.
+
+[View Capstone Project](capstone.qmd){.btn .btn-outline-primary}
+
+`Python` `pandas` `NumPy` `yfinance` `ARIMA` `Risk Analytics` `Data Visualization`
+:::
+
+::: {.project-card}
 ## Los Angeles Dodgers scouting analytics platform
 
 **Technical product · Analytics**
@@ -58,4 +76,4 @@ Identified performance bottlenecks, worked with stakeholders to define requireme
 
 ## Other projects
 
-My broader portfolio also includes data engineering, financial backtesting, business intelligence, and application development. I use these projects to stay close to the technical work and sharpen how I make product decisions.
+My broader portfolio also includes data engineering, business intelligence, and application development. I use these projects to stay close to the technical work and sharpen how I make product decisions.
