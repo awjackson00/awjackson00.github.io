@@ -11,7 +11,7 @@ toc-title: "Contents"
 [awjackson00@gmail.com](mailto:awjackson00@gmail.com)  
 [LinkedIn](https://www.linkedin.com/in/alexander-jackson5/) | [GitHub](https://github.com/awjackson00)
 
-[📄 Download PDF Resume](assets/resume.pdf){.btn .btn-primary role="button"}
+[📄 Download PDF Resume](resume.pdf){.btn .btn-primary role="button"}
 
 </div>
 
@@ -100,7 +100,7 @@ Technical product professional with a background in computer science, data scien
 
 ## PDF Resume
 
-<iframe src="assets/resume.pdf"
+<iframe src="resume.pdf"
         width="100%"
         height="1000px"
         style="border: 1px solid #ddd; margin-top: 1rem;">
