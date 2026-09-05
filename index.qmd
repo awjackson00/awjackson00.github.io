@@ -1,106 +1,100 @@
 ---
-title: false
 toc: false
 page-layout: full
+pagetitle: "Alexander Jackson | Technical Product Manager"
 ---
 
-::: {.landing-shell}
+::: {.landing-page}
 
-::: {.hero-clean}
+::: {.landing-hero}
 
-::: {.hero-copy}
+::: {.landing-copy}
 <p class="eyebrow">TECHNICAL PRODUCT MANAGER</p>
 
-# Alexander Jackson
+<h1>Alexander Jackson</h1>
 
 <p class="hero-lede">I turn complex technical problems into products people can actually use.</p>
 
-<p class="hero-summary">My background combines computer science, data science, business, software development, infrastructure, and product leadership. I like getting close to users, understanding the system underneath the problem, and using data to decide what matters most.</p>
+<p class="hero-summary">I work at the intersection of product, technology, data, and business strategy. My background in computer science, data science, software, infrastructure, and business lets me move comfortably between users, engineering, analytics, and decision-making.</p>
 
 <div class="hero-actions">
-<a class="btn btn-primary hero-btn" href="projects.qmd">View Projects</a>
-<a class="btn btn-outline-primary hero-btn" href="resume.qmd">View Resume</a>
-<a class="text-link" href="https://www.linkedin.com/in/alexander-jackson5/">LinkedIn ↗</a>
+<a class="btn btn-primary hero-button" href="projects.qmd">View Projects</a>
+<a class="btn btn-outline-primary hero-button" href="resume.qmd">Resume</a>
+<a class="quiet-link" href="https://www.linkedin.com/in/alexander-jackson5/">LinkedIn ↗</a>
 </div>
 
-<div class="credential-line">
+<div class="credentials">
 <span>MBA</span>
 <span>M.S. Data Science</span>
 <span>B.A. Computer Science</span>
 </div>
 :::
 
-::: {.hero-photo-wrap}
-<img src="images/profile.png" class="hero-photo" alt="Alexander Jackson">
-<div class="photo-accent"></div>
+::: {.landing-photo}
+<img src="images/profile.png" class="profile-hero" alt="Alexander Jackson">
 :::
 
 :::
 
-<div class="section-rule"></div>
+<div class="soft-divider"></div>
 
-::: {.focus-row}
-::: {.focus-item}
-<span class="focus-number">01</span>
-### Product
+::: {.intro-strip}
+<div>
+<p class="strip-label">PRODUCT</p>
 <p>Strategy, discovery, requirements, prioritization, roadmaps, and cross-functional execution.</p>
+</div>
+
+<div>
+<p class="strip-label">TECHNICAL</p>
+<p>Software, APIs, databases, cloud systems, architecture, and hands-on technical fluency.</p>
+</div>
+
+<div>
+<p class="strip-label">ANALYTICS</p>
+<p>Product metrics, experimentation, dashboards, modeling, and evidence-based decisions.</p>
+</div>
 :::
 
-::: {.focus-item}
-<span class="focus-number">02</span>
-### Technical
-<p>Software, APIs, databases, cloud systems, architecture, and enough code to stay close to implementation.</p>
-:::
+<div class="soft-divider"></div>
 
-::: {.focus-item}
-<span class="focus-number">03</span>
-### Analytics
-<p>Product metrics, experimentation, data analysis, dashboards, modeling, and evidence-based decisions.</p>
-:::
-:::
-
-<div class="section-rule"></div>
-
-::: {.home-section}
-<div class="section-kicker">SELECTED EXPERIENCE</div>
+::: {.selected-section}
+<p class="eyebrow">SELECTED EXPERIENCE</p>
 
 ## Product thinking grounded in real systems and real users
 
-::: {.experience-list}
-<div class="experience-row">
-  <div class="experience-org">Los Angeles Dodgers</div>
-  <div class="experience-copy">Built a scouting analytics platform around 100+ player variables and worked directly with scouts to translate their workflows into product requirements.</div>
-</div>
+::: {.experience-line}
+<div class="experience-name">Los Angeles Dodgers</div>
+<div class="experience-detail">Built a scouting analytics platform around 100+ player variables and worked directly with scouts to turn their workflows into product requirements.</div>
+:::
 
-<div class="experience-row">
-  <div class="experience-org">Macfarlane Faletti & Co</div>
-  <div class="experience-copy">Improved technical systems supporting 150+ weekly clients, reducing latency by roughly 20–30% and improving data-processing performance by about 25%.</div>
-</div>
+::: {.experience-line}
+<div class="experience-name">Macfarlane Faletti & Co</div>
+<div class="experience-detail">Improved systems supporting 150+ weekly clients, reducing latency by roughly 20–30% and improving data-processing performance by about 25%.</div>
+:::
 
-<div class="experience-row">
-  <div class="experience-org">Marion Berries Baseball Club</div>
-  <div class="experience-copy">Managed priorities, timelines, stakeholder coordination, and analytics for the club's inaugural-season marketing campaign.</div>
+::: {.experience-line}
+<div class="experience-name">Marion Berries Baseball Club</div>
+<div class="experience-detail">Managed priorities, timelines, stakeholder coordination, and analytics for the club's inaugural-season marketing campaign.</div>
+:::
+
+<div class="section-links">
+<a href="experience.qmd">Full experience →</a>
+<a href="projects.qmd">Projects →</a>
 </div>
 :::
 
-<div class="home-link-row">
-<a href="experience.qmd">See full experience →</a>
-<a href="projects.qmd">Explore projects →</a>
-</div>
-:::
+<div class="soft-divider"></div>
 
-<div class="section-rule"></div>
-
-::: {.home-section .closing-section}
-<div class="section-kicker">WHAT I AM LOOKING FOR</div>
+::: {.closing-section}
+<p class="eyebrow">WHAT I AM LOOKING FOR</p>
 
 ## Product roles where technical depth and business judgment both matter.
 
-I am focused on Product Manager and Technical Product Manager opportunities where I can work across users, engineering, analytics, and strategy without losing sight of the outcome the team is trying to create.
+<p>I am focused on Product Manager and Technical Product Manager opportunities where I can help teams turn ambiguous problems into clear decisions, useful products, and measurable outcomes.</p>
 
-<div class="hero-actions closing-actions">
-<a class="btn btn-primary hero-btn" href="mailto:awjackson00@gmail.com">Get in Touch</a>
-<a class="text-link" href="about.qmd">More about me →</a>
+<div class="hero-actions">
+<a class="btn btn-primary hero-button" href="mailto:awjackson00@gmail.com">Get in Touch</a>
+<a class="quiet-link" href="about.qmd">More about me →</a>
 </div>
 :::
 
