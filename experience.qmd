@@ -1,0 +1,63 @@
+---
+title: "Experience"
+subtitle: "Software, systems, product thinking, analytics, and project leadership."
+toc: false
+---
+
+## Angel Fund Investment Analyst
+**Willamette Angel Fund / Oregon Venture Fund**  
+*2025–2026*
+
+- Evaluated early-stage companies through product, market, competitive, and financial analysis.
+- Conducted due diligence on product-market fit, business models, and growth opportunities.
+- Presented investment recommendations and supported structured decision-making.
+
+## Project Manager, Inaugural Season Marketing Campaign
+**Marion Berries Baseball Club**  
+*April 2025 – August 2025*
+
+- Managed campaign priorities, timelines, deliverables, and cross-functional coordination for the club's inaugural season.
+- Used fan engagement data to guide marketing and event decisions.
+- Improved ticketing and event workflows by approximately 15%.
+
+## Database Manager and Cloud Administrator
+**Macfarlane Faletti & Co**  
+*March 2023 – August 2024*
+
+- Identified performance bottlenecks affecting 150+ weekly clients and led infrastructure improvements that reduced latency by roughly 20–30%.
+- Resolved 22+ infrastructure issues and helped modernize legacy systems, improving data-processing and access speeds by approximately 25%.
+- Translated stakeholder needs into technical requirements and scalable system improvements.
+
+## Software Developer
+**Los Angeles Dodgers**  
+*August 2022 – January 2023*
+
+- Built a data-driven scouting platform using Python and statistical modeling across more than 100 variables.
+- Worked directly with scouts to define requirements, iterate on features, and improve evaluation workflows.
+
+## Services Engineer Intern
+**Lanspeed**  
+*June 2021 – August 2021*
+
+- Supported IT systems for 50+ clients and resolved technical issues affecting reliability.
+- Executed 30+ server backups and supported client technology environments.
+
+---
+
+## Education
+
+### Willamette University
+
+**Master of Business Administration**  
+**Master of Science in Data Science**  
+*Completed August 2026*
+
+- Former Business and Technology Association President
+- Former Atkinson Student Association Treasurer
+
+### Whitman College
+
+**Bachelor of Arts in Computer Science**  
+*Completed December 2022*
+
+- Whitman Achievement Scholarship

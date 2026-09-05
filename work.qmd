@@ -1,0 +1,61 @@
+---
+title: "Work"
+subtitle: "Selected product, technical, and analytics work."
+toc: false
+---
+
+::: {.project-card .featured}
+## PairName: Baby-name matching app
+
+**Zero-to-one product · Product Manager & Developer**
+
+I designed and built a collaborative baby-name discovery product that lets two partners evaluate names independently and surfaces mutual matches.
+
+The core product problem was simple: **How do you help two people discover agreement without one person's opinion biasing the other's choice?**
+
+I owned the product from concept through implementation, including user flows, matching behavior, authentication, persistent preferences, swipe interactions, likes, passes, super likes, undo, database logic, and edge cases.
+
+`Product Strategy` `Next.js` `React` `Supabase` `UX Iteration` `Matching Logic`
+:::
+
+::: {.project-card}
+## Los Angeles Dodgers scouting analytics platform
+
+**Technical product · Analytics**
+
+Built a Python-based scouting platform that evaluated **100+ player variables**. I worked directly with scouts to understand how they evaluated players, translated those workflows into technical requirements, and iterated on the product around how users actually made decisions.
+
+**Impact:** Reduced manual analysis time by approximately **15–20%** while improving consistency in evaluation workflows.
+
+`Python` `Statistical Modeling` `Requirements` `User Feedback` `Product Analytics`
+:::
+
+::: {.project-card}
+## Marion Berries inaugural-season marketing campaign
+
+**Project management · Growth · Operations**
+
+Served as a project manager during the club's inaugural season, coordinating campaign priorities, timelines, stakeholder check-ins, dependencies, and deliverables.
+
+I used fan engagement data to guide marketing and event decisions and helped improve ticketing and event workflows, reducing processing inefficiencies by approximately **15%**.
+
+`Project Management` `Marketing Analytics` `Stakeholder Management` `Operations`
+:::
+
+::: {.project-card}
+## Cloud and database infrastructure optimization
+
+**Systems · Infrastructure · Business workflows**
+
+Identified performance bottlenecks, worked with stakeholders to define requirements, resolved infrastructure issues, and helped modernize systems supporting more than **150 weekly clients**.
+
+**Impact:** Reduced latency by roughly **20–30%**, improved data-processing performance by approximately **25%**, and resolved **22+ infrastructure issues**.
+
+`Cloud Infrastructure` `Databases` `Systems Thinking` `Performance` `Stakeholders`
+:::
+
+---
+
+## Other work
+
+My broader portfolio also includes data engineering, financial backtesting, business intelligence, and application development. I use these projects to stay close to the technical work and improve how I make product decisions.

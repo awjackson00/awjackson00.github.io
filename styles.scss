@@ -1,25 +1,76 @@
 /*-- scss:defaults --*/
 
-// One accent color and one font carry most of your site's personality.
-// Willamette cardinal + Bearcat gold as sensible defaults — change them to yours.
-$primary:   #820023;   // Willamette cardinal
-$link-color: #820023;
+$primary: #0b4f9c;
+$link-color: #0b4f9c;
 $font-family-sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 
 /*-- scss:rules --*/
 
 h1, h2, h3 {
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  font-weight: 650;
+  letter-spacing: -0.015em;
 }
 
-// Give the round about-page headshot a soft ring.
+.navbar {
+  background: linear-gradient(90deg, #081d3a 0%, #0b3d78 62%, #0a5eb5 100%) !important;
+  box-shadow: 0 2px 12px rgba(4, 18, 39, 0.14);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link,
+.navbar .bi {
+  color: rgba(255,255,255,.92) !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #fff !important;
+}
+
 .about-image img,
 img.round {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 28px rgba(8, 29, 58, 0.16);
+  border: 4px solid #fff;
 }
 
-// A little breathing room on the project listing cards.
-.quarto-grid-item {
-  border-radius: 0.5rem;
+.about-entity .about-link {
+  border-radius: 6px;
+}
+
+.project-card {
+  border: 1px solid #dde3eb;
+  border-radius: 0.8rem;
+  padding: 1.35rem 1.5rem;
+  margin-bottom: 1.25rem;
+  background: #fff;
+  box-shadow: 0 7px 20px rgba(17, 31, 55, 0.045);
+}
+
+.project-card.featured {
+  border-top: 4px solid #0b4f9c;
+}
+
+.project-card h2 {
+  margin-top: 0.2rem;
+}
+
+.quarto-title-banner {
+  background: #f6f9fc;
+}
+
+.btn-primary {
+  background-color: #0b4f9c;
+  border-color: #0b4f9c;
+}
+
+.btn-primary:hover {
+  background-color: #083d78;
+  border-color: #083d78;
+}
+
+code {
+  color: #0b4f9c;
+  background: #eef4fb;
+  border-radius: 999px;
+  padding: 0.12rem 0.42rem;
 }

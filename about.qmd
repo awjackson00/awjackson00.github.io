@@ -1,35 +1,46 @@
 ---
 title: "About"
+subtitle: "Why product management."
 ---
 
-## Hi, I'm Alexander 👋
+I started in **computer science** because I wanted to understand how technology is built. **Data science** taught me how to measure what is happening and test whether an idea is actually working. My **MBA** added the business side: how products create value, how organizations make tradeoffs, and how teams turn strategy into execution.
 
-My background sits at the intersection of **technology, data, and business**. I studied computer science at Whitman College before continuing my education at Willamette University, where I pursued graduate work in both Data Science and Business Administration.
+**Product management is where those pieces come together for me.**
 
-What I enjoy most is taking a complicated problem and figuring out how technology and data can make it easier to understand. That might mean building a data pipeline, analyzing a large dataset, developing a dashboard, creating an application, or translating technical results into something useful for decision-makers.
+My experience has included building software for the Los Angeles Dodgers, managing database and cloud infrastructure, leading project work for the Marion Berries Baseball Club's inaugural season, evaluating early-stage companies through angel and venture investing, and developing products of my own.
 
-My work has given me experience across **Python, R, SQL, data engineering, visualization, business intelligence, software development, and product strategy**.
+I enjoy ambiguous problems more than perfectly defined ones. I like talking with users, understanding the workflow behind a request, getting close enough to the technical details to ask useful questions, and using data to decide what matters most.
 
-My [capstone](capstone.qmd) brings many of those interests together through quantitative portfolio analysis and backtesting.
+My goal is to keep developing as a product leader who can move comfortably between engineering, analytics, design, customers, and business strategy without losing sight of the outcome the team is trying to create.
 
-### What I'm interested in
+---
 
-I'm particularly interested in work that combines:
+::: {.grid}
 
-- Data analytics and business intelligence
-- Data science and quantitative analysis
-- Product strategy and product management
-- Software and data-driven product development
-- Turning complex technical information into practical decisions
+::: {.g-col-12 .g-col-md-6}
+## What I bring
 
-### Beyond the terminal
+**Product**  
+Strategy · Requirements · Prioritization · Product Analytics · User Needs
 
-Outside of data and technology, I enjoy fitness, gaming, and building personal software projects.
+**Technical**  
+Python · SQL · Java · C++ · React · Next.js · APIs · Databases · Cloud
+:::
 
-### Get in touch
+::: {.g-col-12 .g-col-md-6}
+## How I work
 
-I'm always happy to connect about data, technology, product development, or professional opportunities.
+**Analytical**  
+I like defining success before arguing about solutions.
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/alexander-jackson5/)
-- 💻 [GitHub](https://github.com/awjackson00)
-- 📄 [Resume](resume.qmd)
+**Technical**  
+I want to understand how the system actually works.
+
+**User-focused**  
+I care about the workflow behind the feature request.
+
+**Outcome-oriented**  
+Shipping matters, but the result after shipping matters more.
+:::
+
+:::

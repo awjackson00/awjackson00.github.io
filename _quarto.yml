@@ -7,17 +7,17 @@ execute:
 
 website:
   title: "Alexander Jackson"
-  description: "Data Science, Analytics, and Product Portfolio"
+  description: "Technical Product Management, Product Strategy, Analytics, and Software"
   site-url: https://awjackson00.github.io
 
   navbar:
     right:
       - href: index.qmd
         text: Home
-      - href: capstone.qmd
-        text: Capstone
-      - href: projects.qmd
-        text: Projects
+      - href: work.qmd
+        text: Work
+      - href: experience.qmd
+        text: Experience
       - href: resume.qmd
         text: Resume
       - href: about.qmd
@@ -31,6 +31,7 @@ website:
 
   page-footer:
     left: "© 2026 Alexander Jackson"
+    right: "Product · Technology · Data"
 
 format:
   html:

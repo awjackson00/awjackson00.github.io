@@ -19,9 +19,7 @@ toc-title: "Contents"
 
 ## Professional Summary
 
-Data analyst with a background in computer science, data science, and business, experienced transforming complex data into actionable insights, improving reporting workflows, and supporting cross-functional decision-making.
-
-Proficient in SQL, Python, Power BI, Tableau, and Excel, with experience analyzing operational and financial data, optimizing processes, and improving data accessibility and reporting reliability.
+Technical product professional with a background in computer science, data science, and business. Experienced translating user and stakeholder needs into product requirements, building software and analytics systems, improving technical infrastructure, and using data to drive product and operational decisions.
 
 ---
 
@@ -31,16 +29,15 @@ Proficient in SQL, Python, Power BI, Tableau, and Excel, with experience analyzi
 
 **Master of Business Administration**  
 **Master of Science in Data Science**  
-*Expected August 2026*
+*Completed August 2026*
 
-- Business and Technology Association President
-- Atkinson Student Association Treasurer
-- **Relevant coursework:** Data visualization, business analytics, statistics, database systems, financial analysis
+- Former Business and Technology Association President
+- Former Atkinson Student Association Treasurer
 
 ### Whitman College
 
 **Bachelor of Arts in Computer Science**  
-*December 2022*
+*Completed December 2022*
 
 - Whitman Achievement Scholarship
 
@@ -50,70 +47,58 @@ Proficient in SQL, Python, Power BI, Tableau, and Excel, with experience analyzi
 
 ### Database Manager and Cloud Administrator
 **Macfarlane Faletti & Co**  
-*March 2023 - August 2024*
+*March 2023 – August 2024*
 
-- Analyzed database and workflow bottlenecks affecting 150+ weekly client processes, identifying improvements that reduced latency by 20-30%
-- Improved data accessibility and reporting reliability across financial and operational workflows, supporting more consistent business reporting and decision-making
-- Led migration of legacy systems to modernized data architecture, reducing processing time by approximately 25% and improving business access to critical information
-- Created dashboard and reporting outputs that improved visibility into operational and financial workflows
-- Resolved 22+ infrastructure and data issues, maintaining uptime, reporting continuity, and business data access
+- Identified performance bottlenecks affecting 150+ weekly clients, defined requirements with stakeholders, and led infrastructure improvements that reduced latency by roughly 20–30%.
+- Resolved 22+ infrastructure issues, improving system reliability and operational continuity.
+- Modernized legacy systems, improving data-processing and access speeds by approximately 25%.
 
-### Operations Analyst
+### Project Manager, Inaugural Season Marketing Campaign
 **Marion Berries Baseball Club**  
-*April 2025 - August 2025*
+*April 2025 – August 2025*
 
-- Analyzed fan engagement and event data to identify trends, support decisions, and improve user experience
-- Improved ticketing and event workflows via process analysis, reducing inefficiencies and increasing speed by 15%
-- Monitored attendance and event outcomes to help identify which promotions and activities drove stronger engagement
+- Managed campaign priorities, timelines, deliverables, and stakeholder coordination during the club's inaugural season.
+- Analyzed fan engagement data to guide marketing and event decisions.
+- Improved ticketing and event workflows, reducing processing inefficiencies by approximately 15%.
 
 ### Software Developer
-**LA Dodgers**  
-*August 2022 - January 2023*
+**Los Angeles Dodgers**  
+*August 2022 – January 2023*
 
-- Developed a Python analytics platform evaluating 100+ variables for player assessment and decision-making
-- Partnered with end users to gather requirements, improve analysis workflows, and reduce manual work through stronger data organization and reporting
-- Improved consistency of evaluation outputs by supporting more structured data inputs and analysis workflows
+- Built a data-driven scouting platform using Python and statistical modeling to evaluate more than 100 variables.
+- Partnered with scouts to gather requirements, iterate on features, and improve evaluation workflows.
 
 ### Services Engineer Intern
 **Lanspeed**  
-*June 2021 - August 2021*
+*June 2021 – August 2021*
 
-- Supported client operations for 50+ clients, reducing downtime through proactive issue resolution
-- Executed 30+ server backups, maintaining reliable access to systems and business data
-- Communicated technical issues and updates clearly to clients, helping support smoother day-to-day operations
+- Supported IT systems for 50+ clients and resolved infrastructure issues affecting system reliability.
+- Executed 30+ server backups and supported continuity across client environments.
 
 ---
 
-## Leadership & Community Engagement
+## Leadership & Startup Experience
 
 ### Angel Fund Investment Analyst
-**Willamette Angel Fund / OVF Angel Fund**  
-*August 2025 - Present*
+**Willamette Angel Fund / Oregon Venture Fund**  
+*2025 – 2026*
 
-- Evaluated early-stage startups through market and financial analysis to support investment decisions
-- Conducted due diligence on growth, business models, and financial considerations, presenting structured recommendations
-
-### Resident Assistant
-**Whitman College**  
-*August 2021 - December 2022*
-
-- Managed operations and conflict resolution for 130 residents, strengthening leadership and stakeholder management skills
+- Evaluated early-stage startups through product, market, competitive, and financial analysis.
+- Conducted due diligence on product-market fit, growth, and business models and presented recommendations.
 
 ---
 
 ## Skills
 
-**Technical:** SQL, Python, Power BI, Tableau, Excel, R
+**Product:** Product Management, Product Strategy, Requirements Gathering, Feature Prioritization, Product Analytics, Stakeholder Management, Project Management
 
-**Analytics:** Data Visualization, Dashboarding, Reporting, ETL
+**Technical:** Python, SQL, Java, C++, React, Next.js, Supabase, PostgreSQL, APIs, Cloud Infrastructure, Git/GitHub
 
-**Business:** Stakeholder Management
+**Analytics:** Data Science, Power BI, Tableau, Excel, Statistical Analysis, A/B Testing, KPI Development
 
 ---
 
 ## PDF Resume
-
-You can also view the original formatted version below.
 
 <iframe src="assets/resume.pdf"
         width="100%"

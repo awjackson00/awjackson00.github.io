@@ -1,6 +1,6 @@
 ---
 title: "Alexander Jackson"
-subtitle: "Data Science · Analytics · Product"
+subtitle: "Technical Product Manager · Product Strategy · Analytics"
 about:
   template: trestles
   image: images/profile.png
@@ -11,52 +11,54 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/alexander-jackson5/
+    - icon: envelope
+      text: Email
+      href: mailto:awjackson00@gmail.com
     - icon: file-earmark-pdf
       text: Resume
       href: resume.qmd
 ---
 
-I combine **data science, software development, and business strategy** to turn complex data into practical decisions.
+I turn **complex problems into clear, useful products** by working at the intersection of users, technology, data, and business strategy.
 
-I am completing an **M.S. in Data Science and MBA at Willamette University**, with a background in computer science and experience working across analytics, data engineering, software development, and product strategy.
+My background spans **computer science, data science, software development, cloud and database systems, project leadership, and early-stage investing**. I completed an **MBA and M.S. in Data Science at Willamette University** after earning a **B.A. in Computer Science from Whitman College**.
 
-My work ranges from building data pipelines and analytical applications to portfolio backtesting, business intelligence, and data-driven product development. I am especially interested in roles where technical problem solving and business decision-making overlap.
+I have built a scouting analytics platform with the **Los Angeles Dodgers**, improved technical systems supporting **150+ weekly clients**, led project work for the **Marion Berries Baseball Club's inaugural season**, evaluated startups through angel and venture investing, and built products of my own from idea through implementation.
 
-**Currently interested in** opportunities across data analytics, business intelligence, data science, and product-focused technology. Explore my [capstone](capstone.qmd), see my [projects](projects.qmd), or view my [resume](resume.qmd).
+I am at my best when the problem is still messy: understanding what users actually need, getting close to the technical details, using data to make tradeoffs, and creating enough clarity for a team to move.
+
+**Currently focused on** Product Manager and Technical Product Manager opportunities where I can combine product judgment, technical fluency, analytics, and cross-functional leadership. Explore my [work](work.qmd), see my [experience](experience.qmd), or view my [resume](resume.qmd).
 
 ---
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-### 🎓 Education
+### 🎯 Product
 
-**M.S. Data Science**  
-Willamette University
-
-**MBA**  
-Willamette University
-
-**B.A. Computer Science**  
-Whitman College
+Product Strategy  
+Requirements Gathering  
+Feature Prioritization  
+Product Analytics  
+Cross-functional Execution
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### 🛠️ Toolkit
+### ⚙️ Technical
 
-Python · R · SQL  
-Power BI · PostgreSQL  
-Git · Quarto  
-Data Engineering · Analytics
+Python · SQL · Java · C++  
+React · Next.js · Supabase  
+APIs · Databases · Cloud  
+Systems Thinking
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### 🎯 Focus
+### 📈 Analytics
 
-Data Analytics  
-Business Intelligence  
-Product & Technology  
-Data Science
+Data Science  
+Power BI · Tableau  
+Experimentation · KPIs  
+Business Analysis
 :::
 
 :::
