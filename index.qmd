@@ -25,7 +25,7 @@ description: "Alexander Jackson builds and improves products at the intersection
       <p class="hero-credentials">MBA <span>·</span> M.S. Data Science <span>·</span> B.A. Computer Science</p>
     </div>
     <div class="landing-photo">
-      <img class="profile-hero" src="images/profile.png" width="250" height="300" alt="Portrait of Alexander Jackson" fetchpriority="high">
+      <img class="profile-hero" src="images/profile.png" width="340" height="408" alt="Portrait of Alexander Jackson" fetchpriority="high">
     </div>
   </section>
 
