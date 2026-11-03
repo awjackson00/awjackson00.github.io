@@ -12,13 +12,13 @@ toc: false
   <p class="case-lede">Coordinating a new baseball club's first season through execution discipline and engagement data.</p>
   <div class="case-meta"><div><span>MY ROLE</span><strong>Project manager, inaugural-season marketing</strong></div><div><span>SCOPE</span><strong>Campaign schedules, deliverables, stakeholders, events, and ticketing</strong></div><div><span>TOOLS &amp; SKILLS</span><strong>Project coordination, marketing analytics, operational improvement</strong></div></div>
 </header>
-<figure class="case-figure"><img src="../images/projects/marion-berries.svg" alt="Illustrative visual for Marion Berries inaugural-season campaign" width="1600" height="900"><figcaption>Conceptual project illustration, not an actual product screenshot or performance chart.</figcaption></figure>
+<figure class="case-figure"><img src="../images/projects/marion-berries-fan-engagement.webp" alt="Marion Berries home baseball field at night, combined with the original team logo and fan-engagement campaign title" width="1600" height="900" loading="eager"><figcaption>Real photograph of the Marion Berries ballpark with the supplied original team logo, preserved in its existing design. Editorial cover typography illustrates the fan-engagement focus; it does not represent a separate software platform or an attendance statistic.</figcaption></figure>
 <div class="case-content">
   <section><p class="eyebrow">01 / CONTEXT</p><h3>The problem</h3><p>An inaugural season brings interconnected marketing deadlines, event needs, and changing stakeholder priorities. Execution depends on clear ownership and timely decisions.</p></section>
   <section><p class="eyebrow">02 / OWNERSHIP</p><h3>What I contributed</h3><p>I coordinated campaign workstreams, timelines, deliverables, and stakeholder check-ins while using fan engagement information to guide marketing and event decisions.</p></section>
   <section><p class="eyebrow">03 / PROCESS</p><h3>The approach</h3><p>I focused on keeping the team aligned around milestones and finding friction in event and ticketing workflows that could be improved.</p></section>
   <section><p class="eyebrow">04 / TAKEAWAY</p><h3>Outcomes and learning</h3><p>The campaign work contributed to an approximately 15% improvement in ticketing and event processing efficiency, based on the estimate documented in my portfolio.</p></section>
-  <section><p class="eyebrow">05 / WHAT'S NEXT</p><h3>Where this goes next</h3><p>Campaign-specific creative assets can be added here later if approved for public display.</p></section>
+  <section><p class="eyebrow">05 / WHAT'S NEXT</p><h3>Where this goes next</h3><p>Additional examples of campaign planning, fan outreach, and event reporting can be added as approved materials become available.</p></section>
 </div>
 <div class="case-actions"><a class="quiet-link" href="../projects.html">Explore more projects ↗</a></div>
 </div>
