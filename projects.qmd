@@ -21,7 +21,7 @@ toc: false
 
 <div class="portfolio-grid" id="portfolio-grid">
 <article class="portfolio-card" data-tags="Product,Engineering">
-  <a class="portfolio-cover" href="projects/pairname.html" aria-label="Read the PairName case study"><img src="images/projects/pairname-website.png" alt="Actual screenshot of PairName public registration interface" loading="lazy"></a>
+  <a class="portfolio-cover" href="projects/pairname.html" aria-label="Read the PairName case study"><img src="images/projects/pairname-app-showcase.webp" alt="PairName app swipe screen featuring the Most Popular name card and three preference controls" loading="lazy"></a>
   <div class="portfolio-copy">
     <div class="portfolio-topline"><span>PRODUCT DESIGN / APPLICATION DEVELOPMENT</span><span>01 / 05</span></div>
     <h2><a href="projects/pairname.html">PairName</a></h2>

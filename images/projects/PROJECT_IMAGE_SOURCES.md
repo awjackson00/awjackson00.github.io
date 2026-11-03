@@ -2,9 +2,9 @@
 
 ## PairName
 
-- **Image:** `pairname-website.png`
-- **Source:** https://pairname.awjackson00.workers.dev/
-- **Method:** Actual, non-authenticated public website screenshot captured in Chromium via Playwright on 3 November 2026, desktop viewport 1440 × 810. No accounts created and no personal account information captured.
+- **Image:** `pairname-app-showcase.webp`
+- **Source:** User-provided screenshot of PairName's Most Popular name-swipe screen, showing the name card and Pass, Super, and Like buttons. Public application: https://pairname.awjackson00.workers.dev/
+- **Method:** User-approved stylized editorial cover generated from the supplied PairName screen, placed on a pale blue background. Optimized as an 800 × 450 WebP for the portfolio. This is not a live browser capture, usage claim, or illustration of a separate product. The earlier browser screenshot remains in the repository as `pairname-website.png`.
 
 ## Risky Business
 
@@ -28,7 +28,7 @@
 - **Method:** Photographic crop, a restrained blue overlay, and editorial campaign typography. The supplied logo is used as-is without redrawing or changing its design.
 - **Meaning:** A real baseball venue, with marketing and fan-engagement framing. This is not an app screenshot, a fabricated crowd, or a claim about event attendance or campaign measurements.
 
-PairName and Risky Business use authentic screenshots, Prague Metro uses an attributed original map, and Marion Berries uses authentic source photography and branding. The cloud and infrastructure cover is also illustrative, not a screenshot or a claim of measured performance.
+PairName's cover is based on a user-supplied app screenshot, Risky Business uses an authentic website capture, Prague Metro uses an attributed original map, and Marion Berries uses authentic source photography and branding. The cloud and infrastructure cover is also illustrative, not a screenshot or a claim of measured performance.
 
 
 ## Cloud & database optimization
