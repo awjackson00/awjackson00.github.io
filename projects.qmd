@@ -26,7 +26,7 @@ toc: false
     <div class="portfolio-topline"><span>PRODUCT DESIGN / APPLICATION DEVELOPMENT</span><span>01 / 05</span></div>
     <h2><a href="projects/pairname.html">PairName</a></h2>
     <p>A collaborative baby-name discovery experience that helps partners find agreement while evaluating names independently.</p>
-    <div class="portfolio-bottom"><span class="portfolio-proof">ZERO-TO-ONE PRODUCT</span><a href="https://pairname.awjackson00.workers.dev/" class="quiet-link" target="_blank" rel="noopener noreferrer" aria-label="Open PairName live app in a new tab">Try live app ↗</a><a href="projects/pairname.html" class="portfolio-arrow" aria-label="Read PairName case study">↗</a></div>
+    <div class="portfolio-bottom"><span class="portfolio-proof">ZERO-TO-ONE PRODUCT</span><a href="https://pairname.awjackson00.workers.dev/" class="quiet-link" target="_blank" rel="noopener noreferrer" aria-label="Open PairName project website in a new tab">Try live app ↗</a><a href="projects/pairname.html" class="portfolio-arrow" aria-label="Read PairName case study">↗</a></div>
     <div class="portfolio-stack">JavaScript · Supabase · Authentication · UX flows</div>
   </div>
 </article>
@@ -36,7 +36,7 @@ toc: false
     <div class="portfolio-topline"><span>DATA SCIENCE / FINANCIAL ANALYTICS</span><span>02 / 05</span></div>
     <h2><a href="projects/risky-business.html">Risky Business</a></h2>
     <p>A portfolio resilience study examining performance, downside risk, and statistical behavior across nine market regimes.</p>
-    <div class="portfolio-bottom"><span class="portfolio-proof">NINE MARKET REGIMES</span><a href="https://awjackson00.github.io/Risky-Business/results.html" class="quiet-link" target="_blank" rel="noopener noreferrer" aria-label="Open Risky Business live results in a new tab">View results ↗</a><a href="projects/risky-business.html" class="portfolio-arrow" aria-label="Read Risky Business case study">↗</a></div>
+    <div class="portfolio-bottom"><span class="portfolio-proof">NINE MARKET REGIMES</span><a href="https://awjackson00.github.io/Risky-Business/" class="quiet-link" target="_blank" rel="noopener noreferrer" aria-label="Open Risky Business project website in a new tab">Visit website ↗</a><a href="projects/risky-business.html" class="portfolio-arrow" aria-label="Read Risky Business case study">↗</a></div>
     <div class="portfolio-stack">Python · pandas · NumPy · Statistical analysis</div>
   </div>
 </article>
