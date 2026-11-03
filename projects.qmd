@@ -4,6 +4,7 @@ subtitle: "A closer look at how I approach real problems."
 toc: false
 ---
 
+```{=html}
 <div class="portfolio-intro">
   <p class="eyebrow">THE PORTFOLIO</p>
   <h2>Work worth opening up.</h2>
@@ -93,3 +94,4 @@ toc: false
   if (param && Array.from(filters).some((el) => el.getAttribute('data-filter') === param)) selectFilter(param);
 })();
 </script>
+```

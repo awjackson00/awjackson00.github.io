@@ -17,6 +17,8 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
       - name: Render website
         run: quarto render
+      - name: Verify rendered page structure and local assets
+        run: python3 scripts/check_site.py
       - name: Save rendered site for review
         uses: actions/upload-artifact@v4
         with:
