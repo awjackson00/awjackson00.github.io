@@ -1,31 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d">
 <title id="t">Prague Metro data platform</title><desc id="d">Stylized transit nodes on four colored routes connecting to a modeled data warehouse and hour-of-day bar chart. Artwork is illustrative, not a geographic map or empirical demand plot.</desc>
-<rect width="1600" height="900" fill="#e8efeb"/>
-<rect x="75" y="72" width="1450" height="755" rx="26" fill="#f9faf6" stroke="#d7e2da" stroke-width="3"/>
-<text x="140" y="160" fill="#375e57" font-size="26" letter-spacing="5" font-weight="700" font-family="Arial,Helvetica,sans-serif">PRAGUE METRO / DATA ENGINEERING</text>
-<text x="140" y="233" fill="#1c343b" font-size="55" font-weight="600" font-family="Georgia,serif">From transit events to demand insights.</text>
-<text x="143" y="283" fill="#66807a" font-size="23" font-family="Arial,Helvetica,sans-serif">An analytical pipeline for understanding riders by route and hour</text>
-<rect x="130" y="340" width="850" height="420" rx="23" fill="#e3ece8"/>
+<rect width="1600" height="900" fill="#edf4fb"/>
+<rect x="75" y="72" width="1450" height="755" rx="26" fill="#f8fbff" stroke="#d8e5f1" stroke-width="3"/>
+<text x="140" y="160" fill="#315f95" font-size="26" letter-spacing="5" font-weight="700" font-family="Arial,Helvetica,sans-serif">PRAGUE METRO / DATA ENGINEERING</text>
+<text x="140" y="233" fill="#213952" font-size="55" font-weight="600" font-family="Georgia,serif">From transit events to demand insights.</text>
+<text x="143" y="283" fill="#7188a0" font-size="23" font-family="Arial,Helvetica,sans-serif">An analytical pipeline for understanding riders by route and hour</text>
+<rect x="130" y="340" width="850" height="420" rx="23" fill="#e4effb"/>
 <g fill="none" stroke-width="17" stroke-linecap="round" stroke-linejoin="round">
   <path d="M215 680L355 542L503 542L655 401L885 401" stroke="#9f4f57"/>
   <path d="M225 420L365 420L480 535L635 690L864 690" stroke="#d1a44f"/>
   <path d="M265 708L375 595L520 595L716 450L885 450" stroke="#4b867d"/>
   <path d="M205 505L425 505L565 652L735 652L875 520" stroke="#7189aa"/>
 </g>
-<g fill="#f9faf6" stroke="#2f5852" stroke-width="5">
+<g fill="#f8fbff" stroke="#345d84" stroke-width="5">
 <circle cx="355" cy="542" r="15"/><circle cx="503" cy="542" r="15"/><circle cx="655" cy="401" r="15"/>
 <circle cx="365" cy="420" r="15"/><circle cx="480" cy="535" r="15"/><circle cx="635" cy="690" r="15"/>
 <circle cx="375" cy="595" r="15"/><circle cx="520" cy="595" r="15"/><circle cx="716" cy="450" r="15"/>
 <circle cx="425" cy="505" r="15"/><circle cx="565" cy="652" r="15"/><circle cx="735" cy="652" r="15"/>
 </g>
-<text x="160" y="729" fill="#546e65" font-size="20" letter-spacing="2" font-family="Arial,Helvetica,sans-serif">STATION / ROUTE RELATIONSHIPS</text>
-<path d="M996 540h62" stroke="#7a988a" stroke-width="8" stroke-linecap="round"/>
-<path d="M1040 521l21 19-21 19" fill="none" stroke="#7a988a" stroke-width="8" stroke-linecap="round"/>
-<rect x="1072" y="340" width="370" height="420" rx="24" fill="#244b4d"/>
-<text x="1110" y="398" font-size="23" font-family="Arial,Helvetica,sans-serif" fill="#c9dfd6" letter-spacing="3">LINE-HOUR MART</text>
-<text x="1110" y="447" font-size="18" font-family="Arial,Helvetica,sans-serif" fill="#b3cfc6">Example visual only</text>
-<line x1="1128" y1="665" x2="1390" y2="665" stroke="#7f9b97" stroke-width="3"/>
-<g fill="#90bcae">
+<text x="160" y="729" fill="#5d7893" font-size="20" letter-spacing="2" font-family="Arial,Helvetica,sans-serif">STATION / ROUTE RELATIONSHIPS</text>
+<path d="M996 540h62" stroke="#779fc5" stroke-width="8" stroke-linecap="round"/>
+<path d="M1040 521l21 19-21 19" fill="none" stroke="#779fc5" stroke-width="8" stroke-linecap="round"/>
+<rect x="1072" y="340" width="370" height="420" rx="24" fill="#244c76"/>
+<text x="1110" y="398" font-size="23" font-family="Arial,Helvetica,sans-serif" fill="#d5e8f7" letter-spacing="3">LINE-HOUR MART</text>
+<text x="1110" y="447" font-size="18" font-family="Arial,Helvetica,sans-serif" fill="#bfd7ea">Example visual only</text>
+<line x1="1128" y1="665" x2="1390" y2="665" stroke="#799cc0" stroke-width="3"/>
+<g fill="#93bee3">
 <rect x="1133" y="597" width="26" height="68" rx="4"/>
 <rect x="1175" y="556" width="26" height="109" rx="4"/>
 <rect x="1217" y="515" width="26" height="150" rx="4"/>
@@ -33,5 +33,5 @@
 <rect x="1301" y="484" width="26" height="181" rx="4"/>
 <rect x="1343" y="566" width="26" height="99" rx="4"/>
 </g>
-<text x="1114" y="711" font-size="19" font-family="Arial,Helvetica,sans-serif" fill="#e0f0e9">Python  /  Airflow  /  dbt</text>
+<text x="1114" y="711" font-size="19" font-family="Arial,Helvetica,sans-serif" fill="#e3f2fe">Python  /  Airflow  /  dbt</text>
 </svg>

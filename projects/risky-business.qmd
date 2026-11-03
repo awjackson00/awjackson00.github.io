@@ -3,6 +3,7 @@ title: "Risky Business"
 toc: false
 ---
 
+```{=html}
 <div class="case-shell">
 <a class="case-back" href="../projects.html">← Back to projects</a>
 <header class="case-hero">
@@ -22,3 +23,4 @@ toc: false
 <div class="case-actions"><a class="btn btn-outline-primary" href="../capstone.html">Read full capstone ↗</a>
 <a class="btn btn-outline-primary" href="https://github.com/awjackson00/data510--Quant-Back-Testing-" target="_blank" rel="noopener noreferrer">View public repository ↗</a><a class="quiet-link" href="../projects.html">Explore more projects ↗</a></div>
 </div>
+```

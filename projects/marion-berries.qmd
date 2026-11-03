@@ -3,6 +3,7 @@ title: "Marion Berries inaugural-season campaign"
 toc: false
 ---
 
+```{=html}
 <div class="case-shell">
 <a class="case-back" href="../projects.html">← Back to projects</a>
 <header class="case-hero">
@@ -21,3 +22,4 @@ toc: false
 </div>
 <div class="case-actions"><a class="quiet-link" href="../projects.html">Explore more projects ↗</a></div>
 </div>
+```
