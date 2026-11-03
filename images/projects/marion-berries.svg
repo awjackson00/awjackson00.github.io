@@ -1,15 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc"><title id="title">Marion Berries campaign artwork</title><desc id="desc">Illustrative inaugural-season marketing poster and event card</desc><rect width="1600" height="900" fill="#eff5fc"/>
-<circle cx="1410" cy="95" r="310" fill="#dce8f5"/><circle cx="230" cy="850" r="310" fill="#e2ebf6"/>
-<text x="140" y="150" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" fill="#557ba1" letter-spacing="5">GROWTH + OPERATIONS</text>
-<text x="140" y="225" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="600" fill="#29486b" >The first season</text>
-<text x="140" y="296" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="600" fill="#29486b" >is built together.</text>
-<rect x="150" y="373" width="700" height="392" rx="23" fill="#285788" transform="rotate(-4 500 580)"/>
-<rect x="178" y="396" width="644" height="334" rx="14" fill="#32689a" transform="rotate(-4 500 580)" stroke="#7eaad0" stroke-width="2"/>
-<text x="280" y="505" font-family="Arial,Helvetica,sans-serif" font-size="50" font-weight="700" fill="#f3f9ff" letter-spacing="3">MARION BERRIES</text>
-<text x="335" y="585" font-family="Arial,Helvetica,sans-serif" font-size="33" font-weight="700" fill="#cce3f7" letter-spacing="4">INAUGURAL SEASON</text>
-<text x="380" y="695" font-family="Arial,Helvetica,sans-serif" font-size="74" font-weight="700" fill="#f5faff" >2025</text>
-<circle cx="1140" cy="570" r="230" fill="#f8fbff" stroke="#ccdeed" stroke-width="12"/>
-<path d="M994 395c135 100 155 245 29 346M1286 395c-135 100-155 245-29 346" fill="none" stroke="#588fbd" stroke-width="9" stroke-dasharray="10 15"/>
-<rect x="970" y="720" width="380" height="65" rx="12" fill="#f8fbff" stroke="#c4d7e9" stroke-width="3"/>
-<text x="1160" y="765" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#3b6c9e" text-anchor="middle" letter-spacing="2">EVENTS • TICKETS • FANS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="OPERATIONS  /  MARION BERRIES">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d2541"/><stop offset=".58" stop-color="#163d65"/><stop offset="1" stop-color="#245a8f"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#dbeafb"/></linearGradient>
+  <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#a5c7eb" stroke-width="1" opacity=".13"/></pattern>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#061526" flood-opacity=".28"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<rect width="1600" height="900" fill="url(#grid)"/>
+<circle cx="1470" cy="90" r="520" fill="#6daff0" opacity=".07"/><circle cx="380" cy="880" r="430" fill="#8bc9ff" opacity=".05"/>
+<path d="M90 95h72" stroke="#64b5fb" stroke-width="7" stroke-linecap="round"/>
+<text x="185" y="104" fill="#b6d9f9" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" letter-spacing="4">OPERATIONS  /  MARION BERRIES</text>
+
+<text x="105" y="277" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="600" >A first season.</text>
+<text x="105" y="354" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="600" >Built together.</text>
+<text x="105" y="438" fill="#bdd9f1" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="500" >Campaign planning  /  fan engagement  /  events</text>
+<g filter="url(#shadow)">
+<rect x="750" y="210" width="690" height="505" rx="20" fill="#f6f9fd"/>
+<rect x="750" y="210" width="690" height="74" rx="20" fill="#e0ebf8"/>
+<path d="M750 268h690" stroke="#c4d9ec" stroke-width="2"/>
+<text x="793" y="254" fill="#234c78" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" letter-spacing="1">INAUGURAL SEASON / CAMPAIGN BOARD</text>
+<rect x="794" y="325" width="290" height="342" rx="12" fill="#e3eef9"/>
+<circle cx="939" cy="473" r="118" fill="#fcfdff" stroke="#aac9e8" stroke-width="8"/>
+<path d="M865 388Q967 468 870 555M1013 390Q911 469 1008 555" stroke="#3b80bc" stroke-width="5" fill="none" stroke-dasharray="7 10"/>
+<text x="874" y="624" fill="#375f85" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" letter-spacing="2">OPENING 2025</text>
+<rect x="1117" y="326" width="277" height="90" rx="12" fill="#eff5fc" stroke="#d2e2ef" stroke-width="2"/>
+<text x="1147" y="367" fill="#3a6791" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" >Campaign</text>
+<text x="1147" y="393" fill="#6c89a7" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="500" >planning</text>
+<rect x="1117" y="437" width="277" height="90" rx="12" fill="#eff5fc" stroke="#d2e2ef" stroke-width="2"/>
+<text x="1147" y="479" fill="#3a6791" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" >Fan</text>
+<text x="1147" y="504" fill="#6c89a7" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="500" >engagement</text>
+<rect x="1117" y="548" width="277" height="91" rx="12" fill="#eff5fc" stroke="#d2e2ef" stroke-width="2"/>
+<text x="1147" y="590" fill="#3a6791" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" >Event</text>
+<text x="1147" y="616" fill="#6c89a7" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="500" >operations</text>
+</g>
+<text x="105" y="777" fill="#a5cff1" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" letter-spacing="4">PROJECT MANAGEMENT</text>
+
 </svg>

@@ -1,20 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc"><title id="title">Cloud and database optimization illustration</title><desc id="desc">Conceptual systems diagram for client apps, services and database with grounded impact labels</desc><rect width="1600" height="900" fill="#edf4fb"/>
-<text x="130" y="145" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700" fill="#386b9e" letter-spacing="6">INFRASTRUCTURE</text>
-<text x="130" y="225" font-family="Arial,Helvetica,sans-serif" font-size="68" font-weight="650" fill="#1b3a5d" >Better systems.</text>
-<text x="130" y="296" font-family="Arial,Helvetica,sans-serif" font-size="68" font-weight="650" fill="#1b3a5d" >Better everyday work.</text>
-<rect x="120" y="365" width="1360" height="418" rx="28" fill="#ffffff" stroke="#d9e5f1" stroke-width="4"/>
-<rect x="185" y="470" width="270" height="190" rx="20" fill="#e1effb" stroke="#9dc1e3" stroke-width="3"/>
-<text x="320" y="525" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#28547d" text-anchor="middle" letter-spacing="3">CLIENT APPS</text>
-<rect x="244" y="560" width="150" height="57" rx="10" fill="#f8fbff" stroke="#8eafd3" stroke-width="3"/>
-<path d="M270 580h96M270 595h76" stroke="#7eabd0" stroke-width="5" stroke-linecap="round"/>
-<path d="M455 564h180" stroke="#598fbd" stroke-width="9" stroke-linecap="round"/><path d="M602 544l35 20-35 20" fill="none" stroke="#598fbd" stroke-width="9" stroke-linecap="round"/>
-<rect x="645" y="470" width="285" height="190" rx="20" fill="#275e91"/>
-<text x="787" y="526" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#e5f3ff" text-anchor="middle" letter-spacing="3">SERVICES</text>
-<rect x="694" y="560" width="185" height="19" rx="7" fill="#9bc8e9"/><rect x="694" y="593" width="145" height="19" rx="7" fill="#6f9fc9"/>
-<path d="M930 564h180" stroke="#598fbd" stroke-width="9" stroke-linecap="round"/><path d="M1077 544l35 20-35 20" fill="none" stroke="#598fbd" stroke-width="9" stroke-linecap="round"/>
-<rect x="1122" y="470" width="285" height="190" rx="20" fill="#e1effb" stroke="#9dc1e3" stroke-width="3"/>
-<text x="1265" y="520" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#28547d" text-anchor="middle" letter-spacing="3">DATABASE</text>
-<ellipse cx="1265" cy="563" rx="68" ry="18" fill="#7eaad0"/><path d="M1197 563v53c0 25 136 25 136 0v-53" fill="#9bc8e9" stroke="#6d9cc6" stroke-width="3"/><ellipse cx="1265" cy="616" rx="68" ry="18" fill="#8dbce0" stroke="#6d9cc6" stroke-width="3"/>
-<text x="220" y="726" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#527ea6" letter-spacing="1">150+ WEEKLY CLIENTS</text>
-<text x="1010" y="726" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#527ea6" letter-spacing="1">20–30% LATENCY REDUCTION</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="SYSTEMS  /  CLOUD OPTIMIZATION">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d2541"/><stop offset=".58" stop-color="#163d65"/><stop offset="1" stop-color="#245a8f"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#dbeafb"/></linearGradient>
+  <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#a5c7eb" stroke-width="1" opacity=".13"/></pattern>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#061526" flood-opacity=".28"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<rect width="1600" height="900" fill="url(#grid)"/>
+<circle cx="1470" cy="90" r="520" fill="#6daff0" opacity=".07"/><circle cx="380" cy="880" r="430" fill="#8bc9ff" opacity=".05"/>
+<path d="M90 95h72" stroke="#64b5fb" stroke-width="7" stroke-linecap="round"/>
+<text x="185" y="104" fill="#b6d9f9" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" letter-spacing="4">SYSTEMS  /  CLOUD OPTIMIZATION</text>
+
+<text x="105" y="270" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="600" >Better systems.</text>
+<text x="105" y="349" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="600" >Better performance.</text>
+<text x="105" y="433" fill="#bdd9f1" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="500" >Database and cloud infrastructure improvements</text>
+<g filter="url(#shadow)">
+<rect x="755" y="282" width="685" height="372" rx="24" fill="#f6f9fd"/>
+<rect x="755" y="282" width="685" height="58" rx="24" fill="#e0ecf9"/>
+<path d="M755 328h685" stroke="#cddfed" stroke-width="2"/>
+<text x="802" y="321" fill="#38658d" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" letter-spacing="3">SYSTEM ARCHITECTURE</text>
+<g fill="#e5f0fb" stroke="#aac8e5" stroke-width="3">
+<rect x="810" y="412" width="150" height="158" rx="15"/>
+<rect x="1022" y="412" width="150" height="158" rx="15"/>
+<rect x="1234" y="412" width="150" height="158" rx="15"/>
+</g>
+<text x="843" y="467" fill="#315e8b" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" >CLIENTS</text>
+<text x="1050" y="467" fill="#315e8b" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" >SERVICES</text>
+<text x="1249" y="467" fill="#315e8b" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" >DATABASE</text>
+<rect x="838" y="503" width="95" height="35" rx="7" fill="#bbd7f0"/>
+<rect x="1052" y="501" width="89" height="14" rx="7" fill="#5d9bd2"/><rect x="1052" y="525" width="64" height="14" rx="7" fill="#95bce0"/>
+<ellipse cx="1309" cy="509" rx="44" ry="13" fill="#6da4d3"/><path d="M1265 509v30c0 19 88 19 88 0v-30" fill="#9cc4e7"/><ellipse cx="1309" cy="539" rx="44" ry="13" fill="#8ab9de"/>
+<path d="M960 491H1022M1172 491H1234" stroke="#3c81bc" stroke-width="7" stroke-linecap="round"/>
+</g>
+<text x="105" y="775" fill="#a4cef1" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="2">PERFORMANCE / RELIABILITY / SCALE</text>
+
 </svg>
