@@ -21,4 +21,11 @@
 - **License:** [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 - **Modifications:** None to the underlying SVG. The site displays the map within a letterboxed card/container, not as project-generated data visualization. It includes the planned/construction Line D.
 
-These three images are replacements for concept illustrations. Other project covers remain illustrative.
+## Marion Berries fan engagement
+
+- **Image:** `marion-berries-fan-engagement.webp`
+- **Source:** Original photograph of the baseball field and original transparent Marion Berries logo supplied directly by the project contributor.
+- **Method:** Photographic crop, a restrained blue overlay, and editorial campaign typography. The supplied logo is used as-is without redrawing or changing its design.
+- **Meaning:** A real baseball venue, with marketing and fan-engagement framing. This is not an app screenshot, a fabricated crowd, or a claim about event attendance or campaign measurements.
+
+PairName and Risky Business use authentic screenshots, Prague Metro uses an attributed original map, and Marion Berries uses authentic source photography and branding. The infrastructure cover remains illustrative.
