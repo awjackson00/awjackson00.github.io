@@ -1,75 +1,43 @@
-# Alexander Jackson — Product Management Portfolio
+# Alexander Jackson | Product, Engineering & Analytics
 
-Personal portfolio website for **Alexander Jackson**, focused on Technical Product Management, Product Strategy, Analytics, and Software.
+Personal portfolio for Alexander Jackson, built with [Quarto](https://quarto.org/) and deployed to GitHub Pages with GitHub Actions.
 
-The site highlights my background across computer science, data science, business, software development, technical systems, and product-focused project work.
+## Pages
 
-## Live Site
+- `index.qmd`: home, featured work, core disciplines, experience.
+- `projects.qmd`: image-led portfolio with category filters.
+- `projects/*.qmd`: dedicated case studies for five featured projects, including Prague Metro data engineering.
+- `capstone.qmd`: the full Risky Business capstone report.
+- `experience.qmd`, `about.qmd`, `resume.qmd`: supporting pages.
+- `styles.scss`: light editorial design system, shared components, and responsive layout.
+- `images/projects/*.svg`: deliberately illustrative cover art for projects.
 
-**https://awjackson00.github.io**
+## Running locally
 
-## Featured Projects
-
-- **PairName** — Zero-to-one baby-name matching product built with Next.js, React, and Supabase
-- **Risky Business** — Data science capstone evaluating portfolio resilience across multiple market regimes
-- **Los Angeles Dodgers Scouting Analytics Platform** — Python-based scouting tool built around 100+ player variables
-- **Marion Berries Inaugural-Season Marketing Campaign** — Project management, growth analytics, and operations
-- **Cloud & Database Infrastructure Optimization** — Systems improvements supporting 150+ weekly clients
-
-## Site Structure
-
-```text
-.
-├── index.qmd
-├── projects.qmd
-├── capstone.qmd
-├── experience.qmd
-├── resume.qmd
-├── about.qmd
-├── resume.pdf
-├── styles.scss
-├── _quarto.yml
-├── images/
-└── .github/
-    └── workflows/
-        └── publish.yml
-```
-
-## Built With
-
-- [Quarto](https://quarto.org/)
-- HTML / SCSS
-- GitHub Pages
-- GitHub Actions
-
-## Local Preview
-
-If Quarto is installed, run:
+Install Quarto, then run:
 
 ```bash
 quarto preview
 ```
 
-To render the full site locally:
+For a static build:
 
 ```bash
 quarto render
 ```
 
-The rendered site is written to `_site/`.
+The rendered site is written to `_site/`. GitHub Actions publishes from `main`.
 
-## Deployment
+## Portfolio imagery
 
-The site deploys automatically through GitHub Actions whenever changes are pushed to `main`.
+All five featured projects currently use conceptual SVG visuals, not actual app screenshots or quantitative results. They are labeled as illustrations on each case-study page. When representative original project screenshots or approved marketing materials are available, replace the respective `images/projects/<slug>.svg` image and update its alt text/caption. The existing capstone report and its supporting files have been preserved.
 
-GitHub Pages should be configured to use:
+PairName is a static JavaScript/Supabase app in its current connected repository. The portfolio avoids linking to that private repository or claiming live user metrics. No unpublished client datasets, private assets, or internal screens are included.
 
-**Settings → Pages → Build and deployment → Source → GitHub Actions**
+## Design principles
 
-## Contact
-
-**Alexander Jackson**
-
-- LinkedIn: https://www.linkedin.com/in/alexander-jackson5/
-- GitHub: https://github.com/awjackson00
-- Email: awjackson00@gmail.com
+- Quiet editorial styling inspired by professional analyst and builder portfolios.
+- Serif headings, restrained blue-green accents, generous whitespace, readable typography.
+- Real project specifics and appropriately qualified impact estimates.
+- Responsive and keyboard-accessible cards and filters.
+- Avoid presenting concept artwork as real product screenshots.

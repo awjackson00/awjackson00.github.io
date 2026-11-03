@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc"><title id="title">Risky Business concept artwork</title><desc id="desc">A conceptual risk and portfolio-regime illustration with decorative non-empirical lines</desc><rect width="1600" height="900" fill="#142735"/>
+<rect x="75" y="75" width="1450" height="750" rx="30" fill="#1a3541" stroke="#31505a" stroke-width="3"/>
+<text x="135" y="145" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" fill="#d7e4e0" letter-spacing="7">RISKY BUSINESS</text>
+<text x="135" y="230" font-family="Arial,Helvetica,sans-serif" font-size="55" font-weight="600" fill="#fffaf1" >Resilience across regimes</text>
+<text x="135" y="285" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" fill="#a7c1bf" >Comparing return, volatility and downside risk</text>
+<rect x="135" y="345" width="1000" height="360" rx="20" fill="#102632" stroke="#35505b" stroke-width="2"/>
+<g stroke="#344c58" stroke-width="2"><path d="M190 420h885M190 495h885M190 570h885M190 645h885"/><path d="M290 385v280M445 385v280M600 385v280M755 385v280M910 385v280"/></g>
+<path d="M190 570C265 540 300 585 375 505S520 460 575 520 680 610 730 540 825 420 885 470 1000 450 1075 415" fill="none" stroke="#a7d9c6" stroke-width="8" stroke-linecap="round"/>
+<path d="M190 625C290 625 295 560 375 588S500 605 565 575 670 475 730 500 835 540 900 500 1000 565 1075 535" fill="none" stroke="#e5b879" stroke-width="8" stroke-linecap="round"/>
+<path d="M190 490C260 475 325 520 375 530S520 560 560 610 680 625 755 600 900 585 960 630 1030 605 1075 645" fill="none" stroke="#79a6bb" stroke-width="8" stroke-linecap="round"/>
+<text x="1305" y="390" font-family="Arial,Helvetica,sans-serif" font-size="120" font-weight="600" fill="#f1f0e6" text-anchor="middle">09</text>
+<text x="1305" y="430" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#a9c2c5" text-anchor="middle" letter-spacing="2">MARKET REGIMES</text>
+<line x1="1185" y1="480" x2="1420" y2="480" stroke="#53717a" stroke-width="2"/>
+<text x="1202" y="540" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="650" fill="#f1f0e6" >SHARPE / SORTINO</text>
+<text x="1202" y="590" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="650" fill="#f1f0e6" >DOWNSIDE RISK</text>
+<text x="136" y="766" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" fill="#92abb0" letter-spacing="2">ILLUSTRATIVE LINES · NOT BACKTEST RESULTS</text>
+</svg>

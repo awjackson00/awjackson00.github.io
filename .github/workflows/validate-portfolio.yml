@@ -1,0 +1,25 @@
+name: Validate portfolio build
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+      - name: Install Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+      - name: Render website
+        run: quarto render
+      - name: Save rendered site for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-preview
+          path: _site
+          if-no-files-found: error
