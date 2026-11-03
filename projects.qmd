@@ -62,7 +62,7 @@ toc: false
   </div>
 </article>
 <article class="portfolio-card" data-tags="Engineering,Operations">
-  <a class="portfolio-cover" href="projects/infrastructure.html" aria-label="Read the Cloud & database optimization case study"><img src="images/projects/infrastructure.svg" alt="Concept infrastructure diagram linking client applications, services and databases" loading="lazy"></a>
+  <a class="portfolio-cover" href="projects/infrastructure.html" aria-label="Read the Cloud & database optimization case study"><img src="images/projects/cloud-database-optimization.webp" width="1200" height="675" alt="Blue editorial illustration of optimized cloud services, APIs and databases" loading="lazy"></a>
   <div class="portfolio-copy">
     <div class="portfolio-topline"><span>SYSTEMS / INFRASTRUCTURE</span><span>05 / 05</span></div>
     <h2><a href="projects/infrastructure.html">Cloud & database optimization</a></h2>
