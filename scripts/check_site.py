@@ -6,7 +6,7 @@ from urllib.parse import urlparse, unquote
 
 ROOT = Path("_site")
 PAGES = {
-    "index.html": ("landing-hero", "impact-strip", "feature-grid", "home-closer"),
+    "index.html": ("landing-hero", "feature-grid", "home-closer"),
     "projects.html": ("portfolio-grid", "filter-row", "portfolio-card"),
     "projects/pairname.html": ("case-shell", "case-content"),
     "projects/risky-business.html": ("case-shell", "case-content"),
@@ -48,6 +48,8 @@ for relative, expected in PAGES.items():
     for required in expected:
         if required not in checker.classes:
             errors.append(f"{relative}: missing expected class {required}")
+    if relative == "index.html" and "impact-strip" in checker.classes:
+        errors.append("Homepage still contains the removed impact strip")
     if checker.raw_markup_in_text or re.search(r"&lt;(?:div|section|article)\b", raw):
         errors.append(f"{relative}: visible literal HTML instead of rendered markup")
     if checker.headings < 2:

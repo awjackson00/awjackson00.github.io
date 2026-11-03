@@ -1,17 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc"><title id="title">Risky Business concept artwork</title><desc id="desc">A conceptual risk and portfolio-regime illustration with decorative non-empirical lines</desc><rect width="1600" height="900" fill="#112a47"/>
-<rect x="75" y="75" width="1450" height="750" rx="30" fill="#183c60" stroke="#315f8a" stroke-width="3"/>
-<text x="135" y="145" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" fill="#d8e9f8" letter-spacing="7">RISKY BUSINESS</text>
-<text x="135" y="230" font-family="Arial,Helvetica,sans-serif" font-size="55" font-weight="600" fill="#f8fbff" >Resilience across regimes</text>
-<text x="135" y="285" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" fill="#b7d2ea" >Comparing return, volatility and downside risk</text>
-<rect x="135" y="345" width="1000" height="360" rx="20" fill="#102b49" stroke="#31577d" stroke-width="2"/>
-<g stroke="#365a80" stroke-width="2"><path d="M190 420h885M190 495h885M190 570h885M190 645h885"/><path d="M290 385v280M445 385v280M600 385v280M755 385v280M910 385v280"/></g>
-<path d="M190 570C265 540 300 585 375 505S520 460 575 520 680 610 730 540 825 420 885 470 1000 450 1075 415" fill="none" stroke="#8ec5f4" stroke-width="8" stroke-linecap="round"/>
-<path d="M190 625C290 625 295 560 375 588S500 605 565 575 670 475 730 500 835 540 900 500 1000 565 1075 535" fill="none" stroke="#bacdec" stroke-width="8" stroke-linecap="round"/>
-<path d="M190 490C260 475 325 520 375 530S520 560 560 610 680 625 755 600 900 585 960 630 1030 605 1075 645" fill="none" stroke="#5989c3" stroke-width="8" stroke-linecap="round"/>
-<text x="1305" y="390" font-family="Arial,Helvetica,sans-serif" font-size="120" font-weight="600" fill="#f7fbff" text-anchor="middle">09</text>
-<text x="1305" y="430" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#bdd4eb" text-anchor="middle" letter-spacing="2">MARKET REGIMES</text>
-<line x1="1185" y1="480" x2="1420" y2="480" stroke="#5b7ea0" stroke-width="2"/>
-<text x="1202" y="540" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="650" fill="#f7fbff" >SHARPE / SORTINO</text>
-<text x="1202" y="590" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="650" fill="#f7fbff" >DOWNSIDE RISK</text>
-<text x="136" y="766" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" fill="#a4bbd2" letter-spacing="2">ILLUSTRATIVE LINES · NOT BACKTEST RESULTS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="DATA SCIENCE  /  RISKY BUSINESS">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d2541"/><stop offset=".58" stop-color="#163d65"/><stop offset="1" stop-color="#245a8f"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#dbeafb"/></linearGradient>
+  <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#a5c7eb" stroke-width="1" opacity=".13"/></pattern>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#061526" flood-opacity=".28"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<rect width="1600" height="900" fill="url(#grid)"/>
+<circle cx="1470" cy="90" r="520" fill="#6daff0" opacity=".07"/><circle cx="380" cy="880" r="430" fill="#8bc9ff" opacity=".05"/>
+<path d="M90 95h72" stroke="#64b5fb" stroke-width="7" stroke-linecap="round"/>
+<text x="185" y="104" fill="#b6d9f9" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" letter-spacing="4">DATA SCIENCE  /  RISKY BUSINESS</text>
+
+<text x="105" y="270" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="68" font-weight="600" >Understanding</text>
+<text x="105" y="350" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="68" font-weight="600" >risk in context.</text>
+<text x="105" y="435" fill="#b9d5f0" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="500" >Market regimes  /  volatility  /  resilience</text>
+<g filter="url(#shadow)">
+<rect x="710" y="205" width="755" height="515" rx="23" fill="#f5f9fd"/>
+<rect x="710" y="205" width="755" height="71" rx="23" fill="#e0edfa"/>
+<path d="M710 252h755" stroke="#cbddee" stroke-width="2"/>
+<text x="750" y="249" fill="#1e4368" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" >Portfolio comparison</text>
+<text x="1230" y="249" fill="#5182b2" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="2">RISK / RETURN</text>
+<g stroke="#d5e3f0" stroke-width="2"><path d="M765 357h650M765 440h650M765 523h650M765 606h650"/><path d="M855 320v325M975 320v325M1095 320v325M1215 320v325M1335 320v325"/></g>
+<path d="M765 595C820 554 851 590 905 500 946 445 984 485 1024 420 1061 378 1108 480 1148 431 1202 366 1250 406 1298 345 1324 324 1370 337 1410 310" stroke="#2777bb" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M765 626C824 624 880 602 935 577S1030 550 1080 570 1195 513 1245 535 1320 501 1410 492" stroke="#79a9d7" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M765 560C823 537 875 563 920 581S1017 637 1075 602 1174 646 1230 610 1332 640 1410 601" stroke="#9cb7ce" stroke-width="6" fill="none" stroke-linecap="round"/>
+</g>
+<text x="105" y="775" fill="#99c8f2" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" letter-spacing="3">NINE MARKET REGIMES</text>
+<text x="750" y="767" fill="#b8d3eb" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" >Illustrative trends; not actual portfolio returns</text>
+
 </svg>

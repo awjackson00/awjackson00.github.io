@@ -214,3 +214,26 @@ a:focus-visible,button:focus-visible { outline:3px solid #83b4e1;outline-offset:
   .section-heading { gap:.8rem; }
   .hero-credentials { line-height:1.8; }
 }
+
+/* Editorial simplification: image is a supporting portrait, not the hero. */
+.landing-hero {
+  grid-template-columns: minmax(0, 1fr) 230px;
+  gap: clamp(2.25rem, 5vw, 4.5rem);
+  padding-top: 3.9rem;
+  padding-bottom: 3.1rem;
+}
+.landing-photo { width: min(100%, 220px); justify-self: end; }
+.profile-hero { aspect-ratio: 4 / 5; border-radius: 9px; box-shadow: 0 12px 25px rgba(21, 52, 91, .07); }
+.home-section#selected-work { padding-top: 3.4rem; }
+@media (max-width: 760px) {
+  .landing-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.8rem;
+    padding-top: 2.7rem;
+    padding-bottom: 2.8rem;
+  }
+  .landing-photo { width: min(42vw, 154px); align-self: flex-start; }
+  .home-section#selected-work { padding-top: 2.8rem; }
+}

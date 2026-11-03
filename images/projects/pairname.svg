@@ -1,23 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc"><title id="title">PairName concept artwork</title><desc id="desc">Two independently chosen lists resolving into mutual name matches</desc><rect width="1600" height="900" fill="#edf4fb"/>
-<circle cx="1350" cy="160" r="270" fill="#dce7f4"/><circle cx="140" cy="790" r="330" fill="#cfdeed"/>
-<text x="135" y="135" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" fill="#5e7895" letter-spacing="6">PAIRNAME</text>
-<text x="135" y="215" font-family="Arial,Helvetica,sans-serif" font-size="62" font-weight="650" fill="#213b5b" >Two opinions.</text>
-<text x="135" y="285" font-family="Arial,Helvetica,sans-serif" font-size="62" font-weight="650" fill="#213b5b" >One list together.</text>
-<rect x="145" y="380" width="320" height="390" rx="34" fill="#ffffff" stroke="#cfdaeb" stroke-width="3"/>
-<rect x="180" y="410" width="250" height="36" rx="18" fill="#e6f1fd"/>
-<text x="225" y="436" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#346da4" letter-spacing="3">YOUR PICKS</text>
-<text x="205" y="540" font-family="Arial,Helvetica,sans-serif" font-size="46" font-weight="600" fill="#25436a" >Avery</text>
-<path d="M204 585h200" stroke="#dce7f3" stroke-width="3"/>
-<text x="205" y="660" font-family="Arial,Helvetica,sans-serif" font-size="46" font-weight="600" fill="#25436a" >Rowan</text>
-<rect x="1120" y="380" width="320" height="390" rx="34" fill="#ffffff" stroke="#cfdaeb" stroke-width="3"/>
-<rect x="1155" y="410" width="250" height="36" rx="18" fill="#e1ecf8"/>
-<text x="1190" y="436" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#51759b" letter-spacing="2">PARTNER PICKS</text>
-<text x="1180" y="540" font-family="Arial,Helvetica,sans-serif" font-size="46" font-weight="600" fill="#25436a" >Quinn</text>
-<path d="M1178 585h200" stroke="#dce7f3" stroke-width="3"/>
-<text x="1180" y="660" font-family="Arial,Helvetica,sans-serif" font-size="46" font-weight="600" fill="#25436a" >Rowan</text>
-<path d="M480 600C570 600 600 565 680 565" fill="none" stroke="#94b3d4" stroke-width="5" stroke-dasharray="12 13"/>
-<path d="M1120 600C1030 600 1000 565 920 565" fill="none" stroke="#94b3d4" stroke-width="5" stroke-dasharray="12 13"/>
-<circle cx="800" cy="558" r="146" fill="#245a94"/><circle cx="800" cy="558" r="123" fill="#3578b2" stroke="#9ac4e7" stroke-width="2"/>
-<path d="M800 620l-60-58c-50-48 15-112 60-53 45-59 110 5 60 53z" fill="#dcecff"/>
-<text x="800" y="750" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#245a94" text-anchor="middle" letter-spacing="4">MUTUAL MATCH</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="PRODUCT  /  PAIRNAME">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d2541"/><stop offset=".58" stop-color="#163d65"/><stop offset="1" stop-color="#245a8f"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#dbeafb"/></linearGradient>
+  <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#a5c7eb" stroke-width="1" opacity=".13"/></pattern>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#061526" flood-opacity=".28"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<rect width="1600" height="900" fill="url(#grid)"/>
+<circle cx="1470" cy="90" r="520" fill="#6daff0" opacity=".07"/><circle cx="380" cy="880" r="430" fill="#8bc9ff" opacity=".05"/>
+<path d="M90 95h72" stroke="#64b5fb" stroke-width="7" stroke-linecap="round"/>
+<text x="185" y="104" fill="#b6d9f9" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" letter-spacing="4">PRODUCT  /  PAIRNAME</text>
+
+<text x="110" y="275" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="67" font-weight="600" >Two perspectives.</text>
+<text x="110" y="358" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="67" font-weight="600" >One shared answer.</text>
+<text x="110" y="435" fill="#bfd8f3" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="400" >Independent choices, mutual matches</text>
+<g filter="url(#shadow)">
+  <rect x="840" y="187" width="300" height="570" rx="45" fill="#e6f1fb" stroke="#a9d0f5" stroke-width="7"/>
+  <rect x="855" y="215" width="270" height="525" rx="34" fill="#fafcff"/>
+  <rect x="943" y="224" width="95" height="17" rx="9" fill="#173b5f"/>
+  <text x="886" y="297" fill="#1c3c5d" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" >Pick your favorites</text>
+  <rect x="881" y="334" width="220" height="252" rx="20" fill="#dceafa"/>
+  <text x="914" y="415" fill="#265e95" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="600" >ROWAN</text>
+  <path d="M913 450h153" stroke="#a9c8e9" stroke-width="3"/>
+  <text x="911" y="509" fill="#55799c" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="500" >A name you love?</text>
+  <circle cx="940" cy="625" r="32" fill="#e3edf7" stroke="#aac8e8" stroke-width="3"/>
+  <circle cx="1041" cy="625" r="32" fill="#3477b8"/>
+  <text x="930" y="634" fill="#33668f" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="600" >×</text>
+  <text x="1029" y="634" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="600" >♥</text>
+</g>
+<g filter="url(#shadow)">
+  <rect x="1110" y="275" width="295" height="520" rx="43" fill="#e5f1fc" stroke="#95c2ea" stroke-width="6"/>
+  <rect x="1125" y="301" width="265" height="475" rx="33" fill="#fbfdff"/>
+  <rect x="1208" y="309" width="92" height="15" rx="8" fill="#173b5f"/>
+  <text x="1174" y="383" fill="#1c3c5d" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" >Shared picks</text>
+  <rect x="1151" y="413" width="211" height="140" rx="20" fill="#e6f1fb" stroke="#b8d5f0" stroke-width="2"/>
+  <text x="1193" y="483" fill="#275b8e" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" >ROWAN</text>
+  <path d="M1196 504h120" stroke="#b1cbe7" stroke-width="3"/>
+  <circle cx="1258" cy="647" r="57" fill="#2e77b8"/>
+  <text x="1237" y="663" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="700" >♥</text>
+</g>
+<text x="110" y="775" fill="#99c8f2" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" letter-spacing="5">PAIRNAME</text>
+
 </svg>

@@ -26,15 +26,8 @@ description: "Alexander Jackson builds and improves products at the intersection
     </div>
     <div class="landing-photo">
       <img class="profile-hero" src="images/profile.png" width="640" height="800" alt="Portrait of Alexander Jackson" fetchpriority="high">
-      <p class="portrait-note">Product, engineering &amp; analytics</p>
     </div>
   </section>
-
-  <div class="impact-strip" aria-label="Highlights of my work">
-    <div class="impact-stat"><strong class="impact-value">0 → 1</strong><span class="impact-label">Product development</span><span class="impact-description">Built PairName from initial concept to working app</span></div>
-    <div class="impact-stat"><strong class="impact-value">9</strong><span class="impact-label">Market regimes</span><span class="impact-description">Examined in the Risky Business capstone</span></div>
-    <div class="impact-stat"><strong class="impact-value">150+</strong><span class="impact-label">Weekly clients</span><span class="impact-description">Supported by systems I helped improve</span></div>
-  </div>
 
   <section class="home-section" id="selected-work" aria-labelledby="work-heading">
     <div class="section-heading">
