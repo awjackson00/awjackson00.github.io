@@ -26,7 +26,7 @@ toc: false
     <div class="portfolio-topline"><span>PRODUCT DESIGN / APPLICATION DEVELOPMENT</span><span>01 / 05</span></div>
     <h2><a href="projects/pairname.html">PairName</a></h2>
     <p>A collaborative baby-name discovery experience that helps partners find agreement while evaluating names independently.</p>
-    <div class="portfolio-bottom"><span class="portfolio-proof">ZERO-TO-ONE PRODUCT</span><a href="projects/pairname.html" class="portfolio-arrow" aria-label="Read PairName case study">↗</a></div>
+    <div class="portfolio-bottom"><span class="portfolio-proof">ZERO-TO-ONE PRODUCT</span><a href="https://pairname.awjackson00.workers.dev/" class="quiet-link" target="_blank" rel="noopener noreferrer" aria-label="Open PairName live app in a new tab">Try live app ↗</a><a href="projects/pairname.html" class="portfolio-arrow" aria-label="Read PairName case study">↗</a></div>
     <div class="portfolio-stack">JavaScript · Supabase · Authentication · UX flows</div>
   </div>
 </article>

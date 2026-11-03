@@ -20,6 +20,6 @@ toc: false
   <section><p class="eyebrow">04 / TAKEAWAY</p><h3>Outcomes and learning</h3><p>The result is a working mobile-first product with application logic and Supabase-backed data. This is an independent product project; I am not claiming public adoption, revenue, or external customer outcomes.</p></section>
   <section><p class="eyebrow">05 / WHAT'S NEXT</p><h3>Where this goes next</h3><p>A useful next step is to validate usability with pairs, measure where people drop out of onboarding, and improve the matching experience based on observed behavior.</p></section>
 </div>
-<div class="case-actions"><a class="quiet-link" href="../projects.html">Explore more projects ↗</a></div>
+<div class="case-actions"><a class="btn btn-primary" href="https://pairname.awjackson00.workers.dev/" target="_blank" rel="noopener noreferrer">Launch PairName ↗</a><a class="quiet-link" href="../projects.html">Explore more projects ↗</a></div>
 </div>
 ```
