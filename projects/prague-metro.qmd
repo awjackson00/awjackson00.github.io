@@ -9,7 +9,7 @@ toc: false
 <header class="case-hero">
   <p class="eyebrow">DATA ENGINEERING / TRANSIT ANALYTICS</p>
   <h2>Prague Metro data platform</h2>
-  <p class="case-lede">Building the path from raw transit events to actionable questions about which lines carry the most riders and when demand changes.</p>
+  <p class="case-lede">A data engineering project that turns fragmented transit events into models for analyzing demand by station, metro line, and hour.</p>
   <div class="case-meta">
     <div><span>MY ROLE</span><strong>Pipeline, warehouse, and analytical modeling</strong></div>
     <div><span>PROJECT SCOPE</span><strong>Transit events, station and route dimensions, line-hour demand</strong></div>
@@ -21,20 +21,30 @@ toc: false
   
 </figure>
 <div class="case-content">
-  <section><p class="eyebrow">01 / THE QUESTION</p><h3>When and where is demand highest?</h3>
-    <p>The project began with a business question: which metro lines have the greatest rider demand, and how does that demand shift by hour? Answering it required consistent event data, reliable station-to-route relationships, and reusable analytical models.</p>
+  <section>
+    <p class="eyebrow">01 / THE QUESTION</p>
+    <h3>Which lines are busiest, and when?</h3>
+    <p>Answering a straightforward ridership question requires much more than a chart. Event records, station metadata, and line connections have to agree before demand can be compared reliably across the Prague Metro network.</p>
   </section>
-  <section><p class="eyebrow">02 / THE PIPELINE</p><h3>From ingestion to an analysis-ready warehouse</h3>
-    <p>I worked on a multi-stage data engineering flow using Python and Airflow to ingest operational data, create structured JSON snapshots, store data in AWS S3, and load PostgreSQL for warehouse modeling. dbt transformations turned staged events and route metadata into analytical tables. The broader project also used DuckDB and MongoDB.</p>
+  <section>
+    <p class="eyebrow">02 / MY CONTRIBUTION</p>
+    <h3>Building the analytical foundation</h3>
+    <p>I worked on a pipeline that used Python and Airflow for ingestion and orchestration, AWS S3 for structured snapshots, and PostgreSQL for storage. dbt transformations shaped the raw records into reusable warehouse models. The wider project also involved Docker, DuckDB, and MongoDB.</p>
   </section>
-  <section><p class="eyebrow">03 / MODELING</p><h3>Making tap events useful by line and hour</h3>
-    <p>The warehouse included station and route dimensions, a station-to-line bridge, a modeled fact table for tap events associated with routes, and a line-hour demand mart. Where stations serve more than one line, allocated-tap logic distributes shared-station demand rather than simply counting a shared event multiple times.</p>
+  <section>
+    <p class="eyebrow">03 / THE HARD PART</p>
+    <h3>Getting shared stations right</h3>
+    <p>A station can serve multiple metro lines, which makes naive aggregation misleading. The warehouse used station and route dimensions, a station-to-line bridge, and allocated-tap logic to distribute demand across connected lines. A line-hour mart then made downstream comparisons easier to query.</p>
   </section>
-  <section><p class="eyebrow">04 / VALIDATION</p><h3>Proving the data could be queried</h3>
-    <p>One validated June 12, 2026 build contained <strong>4 lines, 65 stations, 70 station-line relationships, 24 hourly buckets, approximately 1.4 million fact rows, and 933 line-hour mart rows</strong>. These figures describe a recorded project build, not a live ridership count or a current production metric.</p>
+  <section>
+    <p class="eyebrow">04 / VALIDATED OUTPUT</p>
+    <h3>An analysis-ready warehouse, not just a diagram</h3>
+    <p>One validated build on June 12, 2026 included <strong>4 lines, 65 stations, 70 station-line relationships, 24 hourly buckets, approximately 1.4 million fact rows, and 933 line-hour mart rows</strong>. Those are figures from a recorded project run, not live ridership totals.</p>
   </section>
-  <section><p class="eyebrow">05 / TAKEAWAY</p><h3>Analytics starts before the chart</h3>
-    <p>The important engineering decision was modeling the underlying relationships correctly so that downstream questions could be answered consistently. The project demonstrates ingestion, orchestration, validation, warehouse design, transformation, and the translation of a business question into a usable analytics output.</p>
+  <section>
+    <p class="eyebrow">05 / THE TAKEAWAY</p>
+    <h3>Trustworthy analytics starts with data modeling</h3>
+    <p>This work connected a practical question to ingestion, orchestration, relationship modeling, and validation. The most important outcome was a data structure that could answer the question consistently, even at shared stations and across multiple time periods.</p>
   </section>
 </div>
 <div class="case-actions"><a class="quiet-link" href="../projects.html">Explore more projects ↗</a></div>

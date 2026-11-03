@@ -8,7 +8,7 @@ toc: false
 <div class="portfolio-intro">
   <p class="eyebrow">THE PORTFOLIO</p>
   <h2>Work worth opening up.</h2>
-  <p>Products I've built, analysis I've developed, and systems I've improved. Each project shows the problem, my contribution, and what I learned along the way.</p>
+  <p>A working product, a collaborative financial study, data pipelines, marketing operations, and business-critical infrastructure. These case studies focus on the decisions behind the work and the results I can substantiate.</p>
 </div>
 
 <div class="filter-row" role="group" aria-label="Filter projects by discipline">
@@ -25,7 +25,7 @@ toc: false
   <div class="portfolio-copy">
     <div class="portfolio-topline"><span>PRODUCT DESIGN / APPLICATION DEVELOPMENT</span><span>01 / 05</span></div>
     <h2><a href="projects/pairname.html">PairName</a></h2>
-    <p>A collaborative baby-name discovery experience that helps partners find agreement while evaluating names independently.</p>
+    <p>Designed and built a mobile-first matching app where partners swipe privately, save their favorites, and discover names they both like.</p>
     <div class="portfolio-bottom"><span class="portfolio-proof">ZERO-TO-ONE PRODUCT</span><a href="https://pairname.awjackson00.workers.dev/" class="quiet-link" target="_blank" rel="noopener noreferrer" aria-label="Open PairName project website in a new tab">Try live app ↗</a><a href="projects/pairname.html" class="portfolio-arrow" aria-label="Read PairName case study">↗</a></div>
     <div class="portfolio-stack">JavaScript · Supabase · Authentication · UX flows</div>
   </div>
@@ -35,7 +35,7 @@ toc: false
   <div class="portfolio-copy">
     <div class="portfolio-topline"><span>DATA SCIENCE / FINANCIAL ANALYTICS</span><span>02 / 05</span></div>
     <h2><a href="projects/risky-business.html">Risky Business</a></h2>
-    <p>A portfolio resilience study examining performance, downside risk, and statistical behavior across nine market regimes.</p>
+    <p>Co-developed a Python backtesting study comparing five portfolio strategies across nine market regimes using returns, volatility, Sharpe, and Sortino ratios.</p>
     <div class="portfolio-bottom"><span class="portfolio-proof">NINE MARKET REGIMES</span><a href="https://awjackson00.github.io/Risky-Business/" class="quiet-link" target="_blank" rel="noopener noreferrer" aria-label="Open Risky Business project website in a new tab">Visit website ↗</a><a href="projects/risky-business.html" class="portfolio-arrow" aria-label="Read Risky Business case study">↗</a></div>
     <div class="portfolio-stack">Python · pandas · NumPy · Statistical analysis</div>
   </div>
@@ -45,7 +45,7 @@ toc: false
   <div class="portfolio-copy">
     <div class="portfolio-topline"><span>DATA ENGINEERING / TRANSIT ANALYTICS</span><span>03 / 05</span></div>
     <h2><a href="projects/prague-metro.html">Prague Metro data platform</a></h2>
-    <p>A multi-stage data pipeline and warehouse for exploring transit ridership patterns across lines and hours of the day.</p>
+    <p>Helped engineer a pipeline from transit events to PostgreSQL and dbt models, making station, route, and hourly ridership patterns queryable.</p>
     <div class="portfolio-bottom"><span class="portfolio-proof">PIPELINE → WAREHOUSE → DASHBOARD MART</span><a href="projects/prague-metro.html" class="portfolio-arrow" aria-label="Read Prague Metro case study">↗</a></div>
     <div class="portfolio-stack">Python · Airflow · AWS S3 · PostgreSQL · dbt</div>
     <div class="map-credit">2026 station map: <a href="https://commons.wikimedia.org/wiki/File:Prague_metro_plan_2026.svg" target="_blank" rel="noopener noreferrer">Tomáš Vojtíšek</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></div>
@@ -56,7 +56,7 @@ toc: false
   <div class="portfolio-copy">
     <div class="portfolio-topline"><span>PROJECT MANAGEMENT / GROWTH</span><span>04 / 05</span></div>
     <h2><a href="projects/marion-berries.html">Marion Berries fan engagement</a></h2>
-    <p>Coordinating launch-season marketing, fan engagement, and game-day workflows, informed by audience and event data.</p>
+    <p>Managed marketing priorities and cross-team delivery for a baseball club's inaugural season, using fan engagement data to inform events and improve ticketing workflows.</p>
     <div class="portfolio-bottom"><span class="portfolio-proof">INAUGURAL SEASON</span><a href="projects/marion-berries.html" class="portfolio-arrow" aria-label="Read Marion Berries campaign case study">↗</a></div>
     <div class="portfolio-stack">Project management · Growth analytics · Stakeholders</div>
   </div>
@@ -66,7 +66,7 @@ toc: false
   <div class="portfolio-copy">
     <div class="portfolio-topline"><span>SYSTEMS / INFRASTRUCTURE</span><span>05 / 05</span></div>
     <h2><a href="projects/infrastructure.html">Cloud & database optimization</a></h2>
-    <p>Improving reliability and performance of systems supporting more than 150 weekly clients.</p>
+    <p>Investigated cloud and database bottlenecks in systems serving 150+ weekly clients, helping reduce latency by roughly 20–30% and improve data-processing performance.</p>
     <div class="portfolio-bottom"><span class="portfolio-proof">20–30% LOWER LATENCY</span><a href="projects/infrastructure.html" class="portfolio-arrow" aria-label="Read Cloud & database optimization case study">↗</a></div>
     <div class="portfolio-stack">Databases · Cloud infrastructure · Performance</div>
   </div>
