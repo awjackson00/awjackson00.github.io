@@ -12,7 +12,7 @@ toc: false
   <p class="case-lede">Testing whether a portfolio that performs well in calm markets can stay resilient when the environment changes.</p>
   <div class="case-meta"><div><span>MY ROLE</span><strong>EDA, statistical modeling preparation, analysis, and technical writing; collaborative project</strong></div><div><span>SCOPE</span><strong>Five portfolio constructions across nine market regimes</strong></div><div><span>TOOLS &amp; SKILLS</span><strong>Python, pandas, NumPy, yfinance, ARIMA</strong></div></div>
 </header>
-<figure class="case-figure"><img src="../images/projects/risky-business-website.png" alt="Actual screenshot of the published Risky Business capstone homepage" width="1440" height="810"><figcaption>Actual screenshot of the jointly authored Risky Business research website, captured in November 2026. No chart values were recreated or generated.</figcaption></figure>
+<figure class="case-figure"><img src="../images/projects/risky-business-website.png" alt="Actual screenshot of the published Risky Business capstone homepage" width="1440" height="810"></figure>
 <div class="case-content">
   <section><p class="eyebrow">01 / CONTEXT</p><h3>The problem</h3><p>The highest-return portfolio is not always the best portfolio for an investor who needs resilience during volatile periods. We wanted to compare risk and return across distinct market environments rather than just looking at one aggregate backtest.</p></section>
   <section><p class="eyebrow">02 / OWNERSHIP</p><h3>What I contributed</h3><p>I co-developed the project, taking responsibility for major portions of the exploratory data analysis pipeline, statistical modeling preparation, and the written interpretation of results.</p></section>

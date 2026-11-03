@@ -52,8 +52,7 @@ description: "Alexander Jackson builds and improves products at the intersection
         <div class="feature-details"><span class="project-meta">03 / DATA ENGINEERING</span><h3>Prague Metro</h3><p>Building a path from transit events to analysis-ready models of line and hourly demand.</p><a class="feature-link" href="projects/prague-metro.html">Explore the case study ↗</a><span class="map-credit">Map by <a href="https://commons.wikimedia.org/wiki/File:Prague_metro_plan_2026.svg" target="_blank" rel="noopener noreferrer">Tomáš Vojtíšek</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></span></div>
       </article>
     </div>
-    <p class="visual-disclosure">PairName and Risky Business show real website screenshots. The Prague Metro image is an attributed network map, not an analytical output.</p>
-  </section>
+    </section>
 
   <section class="home-section expertise-section" aria-labelledby="approach-heading">
     <div class="section-heading">

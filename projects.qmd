@@ -72,7 +72,6 @@ toc: false
   </div>
 </article>
 </div>
-<p class="project-image-note">PairName and Risky Business use authentic website screenshots; Prague Metro uses an attributed 2026 map. Marion Berries combines an actual stadium photograph and the unchanged team logo with editorial typography. The infrastructure cover remains illustrative.</p>
 <p class="portfolio-endnote">Want to see the full analysis behind Risky Business? <a href="capstone.html">Read the capstone report ↗</a></p>
 
 <script>
