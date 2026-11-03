@@ -40,9 +40,9 @@ description: "Product manager and technical builder with a background in compute
       <div class="feature-image"><img src="images/projects/risky-business.svg" alt="Illustrative market-regime and risk-analysis visualization for Risky Business" loading="lazy"></div>
       <div class="feature-details"><span class="project-meta">02 / DATA SCIENCE</span><h3>Risky Business</h3><p>Exploring how portfolio resilience changes across nine different market regimes through Python analysis.</p><span class="feature-link">Read case study ↗</span></div>
     </a>
-    <a class="feature-card" href="projects/dodgers.html">
-      <div class="feature-image"><img src="images/projects/dodgers.svg" alt="Concept artwork showing a baseball field and scouting analytics" loading="lazy"></div>
-      <div class="feature-details"><span class="project-meta">03 / TECHNICAL PRODUCT</span><h3>Scouting analytics platform</h3><p>Turning scouting workflows and more than 100 player variables into a more consistent evaluation process.</p><span class="feature-link">Read case study ↗</span></div>
+    <a class="feature-card" href="projects/prague-metro.html">
+      <div class="feature-image"><img src="images/projects/prague-metro.svg" alt="Illustrative Prague Metro data-pipeline and station-line analysis visualization" loading="lazy"></div>
+      <div class="feature-details"><span class="project-meta">03 / DATA ENGINEERING</span><h3>Prague Metro data platform</h3><p>From raw transit data to a modeled warehouse for understanding demand by line, station, and hour.</p><span class="feature-link">Read case study ↗</span></div>
     </a>
   </div>
 </section>
@@ -61,7 +61,7 @@ description: "Product manager and technical builder with a background in compute
 <section class="home-section track-section">
   <div class="section-heading"><div><p class="eyebrow">EXPERIENCE</p><h2>Work with real users and real constraints.</h2></div><a class="text-link" href="experience.html">View experience ↗</a></div>
   <div class="experience-list">
-    <div class="experience-line"><div><strong>Los Angeles Dodgers</strong><small>Software development · Scouting analytics</small></div><p>Built a Python-based platform evaluating 100+ player variables, translating scouts' workflows into product requirements.</p></div>
+    <div class="experience-line"><div><strong>Willamette Angel Fund / Oregon Venture Fund</strong><small>Investment analysis · Product judgment</small></div><p>Evaluated early-stage companies through market, product, and financial due diligence to support investment recommendations.</p></div>
     <div class="experience-line"><div><strong>Macfarlane Faletti &amp; Co</strong><small>Cloud and database infrastructure</small></div><p>Improved systems supporting 150+ weekly clients, reducing latency by approximately 20–30%.</p></div>
     <div class="experience-line"><div><strong>Marion Berries Baseball Club</strong><small>Project management · Growth operations</small></div><p>Coordinated inaugural-season marketing execution and used engagement data to improve ticketing and event processes.</p></div>
   </div>

@@ -6,7 +6,7 @@ Personal portfolio for Alexander Jackson, built with [Quarto](https://quarto.org
 
 - `index.qmd`: home, featured work, core disciplines, experience.
 - `projects.qmd`: image-led portfolio with category filters.
-- `projects/*.qmd`: dedicated case studies for five featured projects.
+- `projects/*.qmd`: dedicated case studies for five featured projects, including Prague Metro data engineering.
 - `capstone.qmd`: the full Risky Business capstone report.
 - `experience.qmd`, `about.qmd`, `resume.qmd`: supporting pages.
 - `styles.scss`: light editorial design system, shared components, and responsive layout.
@@ -30,7 +30,7 @@ The rendered site is written to `_site/`. GitHub Actions publishes from `main`.
 
 ## Portfolio imagery
 
-The four other projects and Risky Business currently use conceptual SVG visuals, not actual app screenshots or quantitative results. They are labeled as illustrations on each case-study page. When representative original project screenshots or approved marketing materials are available, replace the respective `images/projects/<slug>.svg` image and update its alt text/caption. The existing capstone report and its supporting files have been preserved.
+All five featured projects currently use conceptual SVG visuals, not actual app screenshots or quantitative results. They are labeled as illustrations on each case-study page. When representative original project screenshots or approved marketing materials are available, replace the respective `images/projects/<slug>.svg` image and update its alt text/caption. The existing capstone report and its supporting files have been preserved.
 
 PairName is a static JavaScript/Supabase app in its current connected repository. The portfolio avoids linking to that private repository or claiming live user metrics. No unpublished client datasets, private assets, or internal screens are included.
 

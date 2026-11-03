@@ -39,14 +39,14 @@ toc: false
     <div class="portfolio-stack">Python · pandas · NumPy · Statistical analysis</div>
   </div>
 </article>
-<article class="portfolio-card" data-tags="Engineering,Data,Product">
-  <a class="portfolio-cover" href="projects/dodgers.html" aria-label="Read the Scouting analytics platform case study"><img src="images/projects/dodgers.svg" alt="Concept illustration of a baseball diamond with scouting evaluation panels" loading="lazy"></a>
+<article class="portfolio-card" data-tags="Engineering,Data">
+  <a class="portfolio-cover" href="projects/prague-metro.html" aria-label="Read the Prague Metro case study"><img src="images/projects/prague-metro.svg" alt="Illustrative route network and line-hour demand analytics for the Prague Metro data platform" loading="lazy"></a>
   <div class="portfolio-copy">
-    <div class="portfolio-topline"><span>SOFTWARE DEVELOPMENT / ANALYTICS</span><span>03 / 05</span></div>
-    <h2><a href="projects/dodgers.html">Scouting analytics platform</a></h2>
-    <p>A scouting tool that translated real evaluation workflows and 100+ player variables into practical analysis.</p>
-    <div class="portfolio-bottom"><span class="portfolio-proof">100+ PLAYER VARIABLES</span><a href="projects/dodgers.html" class="portfolio-arrow" aria-label="Read Scouting analytics platform case study">↗</a></div>
-    <div class="portfolio-stack">Python · Statistical modeling · Requirements</div>
+    <div class="portfolio-topline"><span>DATA ENGINEERING / TRANSIT ANALYTICS</span><span>03 / 05</span></div>
+    <h2><a href="projects/prague-metro.html">Prague Metro data platform</a></h2>
+    <p>A multi-stage data pipeline and warehouse for exploring transit ridership patterns across lines and hours of the day.</p>
+    <div class="portfolio-bottom"><span class="portfolio-proof">PIPELINE → WAREHOUSE → DASHBOARD MART</span><a href="projects/prague-metro.html" class="portfolio-arrow" aria-label="Read Prague Metro case study">↗</a></div>
+    <div class="portfolio-stack">Python · Airflow · AWS S3 · PostgreSQL · dbt</div>
   </div>
 </article>
 <article class="portfolio-card" data-tags="Operations,Product">
