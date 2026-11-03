@@ -39,18 +39,18 @@ description: "Alexander Jackson builds and improves products at the intersection
       <a class="text-link" href="projects.html">All projects <span aria-hidden="true">↗</span></a>
     </div>
     <div class="feature-grid">
-      <a class="feature-card" href="projects/pairname.html">
+      <article class="feature-card">
         <div class="feature-image"><img src="images/projects/pairname.svg" width="1600" height="900" alt="Illustration of two independent preference lists converging on a mutual match" loading="lazy" decoding="async"></div>
-        <div class="feature-details"><span class="project-meta">01 / PRODUCT DEVELOPMENT</span><h3>PairName</h3><p>A baby-name matching app designed around independent choices and shared preferences.</p><span class="feature-link">Explore the case study ↗</span></div>
-      </a>
-      <a class="feature-card" href="projects/risky-business.html">
+        <div class="feature-details"><span class="project-meta">01 / PRODUCT DEVELOPMENT</span><h3>PairName</h3><p>A baby-name matching app designed around independent choices and shared preferences.</p><div class="feature-actions"><a href="projects/pairname.html" class="feature-link">Read case study ↗</a><a class="feature-live" href="https://pairname.awjackson00.workers.dev/" target="_blank" rel="noopener noreferrer">Open app ↗</a></div></div>
+      </article>
+      <article class="feature-card">
         <div class="feature-image"><img src="images/projects/risky-business.svg" width="1600" height="900" alt="Illustrative chart depicting comparisons of portfolio risk across market regimes" loading="lazy" decoding="async"></div>
-        <div class="feature-details"><span class="project-meta">02 / DATA SCIENCE</span><h3>Risky Business</h3><p>Exploring portfolio resilience and risk-adjusted performance across nine market regimes.</p><span class="feature-link">Explore the case study ↗</span></div>
-      </a>
-      <a class="feature-card" href="projects/prague-metro.html">
+        <div class="feature-details"><span class="project-meta">02 / DATA SCIENCE</span><h3>Risky Business</h3><p>Exploring portfolio resilience and risk-adjusted performance across nine market regimes.</p><div class="feature-actions"><a href="projects/risky-business.html" class="feature-link">Read case study ↗</a><a class="feature-live" href="https://github.com/awjackson00/data510--Quant-Back-Testing-" target="_blank" rel="noopener noreferrer">View source ↗</a></div></div>
+      </article>
+      <article class="feature-card">
         <div class="feature-image"><img src="images/projects/prague-metro.svg" width="1600" height="900" alt="Illustrated metro line network connected to data analytics charts" loading="lazy" decoding="async"></div>
-        <div class="feature-details"><span class="project-meta">03 / DATA ENGINEERING</span><h3>Prague Metro</h3><p>Building a path from transit events to analysis-ready models of line and hourly demand.</p><span class="feature-link">Explore the case study ↗</span></div>
-      </a>
+        <div class="feature-details"><span class="project-meta">03 / DATA ENGINEERING</span><h3>Prague Metro</h3><p>Building a path from transit events to analysis-ready models of line and hourly demand.</p><div class="feature-actions"><a href="projects/prague-metro.html" class="feature-link">Read case study ↗</a><a class="feature-live" href="projects/prague-metro.html">Technical write-up ↗</a></div></div>
+      </article>
     </div>
     <p class="visual-disclosure">Project artwork is illustrative. The case studies explain the actual work and its scope.</p>
   </section>

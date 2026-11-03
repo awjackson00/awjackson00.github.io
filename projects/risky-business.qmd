@@ -11,6 +11,7 @@ toc: false
   <h2>Risky Business</h2>
   <p class="case-lede">Testing whether a portfolio that performs well in calm markets can stay resilient when the environment changes.</p>
   <div class="case-meta"><div><span>MY ROLE</span><strong>EDA, statistical modeling preparation, analysis, and technical writing; collaborative project</strong></div><div><span>SCOPE</span><strong>Five portfolio constructions across nine market regimes</strong></div><div><span>TOOLS &amp; SKILLS</span><strong>Python, pandas, NumPy, yfinance, ARIMA</strong></div></div>
+<div class="case-link-strip"><a class="btn btn-primary case-external-link" href="https://github.com/awjackson00/data510--Quant-Back-Testing-" target="_blank" rel="noopener noreferrer">View source code ↗</a><span class="case-link-note">Public GitHub repository</span></div>
 </header>
 <figure class="case-figure"><img src="../images/projects/risky-business.svg" alt="Illustrative visual for Risky Business" width="1600" height="900"><figcaption>Conceptual project illustration, not an actual product screenshot or performance chart.</figcaption></figure>
 <div class="case-content">
@@ -20,7 +21,7 @@ toc: false
   <section><p class="eyebrow">04 / TAKEAWAY</p><h3>Outcomes and learning</h3><p>The analysis found no single portfolio was consistently strongest across every regime. ARIMA did not show reliably useful predictive structure in the studied daily return series, an important result to report rather than overstate.</p></section>
   <section><p class="eyebrow">05 / WHAT'S NEXT</p><h3>Where this goes next</h3><p>The complete capstone includes data assumptions, portfolio definitions, market-regime boundaries, and detailed findings.</p></section>
 </div>
-<div class="case-actions"><a class="btn btn-outline-primary" href="../capstone.html">Read full capstone ↗</a>
+<div class="case-actions"><a class="btn btn-primary case-external-link" href="https://github.com/awjackson00/data510--Quant-Back-Testing-" target="_blank" rel="noopener noreferrer">View source code ↗</a><a class="btn btn-outline-primary" href="../capstone.html">Read full capstone ↗</a>
 <a class="btn btn-outline-primary" href="https://github.com/awjackson00/data510--Quant-Back-Testing-" target="_blank" rel="noopener noreferrer">View public repository ↗</a><a class="quiet-link" href="../projects.html">Explore more projects ↗</a></div>
 </div>
 ```

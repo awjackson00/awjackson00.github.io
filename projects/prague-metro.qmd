@@ -15,12 +15,13 @@ toc: false
     <div><span>PROJECT SCOPE</span><strong>Transit events, station and route dimensions, line-hour demand</strong></div>
     <div><span>TOOLS &amp; SKILLS</span><strong>Python, Airflow, AWS S3, PostgreSQL, dbt, Docker</strong></div>
   </div>
+<div class="case-link-strip"><a class="btn btn-outline-primary case-external-link" href="#pipeline-details">Technical write-up ↗</a><span class="case-link-note">Technical case study · no public deployment</span></div>
 </header>
 <figure class="case-figure">
   <img src="../images/projects/prague-metro.svg" width="1600" height="900" alt="Illustrative Prague Metro line network and data-engineering flow diagram">
   <figcaption>Illustrative transit-data visualization. This is not a literal geographic route map or screenshot of a production dashboard.</figcaption>
 </figure>
-<div class="case-content">
+<div class="case-content" id="pipeline-details">
   <section><p class="eyebrow">01 / THE QUESTION</p><h3>When and where is demand highest?</h3>
     <p>The project began with a business question: which metro lines have the greatest rider demand, and how does that demand shift by hour? Answering it required consistent event data, reliable station-to-route relationships, and reusable analytical models.</p>
   </section>
@@ -37,6 +38,6 @@ toc: false
     <p>The important engineering decision was modeling the underlying relationships correctly so that downstream questions could be answered consistently. The project demonstrates ingestion, orchestration, validation, warehouse design, transformation, and the translation of a business question into a usable analytics output.</p>
   </section>
 </div>
-<div class="case-actions"><a class="quiet-link" href="../projects.html">Explore more projects ↗</a></div>
+<div class="case-actions"><a class="btn btn-outline-primary case-external-link" href="#pipeline-details">Technical write-up ↗</a><a class="quiet-link" href="../projects.html">Explore more projects ↗</a></div>
 </div>
 ```

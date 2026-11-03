@@ -11,6 +11,7 @@ toc: false
   <h2>Marion Berries inaugural-season campaign</h2>
   <p class="case-lede">Coordinating a new baseball club's first season through execution discipline and engagement data.</p>
   <div class="case-meta"><div><span>MY ROLE</span><strong>Project manager, inaugural-season marketing</strong></div><div><span>SCOPE</span><strong>Campaign schedules, deliverables, stakeholders, events, and ticketing</strong></div><div><span>TOOLS &amp; SKILLS</span><strong>Project coordination, marketing analytics, operational improvement</strong></div></div>
+<div class="case-link-strip"><a class="btn btn-primary case-external-link" href="https://www.marionberriesbaseball.com/" target="_blank" rel="noopener noreferrer">Visit team website ↗</a><span class="case-link-note">Organization website, not a campaign deployment</span></div>
 </header>
 <figure class="case-figure"><img src="../images/projects/marion-berries.svg" alt="Illustrative visual for Marion Berries inaugural-season campaign" width="1600" height="900"><figcaption>Conceptual project illustration, not an actual product screenshot or performance chart.</figcaption></figure>
 <div class="case-content">
@@ -20,6 +21,6 @@ toc: false
   <section><p class="eyebrow">04 / TAKEAWAY</p><h3>Outcomes and learning</h3><p>The campaign work contributed to an approximately 15% improvement in ticketing and event processing efficiency, based on the estimate documented in my portfolio.</p></section>
   <section><p class="eyebrow">05 / WHAT'S NEXT</p><h3>Where this goes next</h3><p>Campaign-specific creative assets can be added here later if approved for public display.</p></section>
 </div>
-<div class="case-actions"><a class="quiet-link" href="../projects.html">Explore more projects ↗</a></div>
+<div class="case-actions"><a class="btn btn-primary case-external-link" href="https://www.marionberriesbaseball.com/" target="_blank" rel="noopener noreferrer">Visit team website ↗</a><a class="quiet-link" href="../projects.html">Explore more projects ↗</a></div>
 </div>
 ```

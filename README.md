@@ -41,3 +41,11 @@ PairName is a static JavaScript/Supabase app in its current connected repository
 - Real project specifics and appropriately qualified impact estimates.
 - Responsive and keyboard-accessible cards and filters.
 - Avoid presenting concept artwork as real product screenshots.
+
+## Project website destinations
+
+- PairName: https://pairname.awjackson00.workers.dev/ (production address documented in connected repository; external reachability unverified).
+- Risky Business: https://github.com/awjackson00/data510--Quant-Back-Testing-/ (public source code).
+- Prague Metro: technical case study only; no independently located public deployment or source repository.
+- Marion Berries: https://www.marionberriesbaseball.com/ (organization website, not a campaign demo).
+- MacFarlane, Faletti & Co: https://www.mfco.com/ (organization website, not an internal infrastructure demo).

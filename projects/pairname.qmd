@@ -11,6 +11,7 @@ toc: false
   <h2>PairName</h2>
   <p class="case-lede">Helping two partners discover the names they agree on, without letting one person's choices bias the other.</p>
   <div class="case-meta"><div><span>MY ROLE</span><strong>Product design and implementation</strong></div><div><span>SCOPE</span><strong>Authentication, pairing, swipe flows, mutual matching, saved preferences</strong></div><div><span>TOOLS &amp; SKILLS</span><strong>HTML, CSS, JavaScript, Supabase</strong></div></div>
+<div class="case-link-strip"><a class="btn btn-primary case-external-link" href="https://pairname.awjackson00.workers.dev/" target="_blank" rel="noopener noreferrer">Open PairName app ↗</a><span class="case-link-note">Independent app · deployment address documented in repository</span></div>
 </header>
 <figure class="case-figure"><img src="../images/projects/pairname.svg" alt="Illustrative visual for PairName" width="1600" height="900"><figcaption>Conceptual project illustration, not an actual product screenshot or performance chart.</figcaption></figure>
 <div class="case-content">
@@ -20,6 +21,6 @@ toc: false
   <section><p class="eyebrow">04 / TAKEAWAY</p><h3>Outcomes and learning</h3><p>The result is a working mobile-first product with application logic and Supabase-backed data. This is an independent product project; I am not claiming public adoption, revenue, or external customer outcomes.</p></section>
   <section><p class="eyebrow">05 / WHAT'S NEXT</p><h3>Where this goes next</h3><p>A useful next step is to validate usability with pairs, measure where people drop out of onboarding, and improve the matching experience based on observed behavior.</p></section>
 </div>
-<div class="case-actions"><a class="quiet-link" href="../projects.html">Explore more projects ↗</a></div>
+<div class="case-actions"><a class="btn btn-primary case-external-link" href="https://pairname.awjackson00.workers.dev/" target="_blank" rel="noopener noreferrer">Open PairName app ↗</a><a class="quiet-link" href="../projects.html">Explore more projects ↗</a></div>
 </div>
 ```

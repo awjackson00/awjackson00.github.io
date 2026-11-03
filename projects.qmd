@@ -28,6 +28,7 @@ toc: false
     <p>A collaborative baby-name discovery experience that helps partners find agreement while evaluating names independently.</p>
     <div class="portfolio-bottom"><span class="portfolio-proof">ZERO-TO-ONE PRODUCT</span><a href="projects/pairname.html" class="portfolio-arrow" aria-label="Read PairName case study">↗</a></div>
     <div class="portfolio-stack">JavaScript · Supabase · Authentication · UX flows</div>
+<div class="portfolio-link-row"><a class="portfolio-site-link" href="https://pairname.awjackson00.workers.dev/" target="_blank" rel="noopener noreferrer">Open PairName app ↗</a><a class="portfolio-detail-link" href="projects/pairname.html">Read case study →</a></div>
   </div>
 </article>
 <article class="portfolio-card" data-tags="Data,Product">
@@ -38,6 +39,7 @@ toc: false
     <p>A portfolio resilience study examining performance, downside risk, and statistical behavior across nine market regimes.</p>
     <div class="portfolio-bottom"><span class="portfolio-proof">NINE MARKET REGIMES</span><a href="projects/risky-business.html" class="portfolio-arrow" aria-label="Read Risky Business case study">↗</a></div>
     <div class="portfolio-stack">Python · pandas · NumPy · Statistical analysis</div>
+<div class="portfolio-link-row"><a class="portfolio-site-link" href="https://github.com/awjackson00/data510--Quant-Back-Testing-" target="_blank" rel="noopener noreferrer">View source code ↗</a><a class="portfolio-detail-link" href="projects/risky-business.html">Read case study →</a></div>
   </div>
 </article>
 <article class="portfolio-card" data-tags="Engineering,Data">
@@ -48,6 +50,7 @@ toc: false
     <p>A multi-stage data pipeline and warehouse for exploring transit ridership patterns across lines and hours of the day.</p>
     <div class="portfolio-bottom"><span class="portfolio-proof">PIPELINE → WAREHOUSE → DASHBOARD MART</span><a href="projects/prague-metro.html" class="portfolio-arrow" aria-label="Read Prague Metro case study">↗</a></div>
     <div class="portfolio-stack">Python · Airflow · AWS S3 · PostgreSQL · dbt</div>
+<div class="portfolio-link-row"><a class="portfolio-site-link" href="projects/prague-metro.html">Technical write-up ↗</a><a class="portfolio-detail-link" href="projects/prague-metro.html">Read case study →</a></div>
   </div>
 </article>
 <article class="portfolio-card" data-tags="Operations,Product">
@@ -58,6 +61,7 @@ toc: false
     <p>Coordinating launch-season marketing priorities and using engagement data to inform events and ticketing improvements.</p>
     <div class="portfolio-bottom"><span class="portfolio-proof">INAUGURAL SEASON</span><a href="projects/marion-berries.html" class="portfolio-arrow" aria-label="Read Marion Berries campaign case study">↗</a></div>
     <div class="portfolio-stack">Project management · Growth analytics · Stakeholders</div>
+<div class="portfolio-link-row"><a class="portfolio-site-link" href="https://www.marionberriesbaseball.com/" target="_blank" rel="noopener noreferrer">Visit team website ↗</a><a class="portfolio-detail-link" href="projects/marion-berries.html">Read case study →</a></div>
   </div>
 </article>
 <article class="portfolio-card" data-tags="Engineering,Operations">
@@ -68,10 +72,11 @@ toc: false
     <p>Improving reliability and performance of systems supporting more than 150 weekly clients.</p>
     <div class="portfolio-bottom"><span class="portfolio-proof">20–30% LOWER LATENCY</span><a href="projects/infrastructure.html" class="portfolio-arrow" aria-label="Read Cloud & database optimization case study">↗</a></div>
     <div class="portfolio-stack">Databases · Cloud infrastructure · Performance</div>
+<div class="portfolio-link-row"><a class="portfolio-site-link" href="https://www.mfco.com/" target="_blank" rel="noopener noreferrer">Visit company website ↗</a><a class="portfolio-detail-link" href="projects/infrastructure.html">Read case study →</a></div>
   </div>
 </article>
 </div>
-<p class="project-image-note">Project artwork is illustrative unless otherwise noted. Detailed case studies describe the underlying work; illustrations are not presented as screenshots or measured results.</p>
+<p class="project-image-note">Project images are illustrative concept artwork, not actual product screenshots or measured data. External destinations are labeled as an app, repository, or organization website. Prague Metro has a technical write-up rather than a public demo.</p>
 <p class="portfolio-endnote">Want to see the full analysis behind Risky Business? <a href="capstone.html">Read the capstone report ↗</a></p>
 
 <script>
