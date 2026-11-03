@@ -28,4 +28,12 @@
 - **Method:** Photographic crop, a restrained blue overlay, and editorial campaign typography. The supplied logo is used as-is without redrawing or changing its design.
 - **Meaning:** A real baseball venue, with marketing and fan-engagement framing. This is not an app screenshot, a fabricated crowd, or a claim about event attendance or campaign measurements.
 
-PairName and Risky Business use authentic screenshots, Prague Metro uses an attributed original map, and Marion Berries uses authentic source photography and branding. The infrastructure cover remains illustrative.
+PairName and Risky Business use authentic screenshots, Prague Metro uses an attributed original map, and Marion Berries uses authentic source photography and branding. The cloud and infrastructure cover is also illustrative, not a screenshot or a claim of measured performance.
+
+
+## Cloud & database optimization
+
+- **Image:** `cloud-database-optimization.webp`
+- **Source:** User-approved custom editorial image generated for this portfolio.
+- **Format:** WebP, 1200 × 675, optimized from the original generated cover without changing its layout or wording.
+- **Meaning:** Conceptual architecture and optimization artwork. It is not a screenshot of a production cloud system and the schematic labels are illustrative.
