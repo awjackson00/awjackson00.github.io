@@ -12,7 +12,7 @@ toc: false
   <p class="case-lede">A mobile-first app that turns a personal, two-person decision into a private, low-friction matching experience.</p>
   <div class="case-meta"><div><span>MY ROLE</span><strong>Product design and implementation</strong></div><div><span>SCOPE</span><strong>Authentication, pairing, swipe flows, mutual matching, saved preferences</strong></div><div><span>TOOLS &amp; SKILLS</span><strong>HTML, CSS, JavaScript, Supabase</strong></div></div>
 </header>
-<figure class="case-figure"><img src="../images/projects/pairname-website.png" alt="Actual screenshot of PairName account creation interface" width="1440" height="810"></figure>
+<figure class="case-figure"><img src="../images/projects/pairname-app-showcase.webp" alt="PairName swipe experience showing the name Justin and Pass, Super, and Like actions" width="800" height="450"></figure>
 <div class="case-content">
   <section>
     <p class="eyebrow">01 / THE CHALLENGE</p>

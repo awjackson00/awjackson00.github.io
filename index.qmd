@@ -40,7 +40,7 @@ description: "Alexander Jackson builds and improves products at the intersection
     </div>
     <div class="feature-grid">
       <article class="feature-card">
-        <a class="feature-image" href="projects/pairname.html" aria-label="Read PairName case study"><img src="images/projects/pairname-website.png" width="1600" height="900" alt="Actual screenshot of PairName public account registration and onboarding screen" loading="lazy" decoding="async"></a>
+        <a class="feature-image" href="projects/pairname.html" aria-label="Read PairName case study"><img src="images/projects/pairname-app-showcase.webp" width="800" height="450" alt="PairName baby-name swipe interface showing a Most Popular name card and Pass, Super, and Like controls" loading="lazy" decoding="async"></a>
         <div class="feature-details"><span class="project-meta">01 / PRODUCT DEVELOPMENT</span><h3>PairName</h3><p>Designed and built a mobile-first app where partners review baby names independently, then discover their mutual favorites through shared matches.</p><div class="feature-actions"><a class="feature-link" href="projects/pairname.html">Read case study ↗</a><a class="feature-live-link" href="https://pairname.awjackson00.workers.dev/" target="_blank" rel="noopener noreferrer" aria-label="Open PairName website in a new tab">Try live app ↗</a></div></div>
       </article>
       <article class="feature-card">
