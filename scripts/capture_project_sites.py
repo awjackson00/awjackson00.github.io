@@ -47,3 +47,20 @@ with sync_playwright() as playwright:
         print(json.dumps({"name":name,"title":title,"url":page.url,"http":response.status,"screenshot":path,"bytes":Path(path).stat().st_size,"body_preview":body[:180]}))
         page.close()
     browser.close()
+
+# Download the authentic, unmodified 2026 Prague Metro station map with attribution.
+# Source: Tomáš Vojtíšek, based on Bilykralik16's map; Wikimedia Commons, CC BY-SA 4.0.
+import hashlib
+from urllib.request import Request, urlopen
+
+map_url = "https://upload.wikimedia.org/wikipedia/commons/c/cb/Prague_metro_plan_2026.svg"
+request = Request(map_url, headers={"User-Agent": "AlexanderJacksonPortfolio/1.0 (personal educational portfolio; Wikimedia Commons attribution)"})
+with urlopen(request, timeout=45) as response:
+    raw_map = response.read()
+expected_hash = "8940d9197bf2aff482a803e3381759c8663a3da1"
+actual_hash = hashlib.sha1(raw_map).hexdigest()
+if actual_hash != expected_hash or b"<svg" not in raw_map[:1000] or b"<script" in raw_map.lower():
+    raise RuntimeError(f"Downloaded Prague map differs from the licensed 2026 Commons original ({actual_hash})")
+map_path = Path("images/projects/prague-metro-map-2026.svg")
+map_path.write_bytes(raw_map)
+print(json.dumps({"name": "Prague Metro", "source": map_url, "file": str(map_path), "sha1":actual_hash, "bytes":len(raw_map)}))

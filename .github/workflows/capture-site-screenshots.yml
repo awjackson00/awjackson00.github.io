@@ -28,9 +28,9 @@ jobs:
       - name: Commit screenshots to the review branch
         run: |
           set -euo pipefail
-          git add images/projects/pairname-website.png images/projects/risky-business-website.png
+          git add images/projects/pairname-website.png images/projects/risky-business-website.png images/projects/prague-metro-map-2026.svg
           if ! git diff --cached --quiet; then
-            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "Capture authentic PairName and Risky Business website screenshots"
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "Capture authentic project screenshots and licensed Prague Metro station map"
             git push origin HEAD:portfolio-real-site-screenshots
           fi
       - name: Save image captures as a review artifact
