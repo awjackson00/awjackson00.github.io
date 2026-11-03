@@ -1,101 +1,77 @@
 ---
 toc: false
 page-layout: full
-pagetitle: "Alexander Jackson | Technical Product Manager"
+pagetitle: "Alexander Jackson | Product, Engineering & Analytics"
+description: "Product manager and technical builder with a background in computer science, data science, and business."
 ---
 
-::: {.landing-page}
+<div class="landing-page">
 
-::: {.landing-hero}
+<section class="landing-hero">
+  <div class="landing-copy">
+    <p class="eyebrow"><span class="eyebrow-rule"></span> PRODUCT · TECHNOLOGY · DATA</p>
+    <h1>Alexander Jackson<span class="name-period">.</span></h1>
+    <p class="hero-lede">I turn complex problems into useful products.</p>
+    <p class="hero-summary">Product thinking grounded in hands-on software development, analytical rigor, and business judgment. I work where user needs, engineering decisions, and measurable outcomes meet.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="projects.html">Explore my work <span aria-hidden="true">↗</span></a>
+      <a class="btn btn-outline-primary" href="resume.pdf">Download resume <span aria-hidden="true">↓</span></a>
+      <a class="quiet-link" href="https://www.linkedin.com/in/alexander-jackson5/">LinkedIn ↗</a>
+    </div>
+    <div class="credentials"><span>MBA</span><span>M.S. Data Science</span><span>B.A. Computer Science</span></div>
+  </div>
+  <div class="landing-photo"><img class="profile-hero" src="images/profile.png" width="640" height="800" alt="Portrait of Alexander Jackson" fetchpriority="high"></div>
+</section>
 
-::: {.landing-copy}
-<p class="eyebrow">TECHNICAL PRODUCT MANAGER</p>
+<section class="home-section">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">SELECTED WORK</p>
+      <h2>Built, tested, and put to work.</h2>
+    </div>
+    <a class="text-link" href="projects.html">All projects <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="feature-grid">
+    <a class="feature-card" href="projects/pairname.html">
+      <div class="feature-image"><img src="images/projects/pairname.svg" alt="Concept artwork representing the PairName partner-matching experience" loading="lazy"></div>
+      <div class="feature-details"><span class="project-meta">01 / PRODUCT DEVELOPMENT</span><h3>PairName</h3><p>Designing a better way for two people to discover shared preferences, without influencing each other's choices.</p><span class="feature-link">Read case study ↗</span></div>
+    </a>
+    <a class="feature-card" href="projects/risky-business.html">
+      <div class="feature-image"><img src="images/projects/risky-business.svg" alt="Illustrative market-regime and risk-analysis visualization for Risky Business" loading="lazy"></div>
+      <div class="feature-details"><span class="project-meta">02 / DATA SCIENCE</span><h3>Risky Business</h3><p>Exploring how portfolio resilience changes across nine different market regimes through Python analysis.</p><span class="feature-link">Read case study ↗</span></div>
+    </a>
+    <a class="feature-card" href="projects/dodgers.html">
+      <div class="feature-image"><img src="images/projects/dodgers.svg" alt="Concept artwork showing a baseball field and scouting analytics" loading="lazy"></div>
+      <div class="feature-details"><span class="project-meta">03 / TECHNICAL PRODUCT</span><h3>Scouting analytics platform</h3><p>Turning scouting workflows and more than 100 player variables into a more consistent evaluation process.</p><span class="feature-link">Read case study ↗</span></div>
+    </a>
+  </div>
+</section>
 
-<h1>Alexander Jackson</h1>
+<section class="home-section expertise-section">
+  <div class="section-heading">
+    <div><p class="eyebrow">HOW I APPROACH THE WORK</p><h2>Three disciplines. One way of thinking.</h2></div>
+  </div>
+  <div class="expertise-grid">
+    <div class="expertise-item"><span class="expertise-number">01</span><h3>Product judgment</h3><p>Start with the user's problem, shape the requirements, and make the tradeoffs that matter.</p></div>
+    <div class="expertise-item"><span class="expertise-number">02</span><h3>Technical fluency</h3><p>Build across software, data, APIs, databases, and infrastructure rather than stopping at the specification.</p></div>
+    <div class="expertise-item"><span class="expertise-number">03</span><h3>Evidence-led execution</h3><p>Use analysis, feedback, and meaningful performance measures to improve what gets shipped.</p></div>
+  </div>
+</section>
 
-<p class="hero-lede">I turn complex technical problems into products people can actually use.</p>
+<section class="home-section track-section">
+  <div class="section-heading"><div><p class="eyebrow">EXPERIENCE</p><h2>Work with real users and real constraints.</h2></div><a class="text-link" href="experience.html">View experience ↗</a></div>
+  <div class="experience-list">
+    <div class="experience-line"><div><strong>Los Angeles Dodgers</strong><small>Software development · Scouting analytics</small></div><p>Built a Python-based platform evaluating 100+ player variables, translating scouts' workflows into product requirements.</p></div>
+    <div class="experience-line"><div><strong>Macfarlane Faletti &amp; Co</strong><small>Cloud and database infrastructure</small></div><p>Improved systems supporting 150+ weekly clients, reducing latency by approximately 20–30%.</p></div>
+    <div class="experience-line"><div><strong>Marion Berries Baseball Club</strong><small>Project management · Growth operations</small></div><p>Coordinated inaugural-season marketing execution and used engagement data to improve ticketing and event processes.</p></div>
+  </div>
+</section>
 
-<p class="hero-summary">I work at the intersection of product, technology, data, and business strategy. My background in computer science, data science, software, infrastructure, and business lets me move comfortably between users, engineering, analytics, and decision-making.</p>
+<section class="home-closer">
+  <p class="eyebrow">LET'S CONNECT</p>
+  <h2>Interested in building something useful?</h2>
+  <p>I'm exploring Product Manager and Technical Product Manager opportunities where thoughtful product decisions and technical depth go hand in hand.</p>
+  <div class="hero-actions"><a href="mailto:awjackson00@gmail.com" class="btn btn-primary">Get in touch ↗</a><a href="about.html" class="quiet-link">A little more about me ↗</a></div>
+</section>
 
-<div class="hero-actions">
-<a class="btn btn-primary hero-button" href="projects.qmd">View Projects</a>
-<a class="btn btn-outline-primary hero-button" href="resume.qmd">Resume</a>
-<a class="quiet-link" href="https://www.linkedin.com/in/alexander-jackson5/">LinkedIn ↗</a>
 </div>
-
-<div class="credentials">
-<span>MBA</span>
-<span>M.S. Data Science</span>
-<span>B.A. Computer Science</span>
-</div>
-:::
-
-::: {.landing-photo}
-<img src="images/profile.png" class="profile-hero" alt="Alexander Jackson">
-:::
-
-:::
-
-<div class="soft-divider"></div>
-
-::: {.intro-strip}
-<div>
-<p class="strip-label">PRODUCT</p>
-<p>Strategy, discovery, requirements, prioritization, roadmaps, and cross-functional execution.</p>
-</div>
-
-<div>
-<p class="strip-label">TECHNICAL</p>
-<p>Software, APIs, databases, cloud systems, architecture, and hands-on technical fluency.</p>
-</div>
-
-<div>
-<p class="strip-label">ANALYTICS</p>
-<p>Product metrics, experimentation, dashboards, modeling, and evidence-based decisions.</p>
-</div>
-:::
-
-<div class="soft-divider"></div>
-
-::: {.selected-section}
-<p class="eyebrow">SELECTED EXPERIENCE</p>
-
-## Product thinking grounded in real systems and real users
-
-::: {.experience-line}
-<div class="experience-name">Los Angeles Dodgers</div>
-<div class="experience-detail">Built a scouting analytics platform around 100+ player variables and worked directly with scouts to turn their workflows into product requirements.</div>
-:::
-
-::: {.experience-line}
-<div class="experience-name">Macfarlane Faletti & Co</div>
-<div class="experience-detail">Improved systems supporting 150+ weekly clients, reducing latency by roughly 20–30% and improving data-processing performance by about 25%.</div>
-:::
-
-::: {.experience-line}
-<div class="experience-name">Marion Berries Baseball Club</div>
-<div class="experience-detail">Managed priorities, timelines, stakeholder coordination, and analytics for the club's inaugural-season marketing campaign.</div>
-:::
-
-<div class="section-links">
-<a href="experience.qmd">Full experience →</a>
-<a href="projects.qmd">Projects →</a>
-</div>
-:::
-
-<div class="soft-divider"></div>
-
-::: {.closing-section}
-<p class="eyebrow">WHAT I AM LOOKING FOR</p>
-
-## Product roles where technical depth and business judgment both matter.
-
-<p>I am focused on Product Manager and Technical Product Manager opportunities where I can help teams turn ambiguous problems into clear decisions, useful products, and measurable outcomes.</p>
-
-<div class="hero-actions">
-<a class="btn btn-primary hero-button" href="mailto:awjackson00@gmail.com">Get in Touch</a>
-<a class="quiet-link" href="about.qmd">More about me →</a>
-</div>
-:::
-
-:::

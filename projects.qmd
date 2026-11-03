@@ -1,79 +1,95 @@
 ---
 title: "Projects"
-subtitle: "Selected product, technical, and analytics projects."
+subtitle: "A closer look at how I approach real problems."
 toc: false
 ---
 
-::: {.project-card .featured}
-## PairName: Baby-name matching app
+<div class="portfolio-intro">
+  <p class="eyebrow">THE PORTFOLIO</p>
+  <h2>Work worth opening up.</h2>
+  <p>Products I've built, analysis I've developed, and systems I've improved. Each project shows the problem, my contribution, and what I learned along the way.</p>
+</div>
 
-**Zero-to-one product · Product Manager & Developer**
+<div class="filter-row" role="group" aria-label="Filter projects by discipline">
+  <button type="button" class="filter-chip is-active" data-filter="All" aria-pressed="true">All work</button>
+  <button type="button" class="filter-chip" data-filter="Product" aria-pressed="false">Product</button>
+  <button type="button" class="filter-chip" data-filter="Engineering" aria-pressed="false">Engineering</button>
+  <button type="button" class="filter-chip" data-filter="Data" aria-pressed="false">Data &amp; analytics</button>
+  <button type="button" class="filter-chip" data-filter="Operations" aria-pressed="false">Operations</button>
+</div>
 
-I designed and built a collaborative baby-name discovery product that lets two partners evaluate names independently and surfaces mutual matches.
+<div class="portfolio-grid" id="portfolio-grid">
+<article class="portfolio-card" data-tags="Product,Engineering">
+  <a class="portfolio-cover" href="projects/pairname.html" aria-label="Read the PairName case study"><img src="images/projects/pairname.svg" alt="Concept illustration of two independent preference flows joining into mutual matches" loading="lazy"></a>
+  <div class="portfolio-copy">
+    <div class="portfolio-topline"><span>PRODUCT DESIGN / APPLICATION DEVELOPMENT</span><span>01 / 05</span></div>
+    <h2><a href="projects/pairname.html">PairName</a></h2>
+    <p>A collaborative baby-name discovery experience that helps partners find agreement while evaluating names independently.</p>
+    <div class="portfolio-bottom"><span class="portfolio-proof">ZERO-TO-ONE PRODUCT</span><a href="projects/pairname.html" class="portfolio-arrow" aria-label="Read PairName case study">↗</a></div>
+    <div class="portfolio-stack">JavaScript · Supabase · Authentication · UX flows</div>
+  </div>
+</article>
+<article class="portfolio-card" data-tags="Data,Product">
+  <a class="portfolio-cover" href="projects/risky-business.html" aria-label="Read the Risky Business case study"><img src="images/projects/risky-business.svg" alt="Concept visualization of portfolio comparisons across market regimes" loading="lazy"></a>
+  <div class="portfolio-copy">
+    <div class="portfolio-topline"><span>DATA SCIENCE / FINANCIAL ANALYTICS</span><span>02 / 05</span></div>
+    <h2><a href="projects/risky-business.html">Risky Business</a></h2>
+    <p>A portfolio resilience study examining performance, downside risk, and statistical behavior across nine market regimes.</p>
+    <div class="portfolio-bottom"><span class="portfolio-proof">NINE MARKET REGIMES</span><a href="projects/risky-business.html" class="portfolio-arrow" aria-label="Read Risky Business case study">↗</a></div>
+    <div class="portfolio-stack">Python · pandas · NumPy · Statistical analysis</div>
+  </div>
+</article>
+<article class="portfolio-card" data-tags="Engineering,Data,Product">
+  <a class="portfolio-cover" href="projects/dodgers.html" aria-label="Read the Scouting analytics platform case study"><img src="images/projects/dodgers.svg" alt="Concept illustration of a baseball diamond with scouting evaluation panels" loading="lazy"></a>
+  <div class="portfolio-copy">
+    <div class="portfolio-topline"><span>SOFTWARE DEVELOPMENT / ANALYTICS</span><span>03 / 05</span></div>
+    <h2><a href="projects/dodgers.html">Scouting analytics platform</a></h2>
+    <p>A scouting tool that translated real evaluation workflows and 100+ player variables into practical analysis.</p>
+    <div class="portfolio-bottom"><span class="portfolio-proof">100+ PLAYER VARIABLES</span><a href="projects/dodgers.html" class="portfolio-arrow" aria-label="Read Scouting analytics platform case study">↗</a></div>
+    <div class="portfolio-stack">Python · Statistical modeling · Requirements</div>
+  </div>
+</article>
+<article class="portfolio-card" data-tags="Operations,Product">
+  <a class="portfolio-cover" href="projects/marion-berries.html" aria-label="Read the Marion Berries campaign case study"><img src="images/projects/marion-berries.svg" alt="Illustrative baseball campaign poster and planning board for an inaugural season" loading="lazy"></a>
+  <div class="portfolio-copy">
+    <div class="portfolio-topline"><span>PROJECT MANAGEMENT / GROWTH</span><span>04 / 05</span></div>
+    <h2><a href="projects/marion-berries.html">Marion Berries campaign</a></h2>
+    <p>Coordinating launch-season marketing priorities and using engagement data to inform events and ticketing improvements.</p>
+    <div class="portfolio-bottom"><span class="portfolio-proof">INAUGURAL SEASON</span><a href="projects/marion-berries.html" class="portfolio-arrow" aria-label="Read Marion Berries campaign case study">↗</a></div>
+    <div class="portfolio-stack">Project management · Growth analytics · Stakeholders</div>
+  </div>
+</article>
+<article class="portfolio-card" data-tags="Engineering,Operations">
+  <a class="portfolio-cover" href="projects/infrastructure.html" aria-label="Read the Cloud & database optimization case study"><img src="images/projects/infrastructure.svg" alt="Concept infrastructure diagram linking client applications, services and databases" loading="lazy"></a>
+  <div class="portfolio-copy">
+    <div class="portfolio-topline"><span>SYSTEMS / INFRASTRUCTURE</span><span>05 / 05</span></div>
+    <h2><a href="projects/infrastructure.html">Cloud & database optimization</a></h2>
+    <p>Improving reliability and performance of systems supporting more than 150 weekly clients.</p>
+    <div class="portfolio-bottom"><span class="portfolio-proof">20–30% LOWER LATENCY</span><a href="projects/infrastructure.html" class="portfolio-arrow" aria-label="Read Cloud & database optimization case study">↗</a></div>
+    <div class="portfolio-stack">Databases · Cloud infrastructure · Performance</div>
+  </div>
+</article>
+</div>
+<p class="project-image-note">Project artwork is illustrative unless otherwise noted. Detailed case studies describe the underlying work; illustrations are not presented as screenshots or measured results.</p>
+<p class="portfolio-endnote">Want to see the full analysis behind Risky Business? <a href="capstone.html">Read the capstone report ↗</a></p>
 
-The core product problem was simple: **How do you help two people discover agreement without one person's opinion biasing the other's choice?**
-
-I owned the product from concept through implementation, including user flows, matching behavior, authentication, persistent preferences, swipe interactions, likes, passes, super likes, undo, database logic, and edge cases.
-
-`Product Strategy` `Next.js` `React` `Supabase` `UX Iteration` `Matching Logic`
-:::
-
-::: {.project-card}
-## Risky Business: Portfolio Resilience Capstone
-
-**Data science capstone · Financial analytics · Statistical modeling**
-
-Co-developed a quantitative portfolio analysis project evaluating how different asset-allocation strategies performed across periods of economic growth, financial crisis, and market uncertainty.
-
-I owned major parts of the **exploratory data analysis pipeline, statistical-modeling workflow, data preparation, and technical writing**, helping translate quantitative results into clear recommendations for stakeholders.
-
-The analysis compared portfolio behavior across **nine market regimes** using annualized return, volatility, Sharpe ratio, Sortino ratio, cumulative return, benchmark comparisons, and ARIMA time-series modeling.
-
-**Key finding:** No single portfolio consistently performed best across every market environment, reinforcing the importance of evaluating risk, return, and resilience together rather than optimizing around one metric.
-
-[View Capstone Project](capstone.qmd){.btn .btn-outline-primary}
-
-`Python` `pandas` `NumPy` `yfinance` `ARIMA` `Risk Analytics` `Data Visualization`
-:::
-
-::: {.project-card}
-## Los Angeles Dodgers scouting analytics platform
-
-**Technical product · Analytics**
-
-Built a Python-based scouting platform that evaluated **100+ player variables**. I worked directly with scouts to understand how they evaluated players, translated those workflows into technical requirements, and iterated on the product around how users actually made decisions.
-
-**Impact:** Reduced manual analysis time by approximately **15–20%** while improving consistency in evaluation workflows.
-
-`Python` `Statistical Modeling` `Requirements` `User Feedback` `Product Analytics`
-:::
-
-::: {.project-card}
-## Marion Berries inaugural-season marketing campaign
-
-**Project management · Growth · Operations**
-
-Served as a project manager during the club's inaugural season, coordinating campaign priorities, timelines, stakeholder check-ins, dependencies, and deliverables.
-
-I used fan engagement data to guide marketing and event decisions and helped improve ticketing and event workflows, reducing processing inefficiencies by approximately **15%**.
-
-`Project Management` `Marketing Analytics` `Stakeholder Management` `Operations`
-:::
-
-::: {.project-card}
-## Cloud and database infrastructure optimization
-
-**Systems · Infrastructure · Business workflows**
-
-Identified performance bottlenecks, worked with stakeholders to define requirements, resolved infrastructure issues, and helped modernize systems supporting more than **150 weekly clients**.
-
-**Impact:** Reduced latency by roughly **20–30%**, improved data-processing performance by approximately **25%**, and resolved **22+ infrastructure issues**.
-
-`Cloud Infrastructure` `Databases` `Systems Thinking` `Performance` `Stakeholders`
-:::
-
----
-
-## Other projects
-
-My broader portfolio also includes data engineering, business intelligence, and application development. I use these projects to stay close to the technical work and sharpen how I make product decisions.
+<script>
+(function () {
+  const filters = document.querySelectorAll('.filter-chip');
+  const cards = document.querySelectorAll('.portfolio-card');
+  function selectFilter(category) {
+    filters.forEach((button) => {
+      const active = button.getAttribute('data-filter') === category;
+      button.classList.toggle('is-active', active);
+      button.setAttribute('aria-pressed', String(active));
+    });
+    cards.forEach((card) => {
+      const tags = (card.getAttribute('data-tags') || '').split(',');
+      card.hidden = category !== 'All' && !tags.includes(category);
+    });
+  }
+  filters.forEach((button) => button.addEventListener('click', () => selectFilter(button.getAttribute('data-filter'))));
+  const param = new URLSearchParams(window.location.search).get('tag');
+  if (param && Array.from(filters).some((el) => el.getAttribute('data-filter') === param)) selectFilter(param);
+})();
+</script>

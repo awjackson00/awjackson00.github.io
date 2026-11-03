@@ -1,16 +1,21 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - "images/**"
+    - "resume.pdf"
 
 execute:
   freeze: auto
 
 website:
   title: "Alexander Jackson"
-  description: "Technical Product Management, Product Strategy, Analytics, and Software"
+  description: "Product thinking, technical depth, and analytical execution."
   site-url: https://awjackson00.github.io
+  open-graph: true
 
   navbar:
+    title: "Alexander Jackson"
     right:
       - href: index.qmd
         text: Home
@@ -18,10 +23,10 @@ website:
         text: Projects
       - href: experience.qmd
         text: Experience
-      - href: resume.qmd
-        text: Resume
       - href: about.qmd
         text: About
+      - href: resume.qmd
+        text: Resume
       - icon: github
         href: https://github.com/awjackson00
         aria-label: GitHub
@@ -31,11 +36,12 @@ website:
 
   page-footer:
     left: "© 2026 Alexander Jackson"
-    right: "Product · Technology · Data"
+    right: "Built with curiosity, technical rigor, and good judgment."
 
 format:
   html:
     theme:
       - cosmo
       - styles.scss
-    toc: true
+    toc: false
+    link-external-newwindow: true

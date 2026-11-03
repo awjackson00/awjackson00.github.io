@@ -1,0 +1,24 @@
+---
+title: "Risky Business"
+toc: false
+---
+
+<div class="case-shell">
+<a class="case-back" href="../projects.html">← Back to projects</a>
+<header class="case-hero">
+  <p class="eyebrow">DATA SCIENCE / WILLAMETTE UNIVERSITY</p>
+  <h2>Risky Business</h2>
+  <p class="case-lede">Testing whether a portfolio that performs well in calm markets can stay resilient when the environment changes.</p>
+  <div class="case-meta"><div><span>MY ROLE</span><strong>EDA, statistical modeling preparation, analysis, and technical writing; collaborative project</strong></div><div><span>SCOPE</span><strong>Five portfolio constructions across nine market regimes</strong></div><div><span>TOOLS &amp; SKILLS</span><strong>Python, pandas, NumPy, yfinance, ARIMA</strong></div></div>
+</header>
+<figure class="case-figure"><img src="../images/projects/risky-business.svg" alt="Illustrative visual for Risky Business" width="1600" height="900"><figcaption>Conceptual project illustration, not an actual product screenshot or performance chart.</figcaption></figure>
+<div class="case-content">
+  <section><p class="eyebrow">01 / CONTEXT</p><h3>The problem</h3><p>The highest-return portfolio is not always the best portfolio for an investor who needs resilience during volatile periods. We wanted to compare risk and return across distinct market environments rather than just looking at one aggregate backtest.</p></section>
+  <section><p class="eyebrow">02 / OWNERSHIP</p><h3>What I contributed</h3><p>I co-developed the project, taking responsibility for major portions of the exploratory data analysis pipeline, statistical modeling preparation, and the written interpretation of results.</p></section>
+  <section><p class="eyebrow">03 / PROCESS</p><h3>The approach</h3><p>Our workflow moved from historical market data through portfolio returns, regime labels, risk-adjusted metrics, and comparative visualizations. We evaluated Sharpe and Sortino ratios, volatility, cumulative returns, and ARIMA as a short-term modeling baseline.</p></section>
+  <section><p class="eyebrow">04 / TAKEAWAY</p><h3>Outcomes and learning</h3><p>The analysis found no single portfolio was consistently strongest across every regime. ARIMA did not show reliably useful predictive structure in the studied daily return series, an important result to report rather than overstate.</p></section>
+  <section><p class="eyebrow">05 / WHAT'S NEXT</p><h3>Where this goes next</h3><p>The complete capstone includes data assumptions, portfolio definitions, market-regime boundaries, and detailed findings.</p></section>
+</div>
+<div class="case-actions"><a class="btn btn-outline-primary" href="../capstone.html">Read full capstone ↗</a>
+<a class="btn btn-outline-primary" href="https://github.com/awjackson00/data510--Quant-Back-Testing-" target="_blank" rel="noopener noreferrer">View public repository ↗</a><a class="quiet-link" href="../projects.html">Explore more projects ↗</a></div>
+</div>
