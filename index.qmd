@@ -40,19 +40,19 @@ description: "Alexander Jackson builds and improves products at the intersection
     </div>
     <div class="feature-grid">
       <article class="feature-card">
-        <a class="feature-image" href="projects/pairname.html" aria-label="Read PairName case study"><img src="images/projects/pairname.svg" width="1600" height="900" alt="Illustration of two independent preference lists converging on a mutual match" loading="lazy" decoding="async"></a>
+        <a class="feature-image" href="projects/pairname.html" aria-label="Read PairName case study"><img src="images/projects/pairname-website.png" width="1600" height="900" alt="Actual screenshot of PairName public account registration and onboarding screen" loading="lazy" decoding="async"></a>
         <div class="feature-details"><span class="project-meta">01 / PRODUCT DEVELOPMENT</span><h3>PairName</h3><p>A baby-name matching app designed around independent choices and shared preferences.</p><div class="feature-actions"><a class="feature-link" href="projects/pairname.html">Read case study ↗</a><a class="feature-live-link" href="https://pairname.awjackson00.workers.dev/" target="_blank" rel="noopener noreferrer" aria-label="Open PairName website in a new tab">Try live app ↗</a></div></div>
       </article>
       <article class="feature-card">
-        <a class="feature-image" href="projects/risky-business.html" aria-label="Read Risky Business case study"><img src="images/projects/risky-business.svg" width="1600" height="900" alt="Illustrative chart depicting comparisons of portfolio risk across market regimes" loading="lazy" decoding="async"></a>
+        <a class="feature-image" href="projects/risky-business.html" aria-label="Read Risky Business case study"><img src="images/projects/risky-business-website.png" width="1600" height="900" alt="Actual screenshot of the Risky Business research website homepage" loading="lazy" decoding="async"></a>
         <div class="feature-details"><span class="project-meta">02 / DATA SCIENCE</span><h3>Risky Business</h3><p>Exploring portfolio resilience and risk-adjusted performance across nine market regimes.</p><div class="feature-actions"><a class="feature-link" href="projects/risky-business.html">Read case study ↗</a><a class="feature-live-link" href="https://awjackson00.github.io/Risky-Business/" target="_blank" rel="noopener noreferrer" aria-label="Open Risky Business website in a new tab">Visit website ↗</a></div></div>
       </article>
-      <a class="feature-card" href="projects/prague-metro.html">
-        <div class="feature-image"><img src="images/projects/prague-metro.svg" width="1600" height="900" alt="Illustrated metro line network connected to data analytics charts" loading="lazy" decoding="async"></div>
-        <div class="feature-details"><span class="project-meta">03 / DATA ENGINEERING</span><h3>Prague Metro</h3><p>Building a path from transit events to analysis-ready models of line and hourly demand.</p><span class="feature-link">Explore the case study ↗</span></div>
-      </a>
+      <article class="feature-card">
+        <a class="feature-image" href="projects/prague-metro.html" aria-label="Read Prague Metro case study"><img src="images/projects/prague-metro-map-2026.svg" width="1150" height="1150" class="project-map" alt="Authentic 2026 Prague Metro station map with colored transit lines and station names" loading="lazy" decoding="async"></a>
+        <div class="feature-details"><span class="project-meta">03 / DATA ENGINEERING</span><h3>Prague Metro</h3><p>Building a path from transit events to analysis-ready models of line and hourly demand.</p><a class="feature-link" href="projects/prague-metro.html">Explore the case study ↗</a><span class="map-credit">Map by <a href="https://commons.wikimedia.org/wiki/File:Prague_metro_plan_2026.svg" target="_blank" rel="noopener noreferrer">Tomáš Vojtíšek</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></span></div>
+      </article>
     </div>
-    <p class="visual-disclosure">Project artwork is illustrative. The case studies explain the actual work and its scope.</p>
+    <p class="visual-disclosure">PairName and Risky Business show real website screenshots. The Prague Metro image is an attributed network map, not an analytical output.</p>
   </section>
 
   <section class="home-section expertise-section" aria-labelledby="approach-heading">

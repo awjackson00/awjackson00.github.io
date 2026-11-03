@@ -21,7 +21,7 @@ toc: false
 
 <div class="portfolio-grid" id="portfolio-grid">
 <article class="portfolio-card" data-tags="Product,Engineering">
-  <a class="portfolio-cover" href="projects/pairname.html" aria-label="Read the PairName case study"><img src="images/projects/pairname.svg" alt="Concept illustration of two independent preference flows joining into mutual matches" loading="lazy"></a>
+  <a class="portfolio-cover" href="projects/pairname.html" aria-label="Read the PairName case study"><img src="images/projects/pairname-website.png" alt="Actual screenshot of PairName public registration interface" loading="lazy"></a>
   <div class="portfolio-copy">
     <div class="portfolio-topline"><span>PRODUCT DESIGN / APPLICATION DEVELOPMENT</span><span>01 / 05</span></div>
     <h2><a href="projects/pairname.html">PairName</a></h2>
@@ -31,7 +31,7 @@ toc: false
   </div>
 </article>
 <article class="portfolio-card" data-tags="Data,Product">
-  <a class="portfolio-cover" href="projects/risky-business.html" aria-label="Read the Risky Business case study"><img src="images/projects/risky-business.svg" alt="Concept visualization of portfolio comparisons across market regimes" loading="lazy"></a>
+  <a class="portfolio-cover" href="projects/risky-business.html" aria-label="Read the Risky Business case study"><img src="images/projects/risky-business-website.png" alt="Actual screenshot of the published Risky Business research homepage" loading="lazy"></a>
   <div class="portfolio-copy">
     <div class="portfolio-topline"><span>DATA SCIENCE / FINANCIAL ANALYTICS</span><span>02 / 05</span></div>
     <h2><a href="projects/risky-business.html">Risky Business</a></h2>
@@ -41,13 +41,14 @@ toc: false
   </div>
 </article>
 <article class="portfolio-card" data-tags="Engineering,Data">
-  <a class="portfolio-cover" href="projects/prague-metro.html" aria-label="Read the Prague Metro case study"><img src="images/projects/prague-metro.svg" alt="Illustrative route network and line-hour demand analytics for the Prague Metro data platform" loading="lazy"></a>
+  <a class="portfolio-cover" href="projects/prague-metro.html" aria-label="Read the Prague Metro case study"><img src="images/projects/prague-metro-map-2026.svg" class="project-map" alt="Actual Prague Metro station network map from 2026" loading="lazy"></a>
   <div class="portfolio-copy">
     <div class="portfolio-topline"><span>DATA ENGINEERING / TRANSIT ANALYTICS</span><span>03 / 05</span></div>
     <h2><a href="projects/prague-metro.html">Prague Metro data platform</a></h2>
     <p>A multi-stage data pipeline and warehouse for exploring transit ridership patterns across lines and hours of the day.</p>
     <div class="portfolio-bottom"><span class="portfolio-proof">PIPELINE → WAREHOUSE → DASHBOARD MART</span><a href="projects/prague-metro.html" class="portfolio-arrow" aria-label="Read Prague Metro case study">↗</a></div>
     <div class="portfolio-stack">Python · Airflow · AWS S3 · PostgreSQL · dbt</div>
+    <div class="map-credit">2026 station map: <a href="https://commons.wikimedia.org/wiki/File:Prague_metro_plan_2026.svg" target="_blank" rel="noopener noreferrer">Tomáš Vojtíšek</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></div>
   </div>
 </article>
 <article class="portfolio-card" data-tags="Operations,Product">
@@ -71,7 +72,7 @@ toc: false
   </div>
 </article>
 </div>
-<p class="project-image-note">Project artwork is illustrative unless otherwise noted. Detailed case studies describe the underlying work; illustrations are not presented as screenshots or measured results.</p>
+<p class="project-image-note">PairName and Risky Business feature actual website screenshots. Prague Metro displays a 2026 transit map credited to its creator. Marion Berries and infrastructure cover art remain illustrative.</p>
 <p class="portfolio-endnote">Want to see the full analysis behind Risky Business? <a href="capstone.html">Read the capstone report ↗</a></p>
 
 <script>
