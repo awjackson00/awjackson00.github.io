@@ -20,7 +20,7 @@ toc: false
   <section><p class="eyebrow">04 / TAKEAWAY</p><h3>Outcomes and learning</h3><p>The analysis found no single portfolio was consistently strongest across every regime. ARIMA did not show reliably useful predictive structure in the studied daily return series, an important result to report rather than overstate.</p></section>
   <section><p class="eyebrow">05 / WHAT'S NEXT</p><h3>Where this goes next</h3><p>The complete capstone includes data assumptions, portfolio definitions, market-regime boundaries, and detailed findings.</p></section>
 </div>
-<div class="case-actions"><a class="btn btn-outline-primary" href="../capstone.html">Read full capstone ↗</a>
+<div class="case-actions"><a class="btn btn-primary" href="https://awjackson00.github.io/Risky-Business/results.html" target="_blank" rel="noopener noreferrer">Explore published results ↗</a><a class="btn btn-outline-primary" href="../capstone.html">Read full capstone ↗</a>
 <a class="btn btn-outline-primary" href="https://github.com/awjackson00/data510--Quant-Back-Testing-" target="_blank" rel="noopener noreferrer">View public repository ↗</a><a class="quiet-link" href="../projects.html">Explore more projects ↗</a></div>
 </div>
 ```
