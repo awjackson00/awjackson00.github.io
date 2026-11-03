@@ -33,7 +33,7 @@ class Checker(HTMLParser):
         if tag == "a" and d.get("href"):
             self.links.append(d["href"])
     def handle_data(self, data):
-        if re.search(r"<(?:div|section|article|header|figure)\\b", data, re.I):
+        if re.search(r"<(?:div|section|article|header|figure)\b", data, re.I):
             self.raw_markup_in_text.append(data[:90])
 
 errors = []
@@ -48,7 +48,7 @@ for relative, expected in PAGES.items():
     for required in expected:
         if required not in checker.classes:
             errors.append(f"{relative}: missing expected class {required}")
-    if checker.raw_markup_in_text or re.search(r"&lt;(?:div|section|article)\\b", raw):
+    if checker.raw_markup_in_text or re.search(r"&lt;(?:div|section|article)\b", raw):
         errors.append(f"{relative}: visible literal HTML instead of rendered markup")
     if checker.headings < 2:
         errors.append(f"{relative}: suspiciously few rendered headings")
