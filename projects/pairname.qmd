@@ -9,16 +9,36 @@ toc: false
 <header class="case-hero">
   <p class="eyebrow">PRODUCT DEVELOPMENT / INDEPENDENT PROJECT</p>
   <h2>PairName</h2>
-  <p class="case-lede">Helping two partners discover the names they agree on, without letting one person's choices bias the other.</p>
+  <p class="case-lede">A mobile-first app that turns a personal, two-person decision into a private, low-friction matching experience.</p>
   <div class="case-meta"><div><span>MY ROLE</span><strong>Product design and implementation</strong></div><div><span>SCOPE</span><strong>Authentication, pairing, swipe flows, mutual matching, saved preferences</strong></div><div><span>TOOLS &amp; SKILLS</span><strong>HTML, CSS, JavaScript, Supabase</strong></div></div>
 </header>
 <figure class="case-figure"><img src="../images/projects/pairname-website.png" alt="Actual screenshot of PairName account creation interface" width="1440" height="810"></figure>
 <div class="case-content">
-  <section><p class="eyebrow">01 / CONTEXT</p><h3>The problem</h3><p>Choosing a baby name is collaborative, but most lists make it hard to evaluate preferences independently. The opportunity was to help each person explore names freely and make overlap easy to discover.</p></section>
-  <section><p class="eyebrow">02 / OWNERSHIP</p><h3>What I contributed</h3><p>I developed the application flow from the initial concept through working functionality: partner pairing codes, authentication, likes, passes, Super Likes, undo, persistent preferences, realtime matching, and the saved-name views.</p></section>
-  <section><p class="eyebrow">03 / PROCESS</p><h3>The approach</h3><p>The central design decision was independent evaluation before surfacing mutual matches. That shaped the pairing flow, name review rules, and edge cases for restoring or prioritizing previously reviewed names.</p></section>
-  <section><p class="eyebrow">04 / TAKEAWAY</p><h3>Outcomes and learning</h3><p>The result is a working mobile-first product with application logic and Supabase-backed data. This is an independent product project; I am not claiming public adoption, revenue, or external customer outcomes.</p></section>
-  <section><p class="eyebrow">05 / WHAT'S NEXT</p><h3>Where this goes next</h3><p>A useful next step is to validate usability with pairs, measure where people drop out of onboarding, and improve the matching experience based on observed behavior.</p></section>
+  <section>
+    <p class="eyebrow">01 / THE CHALLENGE</p>
+    <h3>How do two people choose without influencing each other?</h3>
+    <p>Choosing a baby name can quickly turn into comparing two disconnected lists. Showing one partner's preferences too early can influence the other's choices, while tracking likes and passes across categories creates avoidable confusion.</p>
+  </section>
+  <section>
+    <p class="eyebrow">02 / MY CONTRIBUTION</p>
+    <h3>From the product idea to working app</h3>
+    <p>I designed and implemented the core experience: partner pairing, authentication, swipe-based name review, likes, passes, Super Likes, undo, saved lists, persistent preferences, and mutual-match logic. The work included the interactions, application state, and Supabase-backed data needed to keep both partners' choices in sync.</p>
+  </section>
+  <section>
+    <p class="eyebrow">03 / PRODUCT DECISIONS</p>
+    <h3>Independent choices first. Shared answers second.</h3>
+    <p>Each partner evaluates names on their own before the app surfaces shared favorites. I also addressed edge cases such as passing on a name that appears in more than one collection, restoring a pass, and preserving preferences across visits. Those details matter because a matching product needs to feel consistent, not merely look polished.</p>
+  </section>
+  <section>
+    <p class="eyebrow">04 / WHAT WORKS</p>
+    <h3>A usable end-to-end product</h3>
+    <p>PairName is a working mobile-first application with real pairing and preference flows, not a static concept. It demonstrates product design, front-end implementation, state management, and database integration. I have not claimed unverified usage, revenue, or adoption figures.</p>
+  </section>
+  <section>
+    <p class="eyebrow">05 / PRODUCT LESSON</p>
+    <h3>The matching logic is the experience</h3>
+    <p>The hardest design questions were not about a single swipe screen. They were about what users should see, when their choices should become visible to a partner, and how every action should behave across the app. Those rules shaped the product from the beginning.</p>
+  </section>
 </div>
 <div class="case-actions"><a class="btn btn-primary" href="https://pairname.awjackson00.workers.dev/" target="_blank" rel="noopener noreferrer">Launch PairName app ↗</a><a class="quiet-link" href="../projects.html">Explore more projects ↗</a></div>
 </div>

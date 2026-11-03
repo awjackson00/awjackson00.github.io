@@ -9,16 +9,36 @@ toc: false
 <header class="case-hero">
   <p class="eyebrow">INFRASTRUCTURE / MACFARLANE FALETTI & CO</p>
   <h2>Cloud &amp; database optimization</h2>
-  <p class="case-lede">Making business-critical systems more responsive and reliable for the people using them every week.</p>
+  <p class="case-lede">Improving the performance and reliability of cloud and database systems used in everyday business workflows.</p>
   <div class="case-meta"><div><span>MY ROLE</span><strong>Database manager and cloud administrator</strong></div><div><span>SCOPE</span><strong>Systems supporting 150+ weekly clients</strong></div><div><span>TOOLS &amp; SKILLS</span><strong>Databases, infrastructure, troubleshooting, requirements</strong></div></div>
 </header>
 <figure class="case-figure"><img src="../images/projects/cloud-database-optimization.webp" alt="Blue editorial artwork showing connected cloud services, application APIs, and database performance optimization" width="1200" height="675" loading="eager"></figure>
 <div class="case-content">
-  <section><p class="eyebrow">01 / CONTEXT</p><h3>The problem</h3><p>Performance bottlenecks and legacy systems were increasing friction in everyday business workflows. Fixing the technical issues required understanding both system behavior and stakeholder needs.</p></section>
-  <section><p class="eyebrow">02 / OWNERSHIP</p><h3>What I contributed</h3><p>I investigated bottlenecks, resolved infrastructure issues, worked with stakeholders on requirements, and contributed to modernization of existing database and cloud workflows.</p></section>
-  <section><p class="eyebrow">03 / PROCESS</p><h3>The approach</h3><p>I prioritized reliability and measured improvements in latency and processing performance rather than only changes in technical architecture.</p></section>
-  <section><p class="eyebrow">04 / TAKEAWAY</p><h3>Outcomes and learning</h3><p>The work reduced latency by roughly 20–30%, improved data-processing and access performance by approximately 25%, and resolved more than 22 infrastructure issues.</p></section>
-  <section><p class="eyebrow">05 / WHAT'S NEXT</p><h3>Where this goes next</h3><p>The illustration depicts a generic architecture. It does not reveal client infrastructure, credentials, or internal systems.</p></section>
+  <section>
+    <p class="eyebrow">01 / THE CHALLENGE</p>
+    <h3>When slow systems become a business problem</h3>
+    <p>Performance bottlenecks and legacy infrastructure were creating delays in client-facing workflows. Solving them meant understanding not just the technical symptoms, but which issues mattered most to the teams using the systems each week.</p>
+  </section>
+  <section>
+    <p class="eyebrow">02 / MY CONTRIBUTION</p>
+    <h3>Diagnosing and improving critical infrastructure</h3>
+    <p>As a database manager and cloud administrator at Macfarlane Faletti &amp; Co, I investigated bottlenecks, troubleshot infrastructure issues, worked with stakeholders to clarify requirements, and helped modernize underlying database and cloud workflows.</p>
+  </section>
+  <section>
+    <p class="eyebrow">03 / THE APPROACH</p>
+    <h3>Fix the causes, then measure the impact</h3>
+    <p>I connected system troubleshooting with business priorities, focusing on reliability, access speed, and processing performance. Work across databases and infrastructure was guided by the workflows affected, rather than by technical changes in isolation.</p>
+  </section>
+  <section>
+    <p class="eyebrow">04 / THE RESULTS</p>
+    <h3>Faster workflows for 150+ weekly clients</h3>
+    <p>The improvements reduced latency by approximately <strong>20–30%</strong>, improved data-processing and access performance by about <strong>25%</strong>, and resolved <strong>22+ infrastructure issues</strong> in systems supporting more than 150 weekly clients.</p>
+  </section>
+  <section>
+    <p class="eyebrow">05 / THE TAKEAWAY</p>
+    <h3>Technical depth supports better prioritization</h3>
+    <p>The experience showed how translating stakeholder needs into technical work can improve the reliability of business-critical systems. It also reinforced the importance of measuring outcomes that users notice, not just infrastructure changes.</p>
+  </section>
 </div>
 <div class="case-actions"><a class="quiet-link" href="../projects.html">Explore more projects ↗</a></div>
 </div>
