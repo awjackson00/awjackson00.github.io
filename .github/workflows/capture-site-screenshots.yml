@@ -1,0 +1,43 @@
+name: Capture authentic project website screenshots
+
+on:
+  push:
+    branches: [portfolio-real-site-screenshots]
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out screenshot branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install browser and image verification libraries
+        run: |
+          python -m pip install 'playwright==1.56.0' Pillow
+          python -m playwright install --with-deps chromium
+      - name: Capture real public websites, with no login or generated imagery
+        run: python scripts/capture_project_sites.py
+      - name: Commit screenshots to the review branch
+        run: |
+          set -euo pipefail
+          git add images/projects/pairname-website.png images/projects/risky-business-website.png
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "Capture authentic PairName and Risky Business website screenshots"
+            git push origin HEAD:portfolio-real-site-screenshots
+          fi
+      - name: Save image captures as a review artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: authentic-project-screenshots
+          path: |
+            images/projects/pairname-website.png
+            images/projects/risky-business-website.png
+          if-no-files-found: error
