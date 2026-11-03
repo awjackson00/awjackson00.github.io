@@ -10,7 +10,7 @@ description: "Alexander Jackson builds and improves products at the intersection
   <section class="landing-hero" aria-labelledby="home-name">
     <div class="landing-copy">
       <p class="eyebrow"><span class="eyebrow-rule" aria-hidden="true"></span> PRODUCT MANAGER · TECHNICAL BUILDER</p>
-      <h1 id="home-name">Alexander Jackson<span class="name-period">.</span></h1>
+      <h1 id="home-name">Alexander Jackson</h1>
       <p class="hero-lede">I turn complex problems into useful products.</p>
       <p class="hero-summary">My work connects product thinking with software, data, and business strategy. I like understanding the real problem, building a practical solution, and using evidence to make the next decision better.</p>
       <div class="hero-actions">
@@ -25,7 +25,7 @@ description: "Alexander Jackson builds and improves products at the intersection
       <p class="hero-credentials">MBA <span>·</span> M.S. Data Science <span>·</span> B.A. Computer Science</p>
     </div>
     <div class="landing-photo">
-      <img class="profile-hero" src="images/profile.png" width="640" height="800" alt="Portrait of Alexander Jackson" fetchpriority="high">
+      <img class="profile-hero" src="images/profile.png" width="250" height="300" alt="Portrait of Alexander Jackson" fetchpriority="high">
     </div>
   </section>
 

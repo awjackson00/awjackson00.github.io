@@ -237,3 +237,39 @@ a:focus-visible,button:focus-visible { outline:3px solid #83b4e1;outline-offset:
   .landing-photo { width: min(42vw, 154px); align-self: flex-start; }
   .home-section#selected-work { padding-top: 2.8rem; }
 }
+
+/* Portrait refinement: enforce a 5:6 visible crop, not the source photo's natural height. */
+.landing-hero {
+  grid-template-columns: minmax(0, 1fr) 260px;
+  align-items: center;
+}
+.landing-photo {
+  width: 250px;
+  height: 300px;
+  max-width: 100%;
+  justify-self: end;
+  align-self: center;
+  flex: none;
+}
+.landing-photo .profile-hero {
+  display: block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 5 / 6;
+  object-fit: cover;
+  object-position: 50% 20%;
+  border-radius: 10px;
+}
+@media (max-width: 760px) {
+  .landing-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .landing-photo {
+    width: 170px;
+    height: 204px;
+    max-width: 46vw;
+    align-self: flex-start;
+  }
+}
