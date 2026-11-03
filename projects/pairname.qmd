@@ -12,7 +12,7 @@ toc: false
   <p class="case-lede">Helping two partners discover the names they agree on, without letting one person's choices bias the other.</p>
   <div class="case-meta"><div><span>MY ROLE</span><strong>Product design and implementation</strong></div><div><span>SCOPE</span><strong>Authentication, pairing, swipe flows, mutual matching, saved preferences</strong></div><div><span>TOOLS &amp; SKILLS</span><strong>HTML, CSS, JavaScript, Supabase</strong></div></div>
 </header>
-<figure class="case-figure"><img src="../images/projects/pairname.svg" alt="Illustrative visual for PairName" width="1600" height="900"><figcaption>Conceptual project illustration, not an actual product screenshot or performance chart.</figcaption></figure>
+<figure class="case-figure"><img src="../images/projects/pairname-website.png" alt="Actual screenshot of PairName account creation interface" width="1440" height="810"><figcaption>Actual screenshot of the public PairName account creation page, captured in November 2026 with no personal account data.</figcaption></figure>
 <div class="case-content">
   <section><p class="eyebrow">01 / CONTEXT</p><h3>The problem</h3><p>Choosing a baby name is collaborative, but most lists make it hard to evaluate preferences independently. The opportunity was to help each person explore names freely and make overlap easy to discover.</p></section>
   <section><p class="eyebrow">02 / OWNERSHIP</p><h3>What I contributed</h3><p>I developed the application flow from the initial concept through working functionality: partner pairing codes, authentication, likes, passes, Super Likes, undo, persistent preferences, realtime matching, and the saved-name views.</p></section>
@@ -20,6 +20,6 @@ toc: false
   <section><p class="eyebrow">04 / TAKEAWAY</p><h3>Outcomes and learning</h3><p>The result is a working mobile-first product with application logic and Supabase-backed data. This is an independent product project; I am not claiming public adoption, revenue, or external customer outcomes.</p></section>
   <section><p class="eyebrow">05 / WHAT'S NEXT</p><h3>Where this goes next</h3><p>A useful next step is to validate usability with pairs, measure where people drop out of onboarding, and improve the matching experience based on observed behavior.</p></section>
 </div>
-<div class="case-actions"><a class="btn btn-primary" href="https://pairname.awjackson00.workers.dev/" target="_blank" rel="noopener noreferrer">Launch PairName ↗</a><a class="quiet-link" href="../projects.html">Explore more projects ↗</a></div>
+<div class="case-actions"><a class="btn btn-primary" href="https://pairname.awjackson00.workers.dev/" target="_blank" rel="noopener noreferrer">Launch PairName app ↗</a><a class="quiet-link" href="../projects.html">Explore more projects ↗</a></div>
 </div>
 ```

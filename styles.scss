@@ -280,3 +280,64 @@ a:focus-visible,button:focus-visible { outline:3px solid #83b4e1;outline-offset:
     align-self: flex-start;
   }
 }
+
+/* Distinct, keyboard-accessible live website and case-study actions on featured work. */
+.feature-image { display:block; }
+.feature-card:focus-within { outline:3px solid #83b4e1;outline-offset:3px; }
+.feature-actions {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:.75rem;
+  flex-wrap:wrap;
+  margin-top:auto;
+}
+.feature-actions a { text-decoration:none; }
+.feature-actions a:hover { text-decoration:underline; }
+.feature-live-link {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  font:600 .81rem var(--sans);
+  padding:.48rem .78rem;
+  border:1px solid #b9cfe6;
+  background:#edf5fd;
+  border-radius:6px;
+  color:var(--accent);
+}
+.feature-live-link:hover { background:#e0effe; }
+.portfolio-bottom { flex-wrap:wrap; }
+
+/* Genuine screenshots and a freely licensed, unmodified Prague Metro map. */
+.feature-image img.project-map,
+.portfolio-cover img.project-map {
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center;
+  background:#f3f7fc;
+  padding:.35rem;
+}
+.case-figure--metro-map {
+  background:#f3f7fc;
+  border:1px solid var(--line);
+  border-radius:10px;
+}
+.case-figure--metro-map img.project-map {
+  width:100%;
+  max-height:750px;
+  height:auto;
+  object-fit:contain;
+  background:#f3f7fc;
+  padding:1.2rem;
+  border:none;
+}
+.map-credit {
+  display:block;
+  margin-top:.75rem;
+  font-size:.7rem;
+  line-height:1.45;
+  font-weight:400;
+  color:var(--muted);
+}
+.map-credit a { color:var(--accent);font-weight:600; }
