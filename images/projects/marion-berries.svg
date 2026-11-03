@@ -1,38 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="OPERATIONS  /  MARION BERRIES">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Marketing and operations conceptual portfolio artwork">
+
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d2541"/><stop offset=".58" stop-color="#163d65"/><stop offset="1" stop-color="#245a8f"/></linearGradient>
-  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#dbeafb"/></linearGradient>
-  <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#a5c7eb" stroke-width="1" opacity=".13"/></pattern>
-  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#061526" flood-opacity=".28"/></filter>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06172d"/><stop offset=".56" stop-color="#103c6c"/><stop offset="1" stop-color="#041a33"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#2f92e4" stop-opacity=".53"/><stop offset="1" stop-color="#2f92e4" stop-opacity="0"/></radialGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1c517e"/><stop offset="1" stop-color="#092643"/></linearGradient>
+ <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f7fbff"/><stop offset="1" stop-color="#dceafb"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7fceff"/><stop offset="1" stop-color="#176db9"/></linearGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="20"/></filter>
+ <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="38"/></filter>
+ <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M 80 0 L 0 0 0 80" fill="none" stroke="#a2c7e8" stroke-opacity=".075" stroke-width="1.5"/></pattern>
 </defs>
 <rect width="1600" height="900" fill="url(#bg)"/>
 <rect width="1600" height="900" fill="url(#grid)"/>
-<circle cx="1470" cy="90" r="520" fill="#6daff0" opacity=".07"/><circle cx="380" cy="880" r="430" fill="#8bc9ff" opacity=".05"/>
-<path d="M90 95h72" stroke="#64b5fb" stroke-width="7" stroke-linecap="round"/>
-<text x="185" y="104" fill="#b6d9f9" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" letter-spacing="4">OPERATIONS  /  MARION BERRIES</text>
+<circle cx="1230" cy="310" r="560" fill="url(#glow)"/>
+<path d="M-30 810Q520 580 1000 750T1650 680" fill="none" stroke="#58b1f5" stroke-opacity=".12" stroke-width="150"/>
+<rect x="54" y="50" width="1492" height="800" rx="28" fill="none" stroke="#a5d1ef" stroke-opacity=".22" stroke-width="2"/>
+<circle cx="95" cy="93" r="8" fill="#7ad0ff"/><circle cx="123" cy="93" r="8" fill="#7ad0ff" opacity=".42"/><circle cx="151" cy="93" r="8" fill="#7ad0ff" opacity=".22"/>
+<path d="M185 94H400" stroke="#a1c9e9" stroke-opacity=".35" stroke-width="2"/>
+<text x="84" y="806" fill="#d4eaff" opacity=".85" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3">MARKETING AND OPERATIONS</text>
+<text x="1520" y="806" text-anchor="end" fill="#93bce0" opacity=".75" font-family="Arial, sans-serif" font-size="18" letter-spacing="2">CONCEPT ARTWORK</text>
 
-<text x="105" y="277" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="600" >A first season.</text>
-<text x="105" y="354" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="600" >Built together.</text>
-<text x="105" y="438" fill="#bdd9f1" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="500" >Campaign planning  /  fan engagement  /  events</text>
-<g filter="url(#shadow)">
-<rect x="750" y="210" width="690" height="505" rx="20" fill="#f6f9fd"/>
-<rect x="750" y="210" width="690" height="74" rx="20" fill="#e0ebf8"/>
-<path d="M750 268h690" stroke="#c4d9ec" stroke-width="2"/>
-<text x="793" y="254" fill="#234c78" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" letter-spacing="1">INAUGURAL SEASON / CAMPAIGN BOARD</text>
-<rect x="794" y="325" width="290" height="342" rx="12" fill="#e3eef9"/>
-<circle cx="939" cy="473" r="118" fill="#fcfdff" stroke="#aac9e8" stroke-width="8"/>
-<path d="M865 388Q967 468 870 555M1013 390Q911 469 1008 555" stroke="#3b80bc" stroke-width="5" fill="none" stroke-dasharray="7 10"/>
-<text x="874" y="624" fill="#375f85" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" letter-spacing="2">OPENING 2025</text>
-<rect x="1117" y="326" width="277" height="90" rx="12" fill="#eff5fc" stroke="#d2e2ef" stroke-width="2"/>
-<text x="1147" y="367" fill="#3a6791" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" >Campaign</text>
-<text x="1147" y="393" fill="#6c89a7" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="500" >planning</text>
-<rect x="1117" y="437" width="277" height="90" rx="12" fill="#eff5fc" stroke="#d2e2ef" stroke-width="2"/>
-<text x="1147" y="479" fill="#3a6791" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" >Fan</text>
-<text x="1147" y="504" fill="#6c89a7" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="500" >engagement</text>
-<rect x="1117" y="548" width="277" height="91" rx="12" fill="#eff5fc" stroke="#d2e2ef" stroke-width="2"/>
-<text x="1147" y="590" fill="#3a6791" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" >Event</text>
-<text x="1147" y="616" fill="#6c89a7" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="500" >operations</text>
+<g transform="translate(157 160)">
+<ellipse cx="624" cy="590" rx="580" ry="55" fill="#030c1b" opacity=".45" filter="url(#soft)"/>
+<g transform="translate(0 50)">
+<rect x="50" y="65" width="782" height="490" rx="26" fill="#092642" stroke="#75b0df" stroke-width="4"/>
+<ellipse cx="443" cy="315" rx="315" ry="190" fill="#163f67" stroke="#3e75a4" stroke-width="12"/>
+<ellipse cx="443" cy="315" rx="247" ry="146" fill="#266c8e" stroke="#669bbc" stroke-width="7"/>
+<path d="M443 205L553 315 443 425 333 315Z" fill="#c2d3d5" stroke="#fff2df" stroke-width="7"/>
+<path d="M443 205v220M333 315h220" stroke="#d8eeeb" stroke-opacity=".5" stroke-width="3"/>
+<g fill="#f8f0df"><circle cx="443" cy="205" r="10"/><circle cx="553" cy="315" r="10"/><circle cx="443" cy="425" r="10"/><circle cx="333" cy="315" r="10"/></g>
+<g fill="#7ca4c4" opacity=".7"><circle cx="260" cy="158" r="8"/><circle cx="301" cy="140" r="8"/><circle cx="342" cy="132" r="8"/><circle cx="383" cy="122" r="8"/><circle cx="438" cy="118" r="8"/><circle cx="493" cy="122" r="8"/><circle cx="534" cy="132" r="8"/><circle cx="575" cy="140" r="8"/><circle cx="616" cy="158" r="8"/></g>
 </g>
-<text x="105" y="777" fill="#a5cff1" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" letter-spacing="4">PROJECT MANAGEMENT</text>
+<g transform="translate(886 15) rotate(4 210 280)">
+<rect x="0" y="0" width="470" height="565" rx="24" fill="#f4f8fd" stroke="#8ab4d9" stroke-width="6"/>
+<rect x="25" y="24" width="420" height="180" rx="16" fill="#13436d"/>
+<circle cx="353" cy="111" r="56" fill="#2a6a9d"/><path d="M330 135q-22-43 7-55 18-8 25 9 23-11 35 10 7 20-18 36z" fill="#8bc5ed"/>
+<text x="52" y="98" fill="#e4f3ff" font-family="Arial,sans-serif" font-size="25" font-weight="700">SEASON</text>
+<text x="52" y="139" fill="#e4f3ff" font-family="Arial,sans-serif" font-size="38" font-weight="700">LAUNCH</text>
+<text x="51" y="264" fill="#365a7b" font-family="Arial,sans-serif" font-size="21" font-weight="700" letter-spacing="2">CAMPAIGN WORKSTREAMS</text>
+<g fill="#e5eef8"><rect x="50" y="292" width="369" height="61" rx="11"/><rect x="50" y="370" width="369" height="61" rx="11"/><rect x="50" y="448" width="369" height="61" rx="11"/></g>
+<g fill="none" stroke="#397aaf" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M77 323l12 12 20-25"/><path d="M77 400l12 12 20-25"/><path d="M77 479l12 12 20-25"/></g>
+<g fill="#47698a" font-family="Arial,sans-serif" font-size="24"><text x="130" y="330">Fan engagement</text><text x="130" y="408">Event operations</text><text x="130" y="486">Ticketing workflow</text></g>
+</g>
+</g>
 
 </svg>

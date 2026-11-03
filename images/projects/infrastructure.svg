@@ -1,37 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="SYSTEMS  /  CLOUD OPTIMIZATION">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Cloud and data systems conceptual portfolio artwork">
+
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d2541"/><stop offset=".58" stop-color="#163d65"/><stop offset="1" stop-color="#245a8f"/></linearGradient>
-  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#dbeafb"/></linearGradient>
-  <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#a5c7eb" stroke-width="1" opacity=".13"/></pattern>
-  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#061526" flood-opacity=".28"/></filter>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06172d"/><stop offset=".56" stop-color="#103c6c"/><stop offset="1" stop-color="#041a33"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#2f92e4" stop-opacity=".53"/><stop offset="1" stop-color="#2f92e4" stop-opacity="0"/></radialGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1c517e"/><stop offset="1" stop-color="#092643"/></linearGradient>
+ <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f7fbff"/><stop offset="1" stop-color="#dceafb"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7fceff"/><stop offset="1" stop-color="#176db9"/></linearGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="20"/></filter>
+ <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="38"/></filter>
+ <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M 80 0 L 0 0 0 80" fill="none" stroke="#a2c7e8" stroke-opacity=".075" stroke-width="1.5"/></pattern>
 </defs>
 <rect width="1600" height="900" fill="url(#bg)"/>
 <rect width="1600" height="900" fill="url(#grid)"/>
-<circle cx="1470" cy="90" r="520" fill="#6daff0" opacity=".07"/><circle cx="380" cy="880" r="430" fill="#8bc9ff" opacity=".05"/>
-<path d="M90 95h72" stroke="#64b5fb" stroke-width="7" stroke-linecap="round"/>
-<text x="185" y="104" fill="#b6d9f9" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" letter-spacing="4">SYSTEMS  /  CLOUD OPTIMIZATION</text>
+<circle cx="1230" cy="310" r="560" fill="url(#glow)"/>
+<path d="M-30 810Q520 580 1000 750T1650 680" fill="none" stroke="#58b1f5" stroke-opacity=".12" stroke-width="150"/>
+<rect x="54" y="50" width="1492" height="800" rx="28" fill="none" stroke="#a5d1ef" stroke-opacity=".22" stroke-width="2"/>
+<circle cx="95" cy="93" r="8" fill="#7ad0ff"/><circle cx="123" cy="93" r="8" fill="#7ad0ff" opacity=".42"/><circle cx="151" cy="93" r="8" fill="#7ad0ff" opacity=".22"/>
+<path d="M185 94H400" stroke="#a1c9e9" stroke-opacity=".35" stroke-width="2"/>
+<text x="84" y="806" fill="#d4eaff" opacity=".85" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3">CLOUD AND DATA SYSTEMS</text>
+<text x="1520" y="806" text-anchor="end" fill="#93bce0" opacity=".75" font-family="Arial, sans-serif" font-size="18" letter-spacing="2">CONCEPT ARTWORK</text>
 
-<text x="105" y="270" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="600" >Better systems.</text>
-<text x="105" y="349" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="600" >Better performance.</text>
-<text x="105" y="433" fill="#bdd9f1" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="500" >Database and cloud infrastructure improvements</text>
-<g filter="url(#shadow)">
-<rect x="755" y="282" width="685" height="372" rx="24" fill="#f6f9fd"/>
-<rect x="755" y="282" width="685" height="58" rx="24" fill="#e0ecf9"/>
-<path d="M755 328h685" stroke="#cddfed" stroke-width="2"/>
-<text x="802" y="321" fill="#38658d" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" letter-spacing="3">SYSTEM ARCHITECTURE</text>
-<g fill="#e5f0fb" stroke="#aac8e5" stroke-width="3">
-<rect x="810" y="412" width="150" height="158" rx="15"/>
-<rect x="1022" y="412" width="150" height="158" rx="15"/>
-<rect x="1234" y="412" width="150" height="158" rx="15"/>
+<g transform="translate(120 152)">
+<ellipse cx="670" cy="580" rx="600" ry="54" fill="#020916" opacity=".48" filter="url(#soft)"/>
+<g transform="translate(20 10)">
+<rect x="0" y="130" width="330" height="415" rx="22" fill="#0a263f" stroke="#80b5dd" stroke-width="5"/>
+<rect x="26" y="162" width="278" height="55" rx="10" fill="#173d61"/><rect x="26" y="230" width="278" height="55" rx="10" fill="#173d61"/><rect x="26" y="298" width="278" height="55" rx="10" fill="#173d61"/><rect x="26" y="366" width="278" height="55" rx="10" fill="#173d61"/><rect x="26" y="434" width="278" height="55" rx="10" fill="#173d61"/>
+<g fill="#6cd2ff"><circle cx="60" cy="190" r="7"/><circle cx="60" cy="258" r="7"/><circle cx="60" cy="326" r="7"/><circle cx="60" cy="394" r="7"/><circle cx="60" cy="462" r="7"/></g>
+<g stroke="#5f91b8" stroke-width="5" stroke-linecap="round"><path d="M96 190h168M96 258h168M96 326h168M96 394h168M96 462h168"/></g>
 </g>
-<text x="843" y="467" fill="#315e8b" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" >CLIENTS</text>
-<text x="1050" y="467" fill="#315e8b" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" >SERVICES</text>
-<text x="1249" y="467" fill="#315e8b" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" >DATABASE</text>
-<rect x="838" y="503" width="95" height="35" rx="7" fill="#bbd7f0"/>
-<rect x="1052" y="501" width="89" height="14" rx="7" fill="#5d9bd2"/><rect x="1052" y="525" width="64" height="14" rx="7" fill="#95bce0"/>
-<ellipse cx="1309" cy="509" rx="44" ry="13" fill="#6da4d3"/><path d="M1265 509v30c0 19 88 19 88 0v-30" fill="#9cc4e7"/><ellipse cx="1309" cy="539" rx="44" ry="13" fill="#8ab9de"/>
-<path d="M960 491H1022M1172 491H1234" stroke="#3c81bc" stroke-width="7" stroke-linecap="round"/>
+<path d="M400 368h195m-25-25 25 25-25 25" fill="none" stroke="#71b7ed" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(630 95)">
+ <rect x="0" y="105" width="300" height="343" rx="24" fill="#11416c" stroke="#7fb9e4" stroke-width="5"/>
+ <rect x="28" y="149" width="243" height="90" rx="14" fill="#1d689e"/>
+ <path d="M82 179h135M82 205h100" stroke="#b6e0f7" stroke-width="10" stroke-linecap="round"/>
+ <rect x="28" y="263" width="243" height="50" rx="10" fill="#1d5b8a"/>
+ <rect x="28" y="332" width="243" height="50" rx="10" fill="#1d5b8a"/>
+ <path d="M76 289h147M76 356h147" stroke="#74bde6" stroke-width="8" stroke-linecap="round"/>
+ <text x="150" y="76" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#dff4ff">APPLICATION LAYER</text>
 </g>
-<text x="105" y="775" fill="#a4cef1" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="2">PERFORMANCE / RELIABILITY / SCALE</text>
+<path d="M969 368h138m-25-25 25 25-25 25" fill="none" stroke="#71b7ed" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(1135 205)">
+<ellipse cx="107" cy="56" rx="120" ry="36" fill="#64a8d7"/><path d="M-13 56v270c0 50 240 50 240 0V56" fill="#296693" stroke="#8dc4e9" stroke-width="5"/>
+<ellipse cx="107" cy="56" rx="120" ry="36" fill="#7bbbe4" stroke="#b8e3fb" stroke-width="5"/>
+<path d="M-13 146c0 50 240 50 240 0M-13 232c0 50 240 50 240 0" fill="none" stroke="#a0d3ed" stroke-width="4"/>
+<g fill="#d7effe"><circle cx="33" cy="151" r="7"/><circle cx="33" cy="234" r="7"/></g>
+<text x="107" y="392" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#dff4ff">DATA STORAGE</text>
+</g>
+</g>
 
 </svg>

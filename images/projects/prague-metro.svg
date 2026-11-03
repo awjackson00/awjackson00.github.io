@@ -1,33 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="DATA ENGINEERING  /  PRAGUE METRO">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Transit data engineering conceptual portfolio artwork">
+
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d2541"/><stop offset=".58" stop-color="#163d65"/><stop offset="1" stop-color="#245a8f"/></linearGradient>
-  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#dbeafb"/></linearGradient>
-  <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#a5c7eb" stroke-width="1" opacity=".13"/></pattern>
-  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#061526" flood-opacity=".28"/></filter>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06172d"/><stop offset=".56" stop-color="#103c6c"/><stop offset="1" stop-color="#041a33"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#2f92e4" stop-opacity=".53"/><stop offset="1" stop-color="#2f92e4" stop-opacity="0"/></radialGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1c517e"/><stop offset="1" stop-color="#092643"/></linearGradient>
+ <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f7fbff"/><stop offset="1" stop-color="#dceafb"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7fceff"/><stop offset="1" stop-color="#176db9"/></linearGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="20"/></filter>
+ <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="38"/></filter>
+ <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M 80 0 L 0 0 0 80" fill="none" stroke="#a2c7e8" stroke-opacity=".075" stroke-width="1.5"/></pattern>
 </defs>
 <rect width="1600" height="900" fill="url(#bg)"/>
 <rect width="1600" height="900" fill="url(#grid)"/>
-<circle cx="1470" cy="90" r="520" fill="#6daff0" opacity=".07"/><circle cx="380" cy="880" r="430" fill="#8bc9ff" opacity=".05"/>
-<path d="M90 95h72" stroke="#64b5fb" stroke-width="7" stroke-linecap="round"/>
-<text x="185" y="104" fill="#b6d9f9" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" letter-spacing="4">DATA ENGINEERING  /  PRAGUE METRO</text>
+<circle cx="1230" cy="310" r="560" fill="url(#glow)"/>
+<path d="M-30 810Q520 580 1000 750T1650 680" fill="none" stroke="#58b1f5" stroke-opacity=".12" stroke-width="150"/>
+<rect x="54" y="50" width="1492" height="800" rx="28" fill="none" stroke="#a5d1ef" stroke-opacity=".22" stroke-width="2"/>
+<circle cx="95" cy="93" r="8" fill="#7ad0ff"/><circle cx="123" cy="93" r="8" fill="#7ad0ff" opacity=".42"/><circle cx="151" cy="93" r="8" fill="#7ad0ff" opacity=".22"/>
+<path d="M185 94H400" stroke="#a1c9e9" stroke-opacity=".35" stroke-width="2"/>
+<text x="84" y="806" fill="#d4eaff" opacity=".85" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3">TRANSIT DATA ENGINEERING</text>
+<text x="1520" y="806" text-anchor="end" fill="#93bce0" opacity=".75" font-family="Arial, sans-serif" font-size="18" letter-spacing="2">CONCEPT ARTWORK</text>
 
-<text x="100" y="268" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="66" font-weight="600" >From transit data</text>
-<text x="100" y="348" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="66" font-weight="600" >to clearer decisions.</text>
-<text x="100" y="433" fill="#b9d5f0" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="500" >Ingest  →  model  →  analyze</text>
-<g>
-<path d="M835 245L960 360 1115 360 1290 520 1430 520" stroke="#91c0ef" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-<path d="M835 663L980 520 1115 520 1290 360 1430 360" stroke="#4f93d0" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-<path d="M975 236V710" stroke="#c3d8ed" stroke-width="14" stroke-linecap="round" fill="none"/>
-<path d="M815 445H1435" stroke="#83b8e6" stroke-width="14" stroke-linecap="round" fill="none"/>
-<g fill="#f7fbff" stroke="#1c5787" stroke-width="7">
-<circle cx="960" cy="360" r="20"/><circle cx="1115" cy="360" r="20"/><circle cx="1290" cy="520" r="20"/>
-<circle cx="980" cy="520" r="20"/><circle cx="1115" cy="520" r="20"/><circle cx="1290" cy="360" r="20"/>
-<circle cx="975" cy="445" r="20"/><circle cx="1228" cy="445" r="20"/>
+<g transform="translate(130 155)">
+<ellipse cx="610" cy="610" rx="670" ry="76" fill="#020916" opacity=".4" filter="url(#soft)"/>
+<rect x="0" y="0" width="1345" height="565" rx="30" fill="#061d37" stroke="#7cb5e1" stroke-width="4"/>
+<rect x="22" y="22" width="1301" height="520" rx="18" fill="#092a4d"/>
+<rect x="48" y="48" width="771" height="462" rx="15" fill="#0b345b" stroke="#3e6791" stroke-width="2"/>
+<text x="81" y="100" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#cfe7fa" letter-spacing="2">STATION / ROUTE MODEL</text>
+<g fill="none" stroke-width="15" stroke-linecap="round" stroke-linejoin="round">
+<path d="M110 400L232 329L350 329L465 205L695 205" stroke="#e96f76"/>
+<path d="M137 180L235 232L352 325L469 399L722 399" stroke="#f4c65c"/>
+<path d="M180 453L290 392L377 285L530 285L710 128" stroke="#59d6b5"/>
+<path d="M120 259L267 259L364 355L541 355L716 468" stroke="#79b9f6"/>
 </g>
+<g fill="#dff3ff" stroke="#0c3c61" stroke-width="6">
+<circle cx="232" cy="329" r="15"/><circle cx="350" cy="329" r="15"/><circle cx="465" cy="205" r="15"/>
+<circle cx="235" cy="232" r="15"/><circle cx="469" cy="399" r="15"/><circle cx="290" cy="392" r="15"/><circle cx="377" cy="285" r="15"/><circle cx="530" cy="285" r="15"/><circle cx="267" cy="259" r="15"/><circle cx="541" cy="355" r="15"/>
 </g>
-<rect x="105" y="595" width="560" height="125" rx="15" fill="#234e79" stroke="#4c83ba" stroke-width="2"/>
-<text x="140" y="649" fill="#e4f3ff" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="600" >PYTHON   /   AIRFLOW   /   dbt</text>
-<text x="140" y="688" fill="#a9cdeb" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" >Event data into analytical models</text>
-<text x="865" y="776" fill="#b6d4ef" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="500" letter-spacing="1">ILLUSTRATIVE NETWORK / NOT A GEOGRAPHIC MAP</text>
+<rect x="842" y="48" width="448" height="220" rx="15" fill="#113c67" stroke="#376d9b" stroke-width="2"/>
+<text x="872" y="91" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#cde9ff">HOURLY RIDERSHIP</text>
+<g fill="#6bb7ec">
+<rect x="877" y="193" width="29" height="43" rx="3"/><rect x="917" y="170" width="29" height="66" rx="3"/><rect x="957" y="140" width="29" height="96" rx="3"/><rect x="997" y="122" width="29" height="114" rx="3"/><rect x="1037" y="154" width="29" height="82" rx="3"/><rect x="1077" y="180" width="29" height="56" rx="3"/><rect x="1117" y="169" width="29" height="67" rx="3"/><rect x="1157" y="132" width="29" height="104" rx="3"/><rect x="1197" y="149" width="29" height="87" rx="3"/><rect x="1237" y="178" width="29" height="58" rx="3"/></g>
+<rect x="842" y="290" width="448" height="220" rx="15" fill="#113c67" stroke="#376d9b" stroke-width="2"/>
+<text x="872" y="336" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#cde9ff">PIPELINE / WAREHOUSE</text>
+<g><rect x="879" y="386" width="82" height="66" rx="10" fill="#2b679b"/><rect x="1011" y="386" width="82" height="66" rx="10" fill="#2b679b"/><rect x="1143" y="386" width="102" height="66" rx="10" fill="#2b679b"/></g>
+<g stroke="#99d4ff" fill="none" stroke-width="5" stroke-linecap="round"><path d="M968 420h35m-12-11 12 11-12 11"/><path d="M1102 420h33m-12-11 12 11-12 11"/></g>
+<text x="920" y="478" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#cde7fd">INGEST</text>
+<text x="1052" y="478" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#cde7fd">MODEL</text>
+<text x="1194" y="478" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#cde7fd">ANALYZE</text>
+</g>
 
 </svg>

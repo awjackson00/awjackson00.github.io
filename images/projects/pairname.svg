@@ -1,44 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="PRODUCT  /  PAIRNAME">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Product experience conceptual portfolio artwork">
+
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d2541"/><stop offset=".58" stop-color="#163d65"/><stop offset="1" stop-color="#245a8f"/></linearGradient>
-  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#dbeafb"/></linearGradient>
-  <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#a5c7eb" stroke-width="1" opacity=".13"/></pattern>
-  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#061526" flood-opacity=".28"/></filter>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06172d"/><stop offset=".56" stop-color="#103c6c"/><stop offset="1" stop-color="#041a33"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#2f92e4" stop-opacity=".53"/><stop offset="1" stop-color="#2f92e4" stop-opacity="0"/></radialGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1c517e"/><stop offset="1" stop-color="#092643"/></linearGradient>
+ <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f7fbff"/><stop offset="1" stop-color="#dceafb"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7fceff"/><stop offset="1" stop-color="#176db9"/></linearGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="20"/></filter>
+ <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="38"/></filter>
+ <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M 80 0 L 0 0 0 80" fill="none" stroke="#a2c7e8" stroke-opacity=".075" stroke-width="1.5"/></pattern>
 </defs>
 <rect width="1600" height="900" fill="url(#bg)"/>
 <rect width="1600" height="900" fill="url(#grid)"/>
-<circle cx="1470" cy="90" r="520" fill="#6daff0" opacity=".07"/><circle cx="380" cy="880" r="430" fill="#8bc9ff" opacity=".05"/>
-<path d="M90 95h72" stroke="#64b5fb" stroke-width="7" stroke-linecap="round"/>
-<text x="185" y="104" fill="#b6d9f9" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" letter-spacing="4">PRODUCT  /  PAIRNAME</text>
+<circle cx="1230" cy="310" r="560" fill="url(#glow)"/>
+<path d="M-30 810Q520 580 1000 750T1650 680" fill="none" stroke="#58b1f5" stroke-opacity=".12" stroke-width="150"/>
+<rect x="54" y="50" width="1492" height="800" rx="28" fill="none" stroke="#a5d1ef" stroke-opacity=".22" stroke-width="2"/>
+<circle cx="95" cy="93" r="8" fill="#7ad0ff"/><circle cx="123" cy="93" r="8" fill="#7ad0ff" opacity=".42"/><circle cx="151" cy="93" r="8" fill="#7ad0ff" opacity=".22"/>
+<path d="M185 94H400" stroke="#a1c9e9" stroke-opacity=".35" stroke-width="2"/>
+<text x="84" y="806" fill="#d4eaff" opacity=".85" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3">PRODUCT EXPERIENCE</text>
+<text x="1520" y="806" text-anchor="end" fill="#93bce0" opacity=".75" font-family="Arial, sans-serif" font-size="18" letter-spacing="2">CONCEPT ARTWORK</text>
 
-<text x="110" y="275" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="67" font-weight="600" >Two perspectives.</text>
-<text x="110" y="358" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="67" font-weight="600" >One shared answer.</text>
-<text x="110" y="435" fill="#bfd8f3" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="400" >Independent choices, mutual matches</text>
-<g filter="url(#shadow)">
-  <rect x="840" y="187" width="300" height="570" rx="45" fill="#e6f1fb" stroke="#a9d0f5" stroke-width="7"/>
-  <rect x="855" y="215" width="270" height="525" rx="34" fill="#fafcff"/>
-  <rect x="943" y="224" width="95" height="17" rx="9" fill="#173b5f"/>
-  <text x="886" y="297" fill="#1c3c5d" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" >Pick your favorites</text>
-  <rect x="881" y="334" width="220" height="252" rx="20" fill="#dceafa"/>
-  <text x="914" y="415" fill="#265e95" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="600" >ROWAN</text>
-  <path d="M913 450h153" stroke="#a9c8e9" stroke-width="3"/>
-  <text x="911" y="509" fill="#55799c" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="500" >A name you love?</text>
-  <circle cx="940" cy="625" r="32" fill="#e3edf7" stroke="#aac8e8" stroke-width="3"/>
-  <circle cx="1041" cy="625" r="32" fill="#3477b8"/>
-  <text x="930" y="634" fill="#33668f" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="600" >×</text>
-  <text x="1029" y="634" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="600" >♥</text>
+<ellipse cx="830" cy="735" rx="610" ry="86" fill="#030a15" opacity=".42" filter="url(#soft)"/>
+<g transform="translate(315 152) rotate(-6 258 318)">
+ <rect x="0" y="0" width="500" height="610" rx="52" fill="#08182a" stroke="#7db7e2" stroke-width="8"/>
+ <rect x="20" y="18" width="460" height="574" rx="36" fill="url(#panel)"/>
+ <rect x="188" y="28" width="123" height="25" rx="13" fill="#0b233a"/>
+ <text x="68" y="107" font-family="Arial,sans-serif" font-size="25" fill="#577c9b">YOUR PREFERENCES</text>
+ <text x="68" y="164" font-family="Arial,sans-serif" font-weight="700" font-size="42" fill="#123b62">Pick your favorites.</text>
+ <rect x="58" y="207" width="385" height="80" rx="17" fill="#b3d7f6"/>
+ <text x="90" y="259" font-family="Arial,sans-serif" font-size="34" font-weight="600" fill="#143e6b">Alex</text>
+ <path d="M398 242c-21-28-48 8-16 28l16 13 17-13c33-22 4-56-17-28z" fill="#1b65a7"/>
+ <rect x="58" y="307" width="385" height="79" rx="17" fill="#edf5fd"/>
+ <text x="90" y="358" font-family="Arial,sans-serif" font-size="32" fill="#284c6c">Jordan</text>
+ <rect x="58" y="406" width="385" height="79" rx="17" fill="#edf5fd"/>
+ <text x="90" y="458" font-family="Arial,sans-serif" font-size="32" fill="#284c6c">Avery</text>
+ <circle cx="251" cy="542" r="22" fill="#1b65a7"/><path d="M239 542h24m-12-12v24" stroke="white" stroke-width="5" stroke-linecap="round"/>
 </g>
-<g filter="url(#shadow)">
-  <rect x="1110" y="275" width="295" height="520" rx="43" fill="#e5f1fc" stroke="#95c2ea" stroke-width="6"/>
-  <rect x="1125" y="301" width="265" height="475" rx="33" fill="#fbfdff"/>
-  <rect x="1208" y="309" width="92" height="15" rx="8" fill="#173b5f"/>
-  <text x="1174" y="383" fill="#1c3c5d" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" >Shared picks</text>
-  <rect x="1151" y="413" width="211" height="140" rx="20" fill="#e6f1fb" stroke="#b8d5f0" stroke-width="2"/>
-  <text x="1193" y="483" fill="#275b8e" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" >ROWAN</text>
-  <path d="M1196 504h120" stroke="#b1cbe7" stroke-width="3"/>
-  <circle cx="1258" cy="647" r="57" fill="#2e77b8"/>
-  <text x="1237" y="663" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="700" >♥</text>
+<g transform="translate(875 174) rotate(7 225 305)">
+ <rect x="0" y="0" width="448" height="602" rx="49" fill="#07192c" stroke="#87c0eb" stroke-width="8"/>
+ <rect x="19" y="18" width="410" height="564" rx="31" fill="url(#panel)"/>
+ <rect x="163" y="28" width="122" height="24" rx="12" fill="#0b233a"/>
+ <circle cx="224" cy="186" r="85" fill="#dceefc"/>
+ <path d="M224 229c-14-12-51-40-51-69 0-31 35-43 51-17 16-26 51-14 51 17 0 29-37 57-51 69z" fill="#2d79b8"/>
+ <text x="224" y="307" text-anchor="middle" font-family="Arial,sans-serif" font-size="39" font-weight="700" fill="#123b62">It's a match!</text>
+ <text x="224" y="357" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" fill="#5a7895">Shared favorites</text>
+ <rect x="58" y="391" width="335" height="63" rx="18" fill="#c5e2f7"/>
+ <text x="90" y="433" font-family="Arial,sans-serif" font-size="29" font-weight="600" fill="#1b507d">Alex</text>
+ <path d="M345 421l8 9 17-23" fill="none" stroke="#2a76ae" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+ <rect x="58" y="468" width="335" height="63" rx="18" fill="#c5e2f7"/>
+ <text x="90" y="510" font-family="Arial,sans-serif" font-size="29" font-weight="600" fill="#1b507d">Avery</text>
+ <path d="M345 497l8 9 17-23" fill="none" stroke="#2a76ae" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text x="110" y="775" fill="#99c8f2" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" letter-spacing="5">PAIRNAME</text>
 
 </svg>

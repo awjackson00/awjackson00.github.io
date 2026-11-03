@@ -1,31 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="DATA SCIENCE  /  RISKY BUSINESS">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Risk and financial analytics conceptual portfolio artwork">
+
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d2541"/><stop offset=".58" stop-color="#163d65"/><stop offset="1" stop-color="#245a8f"/></linearGradient>
-  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#dbeafb"/></linearGradient>
-  <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#a5c7eb" stroke-width="1" opacity=".13"/></pattern>
-  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#061526" flood-opacity=".28"/></filter>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06172d"/><stop offset=".56" stop-color="#103c6c"/><stop offset="1" stop-color="#041a33"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#2f92e4" stop-opacity=".53"/><stop offset="1" stop-color="#2f92e4" stop-opacity="0"/></radialGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1c517e"/><stop offset="1" stop-color="#092643"/></linearGradient>
+ <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f7fbff"/><stop offset="1" stop-color="#dceafb"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7fceff"/><stop offset="1" stop-color="#176db9"/></linearGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="20"/></filter>
+ <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="38"/></filter>
+ <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M 80 0 L 0 0 0 80" fill="none" stroke="#a2c7e8" stroke-opacity=".075" stroke-width="1.5"/></pattern>
 </defs>
 <rect width="1600" height="900" fill="url(#bg)"/>
 <rect width="1600" height="900" fill="url(#grid)"/>
-<circle cx="1470" cy="90" r="520" fill="#6daff0" opacity=".07"/><circle cx="380" cy="880" r="430" fill="#8bc9ff" opacity=".05"/>
-<path d="M90 95h72" stroke="#64b5fb" stroke-width="7" stroke-linecap="round"/>
-<text x="185" y="104" fill="#b6d9f9" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" letter-spacing="4">DATA SCIENCE  /  RISKY BUSINESS</text>
+<circle cx="1230" cy="310" r="560" fill="url(#glow)"/>
+<path d="M-30 810Q520 580 1000 750T1650 680" fill="none" stroke="#58b1f5" stroke-opacity=".12" stroke-width="150"/>
+<rect x="54" y="50" width="1492" height="800" rx="28" fill="none" stroke="#a5d1ef" stroke-opacity=".22" stroke-width="2"/>
+<circle cx="95" cy="93" r="8" fill="#7ad0ff"/><circle cx="123" cy="93" r="8" fill="#7ad0ff" opacity=".42"/><circle cx="151" cy="93" r="8" fill="#7ad0ff" opacity=".22"/>
+<path d="M185 94H400" stroke="#a1c9e9" stroke-opacity=".35" stroke-width="2"/>
+<text x="84" y="806" fill="#d4eaff" opacity=".85" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3">RISK AND FINANCIAL ANALYTICS</text>
+<text x="1520" y="806" text-anchor="end" fill="#93bce0" opacity=".75" font-family="Arial, sans-serif" font-size="18" letter-spacing="2">CONCEPT ARTWORK</text>
 
-<text x="105" y="270" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="68" font-weight="600" >Understanding</text>
-<text x="105" y="350" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="68" font-weight="600" >risk in context.</text>
-<text x="105" y="435" fill="#b9d5f0" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="500" >Market regimes  /  volatility  /  resilience</text>
-<g filter="url(#shadow)">
-<rect x="710" y="205" width="755" height="515" rx="23" fill="#f5f9fd"/>
-<rect x="710" y="205" width="755" height="71" rx="23" fill="#e0edfa"/>
-<path d="M710 252h755" stroke="#cbddee" stroke-width="2"/>
-<text x="750" y="249" fill="#1e4368" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" >Portfolio comparison</text>
-<text x="1230" y="249" fill="#5182b2" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" letter-spacing="2">RISK / RETURN</text>
-<g stroke="#d5e3f0" stroke-width="2"><path d="M765 357h650M765 440h650M765 523h650M765 606h650"/><path d="M855 320v325M975 320v325M1095 320v325M1215 320v325M1335 320v325"/></g>
-<path d="M765 595C820 554 851 590 905 500 946 445 984 485 1024 420 1061 378 1108 480 1148 431 1202 366 1250 406 1298 345 1324 324 1370 337 1410 310" stroke="#2777bb" stroke-width="7" fill="none" stroke-linecap="round"/>
-<path d="M765 626C824 624 880 602 935 577S1030 550 1080 570 1195 513 1245 535 1320 501 1410 492" stroke="#79a9d7" stroke-width="7" fill="none" stroke-linecap="round"/>
-<path d="M765 560C823 537 875 563 920 581S1017 637 1075 602 1174 646 1230 610 1332 640 1410 601" stroke="#9cb7ce" stroke-width="6" fill="none" stroke-linecap="round"/>
+<ellipse cx="780" cy="740" rx="650" ry="70" fill="#020914" opacity=".35" filter="url(#soft)"/>
+<g transform="translate(175 160)">
+<rect x="0" y="0" width="1260" height="560" rx="31" fill="#061c33" stroke="#75add6" stroke-width="4"/>
+<rect x="22" y="24" width="1216" height="510" rx="19" fill="#0b2948"/>
+<rect x="50" y="63" width="238" height="438" rx="14" fill="#0f3457"/>
+<text x="82" y="120" font-family="Arial,sans-serif" font-weight="700" font-size="26" fill="#deeffe">PORTFOLIOS</text>
+<rect x="79" y="165" width="176" height="18" rx="9" fill="#4c97d0"/>
+<rect x="79" y="215" width="139" height="17" rx="8" fill="#789ab9" opacity=".65"/>
+<rect x="79" y="260" width="167" height="17" rx="8" fill="#789ab9" opacity=".65"/>
+<rect x="79" y="305" width="130" height="17" rx="8" fill="#789ab9" opacity=".65"/>
+<rect x="79" y="370" width="176" height="80" rx="14" fill="#153f65" stroke="#50799f"/>
+<text x="96" y="403" font-family="Arial,sans-serif" font-size="17" fill="#adcde6">COMPARE BY</text>
+<text x="96" y="432" font-family="Arial,sans-serif" font-size="22" font-weight="600" fill="#eaf6ff">MARKET REGIME</text>
+<rect x="319" y="63" width="887" height="264" rx="15" fill="#0a223d" stroke="#386187" stroke-width="2"/>
+<g stroke="#4d7090" opacity=".4" stroke-width="2"><path d="M360 128H1160M360 182H1160M360 236H1160M360 290H1160"/><path d="M500 102V299M675 102V299M850 102V299M1025 102V299"/></g>
+<path d="M365 268C440 261 460 210 510 228S600 195 660 205 720 123 775 156 850 195 895 135 967 140 1008 112 1090 150 1170 91" fill="none" stroke="#8bd5ff" stroke-width="8" stroke-linecap="round"/>
+<path d="M365 283C440 282 475 247 510 270S620 271 660 255 750 289 800 244 920 255 975 235 1105 230 1170 199" fill="none" stroke="#377cb6" stroke-width="7" stroke-linecap="round"/>
+<rect x="319" y="348" width="534" height="153" rx="15" fill="#103457" stroke="#3d6b94" stroke-width="2"/>
+<text x="350" y="386" font-family="Arial,sans-serif" font-weight="700" font-size="20" fill="#c8e0f4">DRAWDOWN PROFILES</text>
+<g fill="#337cb6"><rect x="353" y="420" width="70" height="43" rx="5"/><rect x="442" y="399" width="70" height="64" rx="5"/><rect x="531" y="432" width="70" height="31" rx="5"/><rect x="620" y="405" width="70" height="58" rx="5"/><rect x="709" y="384" width="70" height="79" rx="5"/></g>
+<rect x="875" y="348" width="331" height="153" rx="15" fill="#103457" stroke="#3d6b94" stroke-width="2"/>
+<text x="909" y="388" font-family="Arial,sans-serif" font-weight="700" font-size="20" fill="#c8e0f4">REGIME MATRIX</text>
+<g><rect x="912" y="418" width="57" height="37" fill="#286b9e"/><rect x="978" y="418" width="57" height="37" fill="#5295c7"/><rect x="1044" y="418" width="57" height="37" fill="#80bde3"/><rect x="1110" y="418" width="57" height="37" fill="#3c7fad"/></g>
 </g>
-<text x="105" y="775" fill="#99c8f2" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" letter-spacing="3">NINE MARKET REGIMES</text>
-<text x="750" y="767" fill="#b8d3eb" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" >Illustrative trends; not actual portfolio returns</text>
 
 </svg>
