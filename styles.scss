@@ -406,3 +406,14 @@ a:focus-visible,button:focus-visible { outline:3px solid #83b4e1;outline-offset:
   .traffic-case .traffic-fact-label {margin-bottom:.4rem;}
   .traffic-case .traffic-demo-button {width:100%;}
 }
+
+/* Preserve the full original crash-dashboard screenshot without cropping its map. */
+.portfolio-cover img.traffic-project-screen {
+  object-fit: contain;
+  object-position: center;
+  background: #e9f2fb;
+}
+.case-figure img[src$="traffic-accidents-live-screenshot.webp"] {
+  object-fit: contain;
+  background: #f4f8fd;
+}
