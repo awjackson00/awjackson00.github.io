@@ -12,7 +12,6 @@ toc: false
     <h1>Experience</h1>
     <div class="experience-hero-bottom">
       <p>My work spans software development, cloud infrastructure, data analysis, and project leadership. Each role has taught me how to understand the people behind a problem and turn technical work into useful results.</p>
-      <a class="experience-resume-link" href="resume.pdf">Download résumé <span aria-hidden="true">↗</span></a>
     </div>
   </header>
 
@@ -23,13 +22,10 @@ toc: false
         <p class="experience-period"><time datetime="2025-08">Aug 2025</time> – <time datetime="2026-08">Aug 2026</time></p>
       </div>
       <h2 id="career-angel-title">Angel Fund Investment Analyst</h2>
-      <p class="experience-overview">Evaluated early-stage businesses through a product, market, and financial lens, turning a wide range of startup information into more structured investment discussions.</p>
-      <ul class="experience-details">
-          <li><strong>Product and market diligence:</strong> Assessed customer problems, competitive positioning, differentiation, and signs of product-market fit.</li>
-          <li><strong>Business model analysis:</strong> Examined market opportunities, growth assumptions, revenue models, and financial risks to understand how a company might scale.</li>
-          <li><strong>Investment judgment:</strong> Synthesized research and due diligence into clear findings, tradeoffs, and recommendations for fund discussions.</li>
-        
-      </ul>
+      <div class="experience-prose">
+        <p>I evaluated early-stage companies through Willamette Angel Fund and Oregon Venture Fund, looking at the businesses from both a product and investment perspective. I studied the customer problems founders were addressing, the alternatives already available, and what made each product different. My research covered competitive positioning, market opportunity, business models, and the evidence behind claims of product-market fit.</p>
+        <p>I also examined growth assumptions and financial risks to understand what a company's strategy would require in practice. I brought the findings together into due-diligence analysis and investment recommendations, explaining both the opportunity and the unanswered questions. The experience strengthened my ability to connect product decisions to market demand, business economics, and execution risk.</p>
+      </div>
     </article>
 
     <article class="experience-entry" aria-labelledby="career-berries-title">
@@ -38,13 +34,10 @@ toc: false
         <p class="experience-period"><time datetime="2025-04">Apr 2025</time> – <time datetime="2025-08">Aug 2025</time></p>
       </div>
       <h2 id="career-berries-title">Project Manager, Inaugural Season Marketing Campaign</h2>
-      <p class="experience-overview">Helped coordinate the club's first-season marketing and game-day operations, connecting campaign execution with fan engagement and event data.</p>
-      <ul class="experience-details">
-          <li><strong>Campaign delivery:</strong> Managed priorities, timelines, dependencies, and stakeholder coordination across promotions and inaugural-season events.</li>
-          <li><strong>Audience insight:</strong> Used fan engagement, attendance, and ticketing information to inform marketing and event decisions.</li>
-          <li><strong>Operational improvement:</strong> Identified bottlenecks in ticketing and event processes and supported changes that reduced processing inefficiencies by approximately <strong>15%</strong>.</li>
-        
-      </ul>
+      <div class="experience-prose">
+        <p>I managed priorities and coordination for the Marion Berries' inaugural-season marketing campaign. With games and events driving fixed deadlines, I organized campaign schedules, monitored deliverables and dependencies, and worked with marketing and event stakeholders to keep activities moving toward launch. The role involved turning promotional goals into specific tasks while balancing the needs of the fans and the teams responsible for delivering each event.</p>
+        <p>I used fan engagement, attendance, and ticketing information to inform marketing and event decisions. I also looked for friction in ticketing and event operations, helping improve processes that created unnecessary delays for staff. Those changes contributed to an estimated <strong>15% reduction in ticketing and event processing inefficiencies</strong>. The experience connected audience insight with practical project management and the operational details behind a positive game-day experience.</p>
+      </div>
     </article>
 
     <article class="experience-entry" aria-labelledby="career-mfco-title">
@@ -53,14 +46,10 @@ toc: false
         <p class="experience-period"><time datetime="2023-03">Mar 2023</time> – <time datetime="2024-08">Aug 2024</time></p>
       </div>
       <h2 id="career-mfco-title">Database Manager and Cloud Administrator</h2>
-      <p class="experience-overview">Improved the reliability and performance of cloud and database systems supporting business processes for more than <strong>150 weekly clients</strong>.</p>
-      <ul class="experience-details">
-          <li><strong>Performance optimization:</strong> Investigated system bottlenecks and helped deliver changes that reduced latency by approximately <strong>20–30%</strong>.</li>
-          <li><strong>Infrastructure modernization:</strong> Updated legacy data and cloud workflows, improving data-processing and access speeds by roughly <strong>25%</strong>.</li>
-          <li><strong>Reliability and support:</strong> Resolved <strong>22+ infrastructure issues</strong> and supported continuity for critical client-facing operations.</li>
-          <li><strong>Stakeholder translation:</strong> Worked with business users to clarify technical requirements and improve the accessibility of operational data and reporting.</li>
-        
-      </ul>
+      <div class="experience-prose">
+        <p>I managed cloud and database systems supporting business workflows for more than <strong>150 weekly clients</strong>. Much of my work started with understanding why a process was slow, unreliable, or difficult for the people using it. I investigated performance bottlenecks, worked with stakeholders to clarify requirements, and helped prioritize improvements to legacy infrastructure and data access.</p>
+        <p>I worked through infrastructure incidents and supported changes to cloud and database workflows intended to improve reliability and speed. Across these efforts I resolved <strong>22+ infrastructure issues</strong>, helped reduce latency by approximately <strong>20–30%</strong>, and improved data-processing and access performance by around <strong>25%</strong>. The results came from connecting hands-on troubleshooting with the day-to-day needs of the teams and clients relying on those systems.</p>
+      </div>
     </article>
 
     <article class="experience-entry" aria-labelledby="career-dodgers-title">
@@ -69,13 +58,10 @@ toc: false
         <p class="experience-period"><time datetime="2022-08">Aug 2022</time> – <time datetime="2023-01">Jan 2023</time></p>
       </div>
       <h2 id="career-dodgers-title">Software Developer</h2>
-      <p class="experience-overview">Developed a Python-based scouting analytics platform that translated player data into more consistent, usable evaluation workflows.</p>
-      <ul class="experience-details">
-          <li><strong>Analytics development:</strong> Built a platform combining statistical modeling and more than <strong>100 player variables</strong> to support scouting evaluations.</li>
-          <li><strong>User-led iteration:</strong> Worked directly with scouts to understand how they compared players, then refined the application's requirements, organization, and reporting around those workflows.</li>
-          <li><strong>Workflow efficiency:</strong> Helped standardize player analysis and reduce manual evaluation time by approximately <strong>15–20%</strong>.</li>
-        
-      </ul>
+      <div class="experience-prose">
+        <p>I developed a Python-based scouting analytics platform that brought together statistical modeling and more than <strong>100 player variables</strong>. The objective was to make player comparisons more consistent and reduce the time scouts spent gathering and interpreting information manually. I built analytical functionality around the evaluation process and organized the outputs to support how scouts reviewed potential players.</p>
+        <p>I worked directly with scouts to understand their workflows, gather requirements, and learn which comparisons were most useful in real decisions. That feedback shaped iterations to the platform's features and reporting. The resulting tool helped reduce manual evaluation time by approximately <strong>15–20%</strong> while making the analysis more repeatable. It was a practical example of using conversations with users to guide technical development.</p>
+      </div>
     </article>
 
     <article class="experience-entry" aria-labelledby="career-lanspeed-title">
@@ -84,13 +70,10 @@ toc: false
         <p class="experience-period"><time datetime="2021-06">Jun 2021</time> – <time datetime="2021-08">Aug 2021</time></p>
       </div>
       <h2 id="career-lanspeed-title">Services Engineer Intern</h2>
-      <p class="experience-overview">Supported client IT infrastructure and day-to-day technical troubleshooting across environments serving more than <strong>50 clients</strong>.</p>
-      <ul class="experience-details">
-          <li><strong>Client support:</strong> Investigated service interruptions and technical issues across network, server, and workstation environments.</li>
-          <li><strong>Business continuity:</strong> Completed <strong>30+ server backups</strong> and assisted with systems reliability and recovery tasks.</li>
-          <li><strong>Problem resolution:</strong> Supported onsite troubleshooting and communicated progress while helping clients return systems to normal operation.</li>
-        
-      </ul>
+      <div class="experience-prose">
+        <p>As a Services Engineer Intern at Lanspeed, I supported technical environments for more than <strong>50 clients</strong>. I helped investigate service interruptions and issues across servers, networks, and workstations, working to identify what was failing and support the restoration of reliable systems. The role exposed me to different client environments and the importance of keeping everyday business technology available.</p>
+        <p>I also supported routine infrastructure maintenance and business continuity, including completing more than <strong>30 server backups</strong>. I assisted with troubleshooting and communicated progress as technical issues were resolved. Working across these tasks gave me experience with the practical side of IT service delivery, where careful diagnosis and dependable follow-through matter as much as the immediate fix.</p>
+      </div>
     </article>
   </section>
 
