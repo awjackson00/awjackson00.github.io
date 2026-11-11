@@ -12,9 +12,9 @@ toc: false
   <p class="case-lede">An interactive R Shiny dashboard designed to help transportation planners explore where reported crashes cluster, when they occur, and how conditions change the picture.</p>
   <div class="case-meta traffic-facts" aria-label="Project overview">
     <div class="traffic-fact">
-      <span class="traffic-fact-label">COLLABORATORS</span>
-      <strong>Alexander Jackson<br>Simon Thompson</strong>
-      <small>Joint visualization project</small>
+      <span class="traffic-fact-label">PROJECT FOCUS</span>
+      <strong>Geospatial analysis</strong>
+      <small>Interactive maps &amp; crash-pattern exploration</small>
     </div>
     <div class="traffic-fact">
       <span class="traffic-fact-label">DATASET</span>
@@ -62,6 +62,7 @@ toc: false
     <p>Working from national context down to county and street-level views made the data more useful for forming specific safety questions. Historical accident records are not a complete census of crashes and cannot, by themselves, establish the effectiveness of an intervention. Per-capita comparisons also use population estimates against a multi-year record set rather than annualized crash rates. The result was a collaborative exercise in thoughtful interactive analysis, geospatial data preparation, and user-centered decision support.</p>
   </section>
 </div>
+<p class="traffic-project-credit">Developed collaboratively by Alexander Jackson and Simon Thompson.</p>
 <div class="case-actions">
   <a class="btn btn-primary" href="https://ajackson25.shinyapps.io/USA_Accidents/" target="_blank" rel="noopener noreferrer">Open original Shiny dashboard ↗</a>
   <a class="quiet-link" href="../projects.html">Explore more projects ↗</a>
