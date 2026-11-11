@@ -11,6 +11,7 @@ PAGES = {
     "projects/pairname.html": ("case-shell", "case-content"),
     "projects/risky-business.html": ("case-shell", "case-content"),
     "projects/prague-metro.html": ("case-shell", "case-content"),
+    "projects/traffic-accidents.html": ("case-shell", "case-content"),
     "projects/marion-berries.html": ("case-shell", "case-content"),
     "projects/infrastructure.html": ("case-shell", "case-content"),
 }
