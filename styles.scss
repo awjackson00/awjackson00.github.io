@@ -419,3 +419,101 @@ a:focus-visible,button:focus-visible { outline:3px solid #83b4e1;outline-offset:
   object-fit: contain;
   background: #f4f8fd;
 }
+
+
+/* Professional experience: editorial timeline, readable achievements, restrained blue details. */
+.experience-page { max-width:1020px;margin:0 auto 3.6rem; }
+.experience-page-intro { max-width:780px;padding:1.25rem 0 2.8rem; }
+.experience-page-intro h2 {
+  font-size:clamp(2.35rem,4.6vw,4rem);
+  line-height:1.08;
+  margin:0 0 1.05rem;
+}
+.experience-page-intro > p:not(.eyebrow) {
+  font-size:1.06rem;
+  line-height:1.75;
+  margin:0 0 1.1rem;
+}
+.career-role {
+  display:grid;
+  grid-template-columns:minmax(145px,195px) minmax(0,1fr);
+  gap:clamp(1.3rem,4vw,3.3rem);
+  padding:2.4rem 0 2.55rem;
+  border-top:1px solid var(--line);
+}
+.career-role:last-child { border-bottom:1px solid var(--line); }
+.career-rail { padding-top:.25rem; }
+.career-index {
+  margin:0 0 .75rem;
+  color:#49739e;
+  font:700 .68rem/1.5 var(--sans);
+  letter-spacing:.13em;
+}
+.career-date {
+  margin:0;
+  color:#718399;
+  font:500 .83rem/1.6 var(--sans);
+  white-space:normal;
+}
+.career-company {
+  margin:0 0 .42rem;
+  color:#4b7298;
+  font:700 .79rem/1.45 var(--sans);
+  letter-spacing:.015em;
+}
+.career-body h3 {
+  margin:0 0 .85rem;
+  color:var(--ink);
+  font-size:clamp(1.65rem,2.8vw,2.25rem);
+  line-height:1.14;
+}
+.career-summary {
+  margin:0 0 1.15rem;
+  color:#435b75;
+  font-size:.99rem;
+  line-height:1.72;
+}
+.career-highlights {
+  margin:0;
+  padding:0;
+  list-style:none;
+  display:grid;
+  gap:.78rem;
+}
+.career-highlights li {
+  position:relative;
+  padding-left:1.15rem;
+  color:var(--body);
+  font-size:.91rem;
+  line-height:1.65;
+}
+.career-highlights li::before {
+  content:"";
+  position:absolute;
+  left:0;
+  top:.68em;
+  width:5px;
+  height:5px;
+  border-radius:50%;
+  background:#5385b6;
+}
+.career-highlights strong {font-weight:650;}
+@media (max-width:700px) {
+  .experience-page-intro {padding:.65rem 0 2rem;}
+  .career-role {
+    grid-template-columns:1fr;
+    gap:.65rem;
+    padding:1.85rem 0 2rem;
+  }
+  .career-rail {
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    gap:.8rem;
+    flex-wrap:wrap;
+    padding:0;
+  }
+  .career-index {margin:0;}
+  .career-date {font-size:.78rem;}
+  .career-body h3 {font-size:1.8rem;}
+}
