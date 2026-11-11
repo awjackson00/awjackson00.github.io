@@ -4,16 +4,32 @@ toc: false
 ---
 
 ```{=html}
-<div class="case-shell">
+<div class="case-shell traffic-case">
 <a class="case-back" href="../projects.html">← Back to projects</a>
 <header class="case-hero">
   <p class="eyebrow">INTERACTIVE DATA VISUALIZATION / PUBLIC SAFETY</p>
   <h2>U.S. Traffic Accident Dashboard</h2>
   <p class="case-lede">An interactive R Shiny dashboard designed to help transportation planners explore where reported crashes cluster, when they occur, and how conditions change the picture.</p>
-  <div class="case-meta">
-    <div><span>TEAM</span><strong>Alexander Jackson and Simon Thompson</strong></div>
-    <div><span>DATA</span><strong>Kaggle U.S. Accidents, 2016–2023</strong></div>
-    <div><span>TOOLS &amp; SKILLS</span><strong>R, Shiny, tidyverse, Leaflet, Plotly, ggplot2, sf, tidycensus</strong></div>
+  <div class="case-meta traffic-facts" aria-label="Project overview">
+    <div class="traffic-fact">
+      <span class="traffic-fact-label">COLLABORATORS</span>
+      <strong>Alexander Jackson<br>Simon Thompson</strong>
+      <small>Joint visualization project</small>
+    </div>
+    <div class="traffic-fact">
+      <span class="traffic-fact-label">DATASET</span>
+      <strong>U.S. Accidents</strong>
+      <small>Kaggle · 2016–2023</small>
+    </div>
+    <div class="traffic-fact">
+      <span class="traffic-fact-label">TECHNOLOGY</span>
+      <strong>R Shiny · Leaflet · Plotly</strong>
+      <small>tidyverse · ggplot2 · sf · tidycensus</small>
+    </div>
+  </div>
+  <div class="traffic-demo-action">
+    <a class="btn btn-primary traffic-demo-button" href="https://ajackson25.shinyapps.io/USA_Accidents/" target="_blank" rel="noopener noreferrer">Explore the interactive dashboard <span aria-hidden="true">↗</span></a>
+    <span class="traffic-demo-note">Opens the original Shiny app in a new tab</span>
   </div>
 </header>
 <figure class="case-figure">
