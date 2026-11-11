@@ -33,7 +33,7 @@ toc: false
   </div>
 </header>
 <figure class="case-figure">
-  <img src="../images/projects/traffic-accidents-live-screenshot.webp" width="2048" height="845" alt="Actual screenshot of the U.S. Traffic Accident Dashboard's national accident-rate map and Shiny navigation" loading="eager">
+  <img src="../images/projects/traffic-accidents-highres.webp" width="3200" height="1800" alt="Real 3200 by 1800 screenshot captured from the live U.S. Traffic Accident Dashboard showing its interactive state comparison and map legend" loading="eager">
 </figure>
 <div class="case-content">
   <section>

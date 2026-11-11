@@ -31,6 +31,16 @@
 PairName's cover is based on a user-supplied app screenshot, Risky Business uses an authentic website capture, Prague Metro uses an attributed original map, and Marion Berries uses authentic source photography and branding. The cloud and infrastructure cover is also illustrative, not a screenshot or a claim of measured performance.
 
 
+## U.S. Traffic Accident Dashboard
+
+- **Image:** `traffic-accidents-highres.webp`
+- **Source:** https://ajackson25.shinyapps.io/USA_Accidents/
+- **Captured:** November 10, 2026, U.S. Pacific time (November 11 UTC).
+- **Method:** Genuine, unmodified browser content captured with Chromium/Playwright at a 1600 × 900 CSS viewport and 2× device pixel ratio, resulting in a 3200 × 1800 capture. Scrolled only to frame the full map and heading inside a 16:9 card; no AI generation or data modifications.
+- **Map tiles:** OpenStreetMap (`tile.openstreetmap.org`), loaded successfully at capture; no CARTO API-key watermark.
+- **Web asset:** WebP quality 88, preserving screenshot content, 3200 × 1800 pixels. The high-resolution PNG review source was captured separately on the `capture-highres-us-accidents` branch.
+
+
 ## Cloud & database optimization
 
 - **Image:** `cloud-database-optimization.webp`
