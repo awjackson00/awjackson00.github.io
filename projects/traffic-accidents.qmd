@@ -33,7 +33,7 @@ toc: false
   </div>
 </header>
 <figure class="case-figure">
-  <img src="../images/projects/traffic-accidents-dashboard.svg" width="1600" height="900" alt="An illustrative visual overview of four views implemented in the R Shiny traffic accident dashboard, not an actual application screenshot" loading="eager">
+  <img src="../images/projects/traffic-accidents-live-screenshot.webp" width="2048" height="845" alt="Actual screenshot of the U.S. Traffic Accident Dashboard's national accident-rate map and Shiny navigation" loading="eager">
 </figure>
 <div class="case-content">
   <section>

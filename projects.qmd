@@ -52,7 +52,7 @@ toc: false
   </div>
 </article>
 <article class="portfolio-card" data-tags="Data,Product">
-  <a class="portfolio-cover" href="projects/traffic-accidents.html" aria-label="Read the U.S. Traffic Accident Dashboard case study"><img src="images/projects/traffic-accidents-dashboard.svg" width="1600" height="900" alt="Editorial illustration showing the national, county, road, and time-pattern views of a crash data dashboard" loading="lazy" decoding="async"></a>
+  <a class="portfolio-cover" href="projects/traffic-accidents.html" aria-label="Read the U.S. Traffic Accident Dashboard case study"><img src="images/projects/traffic-accidents-live-screenshot.webp" class="traffic-project-screen" width="2048" height="845" alt="Real screenshot of the U.S. Traffic Accident Dashboard, showing its state-by-state crash map over a geographic basemap" loading="lazy" decoding="async"></a>
   <div class="portfolio-copy">
     <div class="portfolio-topline"><span>INTERACTIVE ANALYTICS / PUBLIC SAFETY</span><span>04 / 06</span></div>
     <h2><a href="projects/traffic-accidents.html">U.S. Traffic Accident Dashboard</a></h2>
