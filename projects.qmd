@@ -8,7 +8,7 @@ toc: false
 <div class="portfolio-intro">
   <p class="eyebrow">THE PORTFOLIO</p>
   <h2>Work worth opening up.</h2>
-  <p>A working product, a collaborative financial study, data pipelines, marketing operations, and business-critical infrastructure. These case studies focus on the decisions behind the work and the results I can substantiate.</p>
+  <p>A working product, collaborative financial research, public-safety visualizations, data pipelines, marketing operations, and business-critical infrastructure. These case studies focus on the decisions behind the work and the results I can substantiate.</p>
 </div>
 
 <div class="filter-row" role="group" aria-label="Filter projects by discipline">
@@ -23,7 +23,7 @@ toc: false
 <article class="portfolio-card" data-tags="Product,Engineering">
   <a class="portfolio-cover" href="projects/pairname.html" aria-label="Read the PairName case study"><img src="images/projects/pairname-app-showcase.webp" alt="PairName app swipe screen featuring the Most Popular name card and three preference controls" loading="lazy"></a>
   <div class="portfolio-copy">
-    <div class="portfolio-topline"><span>PRODUCT DESIGN / APPLICATION DEVELOPMENT</span><span>01 / 05</span></div>
+    <div class="portfolio-topline"><span>PRODUCT DESIGN / APPLICATION DEVELOPMENT</span><span>01 / 06</span></div>
     <h2><a href="projects/pairname.html">PairName</a></h2>
     <p>Designed and built a mobile-first matching app where partners swipe privately, save their favorites, and discover names they both like.</p>
     <div class="portfolio-bottom"><span class="portfolio-proof">ZERO-TO-ONE PRODUCT</span><a href="https://pairname.awjackson00.workers.dev/" class="quiet-link" target="_blank" rel="noopener noreferrer" aria-label="Open PairName project website in a new tab">Try live app ↗</a><a href="projects/pairname.html" class="portfolio-arrow" aria-label="Read PairName case study">↗</a></div>
@@ -33,7 +33,7 @@ toc: false
 <article class="portfolio-card" data-tags="Data,Product">
   <a class="portfolio-cover" href="projects/risky-business.html" aria-label="Read the Risky Business case study"><img src="images/projects/risky-business-website.png" alt="Actual screenshot of the published Risky Business research homepage" loading="lazy"></a>
   <div class="portfolio-copy">
-    <div class="portfolio-topline"><span>DATA SCIENCE / FINANCIAL ANALYTICS</span><span>02 / 05</span></div>
+    <div class="portfolio-topline"><span>DATA SCIENCE / FINANCIAL ANALYTICS</span><span>02 / 06</span></div>
     <h2><a href="projects/risky-business.html">Risky Business</a></h2>
     <p>Co-developed a Python backtesting study comparing five portfolio strategies across nine market regimes using returns, volatility, Sharpe, and Sortino ratios.</p>
     <div class="portfolio-bottom"><span class="portfolio-proof">NINE MARKET REGIMES</span><a href="https://awjackson00.github.io/Risky-Business/" class="quiet-link" target="_blank" rel="noopener noreferrer" aria-label="Open Risky Business project website in a new tab">Visit website ↗</a><a href="projects/risky-business.html" class="portfolio-arrow" aria-label="Read Risky Business case study">↗</a></div>
@@ -43,7 +43,7 @@ toc: false
 <article class="portfolio-card" data-tags="Engineering,Data">
   <a class="portfolio-cover" href="projects/prague-metro.html" aria-label="Read the Prague Metro case study"><img src="images/projects/prague-metro-map-2026.svg" class="project-map" alt="Actual Prague Metro station network map from 2026" loading="lazy"></a>
   <div class="portfolio-copy">
-    <div class="portfolio-topline"><span>DATA ENGINEERING / TRANSIT ANALYTICS</span><span>03 / 05</span></div>
+    <div class="portfolio-topline"><span>DATA ENGINEERING / TRANSIT ANALYTICS</span><span>03 / 06</span></div>
     <h2><a href="projects/prague-metro.html">Prague Metro data platform</a></h2>
     <p>Helped engineer a pipeline from transit events to PostgreSQL and dbt models, making station, route, and hourly ridership patterns queryable.</p>
     <div class="portfolio-bottom"><span class="portfolio-proof">PIPELINE → WAREHOUSE → DASHBOARD MART</span><a href="projects/prague-metro.html" class="portfolio-arrow" aria-label="Read Prague Metro case study">↗</a></div>
@@ -51,10 +51,20 @@ toc: false
     <div class="map-credit">2026 station map: <a href="https://commons.wikimedia.org/wiki/File:Prague_metro_plan_2026.svg" target="_blank" rel="noopener noreferrer">Tomáš Vojtíšek</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></div>
   </div>
 </article>
+<article class="portfolio-card" data-tags="Data,Product">
+  <a class="portfolio-cover" href="projects/traffic-accidents.html" aria-label="Read the U.S. Traffic Accident Dashboard case study"><img src="images/projects/traffic-accidents-dashboard.svg" width="1600" height="900" alt="Editorial illustration showing the national, county, road, and time-pattern views of a crash data dashboard" loading="lazy" decoding="async"></a>
+  <div class="portfolio-copy">
+    <div class="portfolio-topline"><span>INTERACTIVE ANALYTICS / PUBLIC SAFETY</span><span>04 / 06</span></div>
+    <h2><a href="projects/traffic-accidents.html">U.S. Traffic Accident Dashboard</a></h2>
+    <p>Co-developed an R Shiny dashboard to explore crash patterns from state and county comparisons to road-level hotspots and time-of-day trends.</p>
+    <div class="portfolio-bottom"><span class="portfolio-proof">NATIONAL → LOCAL DRILL-DOWN</span><a href="projects/traffic-accidents.html" class="portfolio-arrow" aria-label="Read traffic accident dashboard case study">↗</a></div>
+    <div class="portfolio-stack">R · Shiny · Leaflet · Plotly · Data visualization</div>
+  </div>
+</article>
 <article class="portfolio-card" data-tags="Operations,Product">
   <a class="portfolio-cover" href="projects/marion-berries.html" aria-label="Read the Marion Berries fan engagement case study"><img src="images/projects/marion-berries-fan-engagement.webp" width="1600" height="900" alt="Real photograph of the Marion Berries baseball field at night with the original team logo and fan-engagement campaign messaging" loading="lazy" decoding="async"></a>
   <div class="portfolio-copy">
-    <div class="portfolio-topline"><span>PROJECT MANAGEMENT / GROWTH</span><span>04 / 05</span></div>
+    <div class="portfolio-topline"><span>PROJECT MANAGEMENT / GROWTH</span><span>05 / 06</span></div>
     <h2><a href="projects/marion-berries.html">Marion Berries fan engagement</a></h2>
     <p>Managed marketing priorities and cross-team delivery for a baseball club's inaugural season, using fan engagement data to inform events and improve ticketing workflows.</p>
     <div class="portfolio-bottom"><span class="portfolio-proof">INAUGURAL SEASON</span><a href="projects/marion-berries.html" class="portfolio-arrow" aria-label="Read Marion Berries campaign case study">↗</a></div>
@@ -64,7 +74,7 @@ toc: false
 <article class="portfolio-card" data-tags="Engineering,Operations">
   <a class="portfolio-cover" href="projects/infrastructure.html" aria-label="Read the Cloud & database optimization case study"><img src="images/projects/cloud-database-optimization.webp" width="1200" height="675" alt="Blue editorial illustration of optimized cloud services, APIs and databases" loading="lazy"></a>
   <div class="portfolio-copy">
-    <div class="portfolio-topline"><span>SYSTEMS / INFRASTRUCTURE</span><span>05 / 05</span></div>
+    <div class="portfolio-topline"><span>SYSTEMS / INFRASTRUCTURE</span><span>06 / 06</span></div>
     <h2><a href="projects/infrastructure.html">Cloud & database optimization</a></h2>
     <p>Investigated cloud and database bottlenecks in systems serving 150+ weekly clients, helping reduce latency by roughly 20–30% and improve data-processing performance.</p>
     <div class="portfolio-bottom"><span class="portfolio-proof">20–30% LOWER LATENCY</span><a href="projects/infrastructure.html" class="portfolio-arrow" aria-label="Read Cloud & database optimization case study">↗</a></div>
