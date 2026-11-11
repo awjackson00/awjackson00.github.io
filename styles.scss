@@ -408,8 +408,10 @@ a:focus-visible,button:focus-visible { outline:3px solid #83b4e1;outline-offset:
 }
 
 /* Preserve the full original crash-dashboard screenshot without cropping its map. */
+/* Match the 16:9 portfolio card crop used by other project covers.
+   The source image itself remains the original, unedited user screenshot. */
 .portfolio-cover img.traffic-project-screen {
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
   background: #e9f2fb;
 }
