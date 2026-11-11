@@ -57,7 +57,7 @@ toc: false
     <div class="portfolio-topline"><span>INTERACTIVE ANALYTICS / PUBLIC SAFETY</span><span>04 / 06</span></div>
     <h2><a href="projects/traffic-accidents.html">U.S. Traffic Accident Dashboard</a></h2>
     <p>Co-developed an R Shiny dashboard to explore crash patterns from state and county comparisons to road-level hotspots and time-of-day trends.</p>
-    <div class="portfolio-bottom"><span class="portfolio-proof">NATIONAL → LOCAL DRILL-DOWN</span><a href="projects/traffic-accidents.html" class="portfolio-arrow" aria-label="Read traffic accident dashboard case study">↗</a></div>
+    <div class="portfolio-bottom"><span class="portfolio-proof">NATIONAL → LOCAL DRILL-DOWN</span><a href="https://ajackson25.shinyapps.io/USA_Accidents/" class="quiet-link" target="_blank" rel="noopener noreferrer" aria-label="Open the original US Traffic Accident Dashboard Shiny app in a new tab">Try live dashboard ↗</a><a href="projects/traffic-accidents.html" class="portfolio-arrow" aria-label="Read traffic accident dashboard case study">↗</a></div>
     <div class="portfolio-stack">R · Shiny · Leaflet · Plotly · Data visualization</div>
   </div>
 </article>
