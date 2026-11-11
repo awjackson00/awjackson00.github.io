@@ -1,125 +1,121 @@
 ---
 title: "Experience"
-subtitle: "Software, systems, product thinking, analytics, and project leadership."
+pagetitle: "Experience | Alexander Jackson"
+page-layout: full
 toc: false
 ---
 
 ```{=html}
 <div class="experience-page">
-  <header class="experience-page-intro">
-    <p class="eyebrow">PROFESSIONAL EXPERIENCE</p>
-    <h2>Technical depth. Practical outcomes.</h2>
-    <p>My work has taken me from hands-on infrastructure and software development to project delivery and investment analysis. Across those roles, the common thread has been understanding the problem, working with stakeholders, and making better decisions with technology and data.</p>
-    <a class="text-link" href="resume.pdf">Download résumé <span aria-hidden="true">↗</span></a>
+  <header class="experience-hero">
+    <p class="eyebrow">EXPERIENCE &amp; BACKGROUND</p>
+    <h1>Experience</h1>
+    <div class="experience-hero-bottom">
+      <p>My work spans software development, cloud infrastructure, data analysis, and project leadership. Each role has taught me how to understand the people behind a problem and turn technical work into useful results.</p>
+      <a class="experience-resume-link" href="resume.pdf">Download résumé <span aria-hidden="true">↗</span></a>
+    </div>
   </header>
 
-  <div class="experience-timeline">
-    <article class="career-role" aria-labelledby="career-angel-title">
-      <div class="career-rail">
-        <p class="career-index">01 / VENTURE &amp; PRODUCT</p>
-        <p class="career-date"><time datetime="2025-08">Aug 2025</time> – <time datetime="2026-08">Aug 2026</time></p>
+  <section class="experience-work" aria-label="Professional experience">
+    <article class="experience-entry" aria-labelledby="career-angel-title">
+      <div class="experience-entry-top">
+        <p class="experience-org">Willamette Angel Fund / Oregon Venture Fund</p>
+        <p class="experience-period"><time datetime="2025-08">Aug 2025</time> – <time datetime="2026-08">Aug 2026</time></p>
       </div>
-      <div class="career-body">
-        <p class="career-company">Willamette Angel Fund / Oregon Venture Fund</p>
-        <h3 id="career-angel-title">Angel Fund Investment Analyst</h3>
-        <p class="career-summary">Evaluated early-stage businesses through a product, market, and financial lens, turning a wide range of startup information into more structured investment discussions.</p>
-        <ul class="career-highlights">
+      <h2 id="career-angel-title">Angel Fund Investment Analyst</h2>
+      <p class="experience-overview">Evaluated early-stage businesses through a product, market, and financial lens, turning a wide range of startup information into more structured investment discussions.</p>
+      <ul class="experience-details">
           <li><strong>Product and market diligence:</strong> Assessed customer problems, competitive positioning, differentiation, and signs of product-market fit.</li>
           <li><strong>Business model analysis:</strong> Examined market opportunities, growth assumptions, revenue models, and financial risks to understand how a company might scale.</li>
           <li><strong>Investment judgment:</strong> Synthesized research and due diligence into clear findings, tradeoffs, and recommendations for fund discussions.</li>
-        </ul>
-      </div>
+        
+      </ul>
     </article>
 
-    <article class="career-role" aria-labelledby="career-berries-title">
-      <div class="career-rail">
-        <p class="career-index">02 / PROJECT &amp; GROWTH</p>
-        <p class="career-date"><time datetime="2025-04">Apr 2025</time> – <time datetime="2025-08">Aug 2025</time></p>
+    <article class="experience-entry" aria-labelledby="career-berries-title">
+      <div class="experience-entry-top">
+        <p class="experience-org">Marion Berries Baseball Club</p>
+        <p class="experience-period"><time datetime="2025-04">Apr 2025</time> – <time datetime="2025-08">Aug 2025</time></p>
       </div>
-      <div class="career-body">
-        <p class="career-company">Marion Berries Baseball Club</p>
-        <h3 id="career-berries-title">Project Manager, Inaugural Season Marketing Campaign</h3>
-        <p class="career-summary">Helped coordinate the club's first-season marketing and game-day operations, connecting campaign execution with fan engagement and event data.</p>
-        <ul class="career-highlights">
+      <h2 id="career-berries-title">Project Manager, Inaugural Season Marketing Campaign</h2>
+      <p class="experience-overview">Helped coordinate the club's first-season marketing and game-day operations, connecting campaign execution with fan engagement and event data.</p>
+      <ul class="experience-details">
           <li><strong>Campaign delivery:</strong> Managed priorities, timelines, dependencies, and stakeholder coordination across promotions and inaugural-season events.</li>
           <li><strong>Audience insight:</strong> Used fan engagement, attendance, and ticketing information to inform marketing and event decisions.</li>
           <li><strong>Operational improvement:</strong> Identified bottlenecks in ticketing and event processes and supported changes that reduced processing inefficiencies by approximately <strong>15%</strong>.</li>
-        </ul>
-      </div>
+        
+      </ul>
     </article>
 
-    <article class="career-role" aria-labelledby="career-mfco-title">
-      <div class="career-rail">
-        <p class="career-index">03 / CLOUD &amp; DATA SYSTEMS</p>
-        <p class="career-date"><time datetime="2023-03">Mar 2023</time> – <time datetime="2024-08">Aug 2024</time></p>
+    <article class="experience-entry" aria-labelledby="career-mfco-title">
+      <div class="experience-entry-top">
+        <p class="experience-org">Macfarlane Faletti &amp; Co</p>
+        <p class="experience-period"><time datetime="2023-03">Mar 2023</time> – <time datetime="2024-08">Aug 2024</time></p>
       </div>
-      <div class="career-body">
-        <p class="career-company">Macfarlane Faletti &amp; Co</p>
-        <h3 id="career-mfco-title">Database Manager and Cloud Administrator</h3>
-        <p class="career-summary">Improved the reliability and performance of cloud and database systems supporting business processes for more than <strong>150 weekly clients</strong>.</p>
-        <ul class="career-highlights">
+      <h2 id="career-mfco-title">Database Manager and Cloud Administrator</h2>
+      <p class="experience-overview">Improved the reliability and performance of cloud and database systems supporting business processes for more than <strong>150 weekly clients</strong>.</p>
+      <ul class="experience-details">
           <li><strong>Performance optimization:</strong> Investigated system bottlenecks and helped deliver changes that reduced latency by approximately <strong>20–30%</strong>.</li>
           <li><strong>Infrastructure modernization:</strong> Updated legacy data and cloud workflows, improving data-processing and access speeds by roughly <strong>25%</strong>.</li>
           <li><strong>Reliability and support:</strong> Resolved <strong>22+ infrastructure issues</strong> and supported continuity for critical client-facing operations.</li>
           <li><strong>Stakeholder translation:</strong> Worked with business users to clarify technical requirements and improve the accessibility of operational data and reporting.</li>
-        </ul>
-      </div>
+        
+      </ul>
     </article>
 
-    <article class="career-role" aria-labelledby="career-dodgers-title">
-      <div class="career-rail">
-        <p class="career-index">04 / SOFTWARE &amp; ANALYTICS</p>
-        <p class="career-date"><time datetime="2022-08">Aug 2022</time> – <time datetime="2023-01">Jan 2023</time></p>
+    <article class="experience-entry" aria-labelledby="career-dodgers-title">
+      <div class="experience-entry-top">
+        <p class="experience-org">Los Angeles Dodgers</p>
+        <p class="experience-period"><time datetime="2022-08">Aug 2022</time> – <time datetime="2023-01">Jan 2023</time></p>
       </div>
-      <div class="career-body">
-        <p class="career-company">Los Angeles Dodgers</p>
-        <h3 id="career-dodgers-title">Software Developer</h3>
-        <p class="career-summary">Developed a Python-based scouting analytics platform that translated player data into more consistent, usable evaluation workflows.</p>
-        <ul class="career-highlights">
+      <h2 id="career-dodgers-title">Software Developer</h2>
+      <p class="experience-overview">Developed a Python-based scouting analytics platform that translated player data into more consistent, usable evaluation workflows.</p>
+      <ul class="experience-details">
           <li><strong>Analytics development:</strong> Built a platform combining statistical modeling and more than <strong>100 player variables</strong> to support scouting evaluations.</li>
           <li><strong>User-led iteration:</strong> Worked directly with scouts to understand how they compared players, then refined the application's requirements, organization, and reporting around those workflows.</li>
           <li><strong>Workflow efficiency:</strong> Helped standardize player analysis and reduce manual evaluation time by approximately <strong>15–20%</strong>.</li>
-        </ul>
-      </div>
+        
+      </ul>
     </article>
 
-    <article class="career-role" aria-labelledby="career-lanspeed-title">
-      <div class="career-rail">
-        <p class="career-index">05 / IT OPERATIONS</p>
-        <p class="career-date"><time datetime="2021-06">Jun 2021</time> – <time datetime="2021-08">Aug 2021</time></p>
+    <article class="experience-entry" aria-labelledby="career-lanspeed-title">
+      <div class="experience-entry-top">
+        <p class="experience-org">Lanspeed</p>
+        <p class="experience-period"><time datetime="2021-06">Jun 2021</time> – <time datetime="2021-08">Aug 2021</time></p>
       </div>
-      <div class="career-body">
-        <p class="career-company">Lanspeed</p>
-        <h3 id="career-lanspeed-title">Services Engineer Intern</h3>
-        <p class="career-summary">Supported client IT infrastructure and day-to-day technical troubleshooting across environments serving more than <strong>50 clients</strong>.</p>
-        <ul class="career-highlights">
+      <h2 id="career-lanspeed-title">Services Engineer Intern</h2>
+      <p class="experience-overview">Supported client IT infrastructure and day-to-day technical troubleshooting across environments serving more than <strong>50 clients</strong>.</p>
+      <ul class="experience-details">
           <li><strong>Client support:</strong> Investigated service interruptions and technical issues across network, server, and workstation environments.</li>
           <li><strong>Business continuity:</strong> Completed <strong>30+ server backups</strong> and assisted with systems reliability and recovery tasks.</li>
           <li><strong>Problem resolution:</strong> Supported onsite troubleshooting and communicated progress while helping clients return systems to normal operation.</li>
-        </ul>
-      </div>
+        
+      </ul>
     </article>
-  </div>
+  </section>
+
+  <section class="experience-education" aria-labelledby="experience-education-heading">
+    <div class="experience-section-heading">
+      <p class="eyebrow">ACADEMIC BACKGROUND</p>
+      <h2 id="experience-education-heading">Education</h2>
+    </div>
+    <div class="experience-education-row">
+      <div>
+        <p class="experience-education-school">Willamette University</p>
+        <p class="experience-education-degree">Master of Business Administration</p>
+        <p class="experience-education-degree">Master of Science in Data Science</p>
+        <p class="experience-education-note">Business and Technology Association President · Atkinson Student Association Treasurer</p>
+      </div>
+      <p class="experience-education-date">August 2026</p>
+    </div>
+    <div class="experience-education-row">
+      <div>
+        <p class="experience-education-school">Whitman College</p>
+        <p class="experience-education-degree">Bachelor of Arts in Computer Science</p>
+        <p class="experience-education-note">Whitman Achievement Scholarship</p>
+      </div>
+      <p class="experience-education-date">December 2022</p>
+    </div>
+  </section>
 </div>
 ```
-
----
-
-## Education
-
-### Willamette University
-
-**Master of Business Administration**  
-**Master of Science in Data Science**  
-*Completed August 2026*
-
-- Former Business and Technology Association President
-- Former Atkinson Student Association Treasurer
-
-### Whitman College
-
-**Bachelor of Arts in Computer Science**  
-*Completed December 2022*
-
-- Whitman Achievement Scholarship
-
