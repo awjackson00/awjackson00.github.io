@@ -47,6 +47,7 @@ toc: false
   </section>
 </div>
 <div class="case-actions">
+  <a class="btn btn-primary" href="https://ajackson25.shinyapps.io/USA_Accidents/" target="_blank" rel="noopener noreferrer">Open original Shiny dashboard ↗</a>
   <a class="quiet-link" href="../projects.html">Explore more projects ↗</a>
 </div>
 </div>
