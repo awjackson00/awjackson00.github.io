@@ -53,6 +53,18 @@ with sync_playwright() as p:
     print("SHINY_CAPTURE_FAILED_REQUESTS "+json.dumps(failures[:15]))
     if diagnostics["interactiveShapes"]<10: raise RuntimeError("Shiny crash data map did not render enough geographic polygons")
     if diagnostics["loadedTiles"]<4: raise RuntimeError("Base map tiles did not load; capture would be low quality")
+    # Compose the 16:9 view around the map and its real heading:
+    # scroll far enough to include the complete 720px Leaflet map without cropping,
+    # keeping the web page content exactly as rendered.
+    scroll_report=page.evaluate("""() => {
+      const map=document.querySelector('#usa_map');
+      const bottom=map.getBoundingClientRect().bottom;
+      const scroll=Math.max(0,Math.ceil(bottom-window.innerHeight+12));
+      window.scrollBy({top:scroll,behavior:'instant'});
+      return {requested:scroll,available:document.documentElement.scrollHeight-window.innerHeight};
+    }""")
+    page.wait_for_timeout(650)
+    print("SHINY_CAPTURE_COMPOSITION "+json.dumps({"scroll":scroll_report,"scrollY":page.evaluate("window.scrollY"),"mapBottom":page.evaluate("document.querySelector('#usa_map').getBoundingClientRect().bottom")}))
     page.screenshot(path=str(OUT),full_page=False,animations="disabled")
     with Image.open(OUT) as im:
         im.verify()
