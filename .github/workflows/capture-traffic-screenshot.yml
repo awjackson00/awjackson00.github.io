@@ -1,0 +1,39 @@
+name: Capture US Accidents live dashboard screenshot
+
+on:
+  push:
+    branches: [capture-highres-us-accidents]
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install screenshot dependencies
+        run: |
+          python -m pip install 'playwright==1.56.0' 'Pillow>=11'
+          python -m playwright install --with-deps chromium
+      - name: Capture live R Shiny dashboard
+        run: python scripts/capture_traffic_dashboard.py
+      - name: Commit authentic screenshot to review branch
+        run: |
+          set -euo pipefail
+          git add images/projects/traffic-accidents-highres-preview.png images/projects/traffic-accidents-highres.webp
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "Capture real live Shiny crash dashboard in high resolution"
+            git push origin HEAD:capture-highres-us-accidents
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: real-shiny-crash-dashboard
+          path: |
+            images/projects/traffic-accidents-highres-preview.png
+            images/projects/traffic-accidents-highres.webp
+          if-no-files-found: error
