@@ -62,7 +62,6 @@ toc: false
     <p>Working from national context down to county and street-level views made the data more useful for forming specific safety questions. Historical accident records are not a complete census of crashes and cannot, by themselves, establish the effectiveness of an intervention. Per-capita comparisons also use population estimates against a multi-year record set rather than annualized crash rates. The result was a collaborative exercise in thoughtful interactive analysis, geospatial data preparation, and user-centered decision support.</p>
   </section>
 </div>
-<p class="traffic-project-credit">Developed collaboratively by Alexander Jackson and Simon Thompson.</p>
 <div class="case-actions">
   <a class="btn btn-primary" href="https://ajackson25.shinyapps.io/USA_Accidents/" target="_blank" rel="noopener noreferrer">Open original Shiny dashboard ↗</a>
   <a class="quiet-link" href="../projects.html">Explore more projects ↗</a>
