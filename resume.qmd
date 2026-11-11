@@ -1,107 +1,16 @@
 ---
 title: "Resume"
-toc: true
-toc-title: "Contents"
+description: "Alexander Jackson's one-page professional resume."
+toc: false
 ---
 
-<div class="text-center">
-
-## Alexander Jackson
-
-[awjackson00@gmail.com](mailto:awjackson00@gmail.com)  
-[LinkedIn](https://www.linkedin.com/in/alexander-jackson5/) | [GitHub](https://github.com/awjackson00)
-
-[📄 Download PDF Resume](resume.pdf){.btn .btn-primary role="button"}
-
+```{=html}
+<div class="resume-document">
+  <div class="resume-document-intro">
+    <p>Explore my background in software development, technical product work, analytics, and business.</p>
+    <a class="btn btn-primary" href="resume.pdf" download="Alexander_Jackson_Resume.pdf">Download resume (PDF) <span aria-hidden="true">↘</span></a>
+  </div>
+  <iframe src="resume.pdf#view=FitH" title="Alexander Jackson professional resume PDF" width="100%" height="1100" loading="lazy"></iframe>
+  <p class="resume-document-fallback">Having trouble viewing the preview? <a href="resume.pdf" target="_blank" rel="noopener noreferrer">Open the PDF directly ↗</a></p>
 </div>
-
----
-
-## Professional Summary
-
-Technical product professional with a background in computer science, data science, and business. Experienced translating user and stakeholder needs into product requirements, building software and analytics systems, improving technical infrastructure, and using data to drive product and operational decisions.
-
----
-
-## Education
-
-### Willamette University
-
-**Master of Business Administration**  
-**Master of Science in Data Science**  
-*Completed August 2026*
-
-- Former Business and Technology Association President
-- Former Atkinson Student Association Treasurer
-
-### Whitman College
-
-**Bachelor of Arts in Computer Science**  
-*Completed December 2022*
-
-- Whitman Achievement Scholarship
-
----
-
-## Professional Experience
-
-### Database Manager and Cloud Administrator
-**Macfarlane Faletti & Co**  
-*March 2023 – August 2024*
-
-- Identified performance bottlenecks affecting 150+ weekly clients, defined requirements with stakeholders, and led infrastructure improvements that reduced latency by roughly 20–30%.
-- Resolved 22+ infrastructure issues, improving system reliability and operational continuity.
-- Modernized legacy systems, improving data-processing and access speeds by approximately 25%.
-
-### Project Manager, Inaugural Season Marketing Campaign
-**Marion Berries Baseball Club**  
-*April 2025 – August 2025*
-
-- Managed campaign priorities, timelines, deliverables, and stakeholder coordination during the club's inaugural season.
-- Analyzed fan engagement data to guide marketing and event decisions.
-- Improved ticketing and event workflows, reducing processing inefficiencies by approximately 15%.
-
-### Software Developer
-**Los Angeles Dodgers**  
-*August 2022 – January 2023*
-
-- Built a data-driven scouting platform using Python and statistical modeling to evaluate more than 100 variables.
-- Partnered with scouts to gather requirements, iterate on features, and improve evaluation workflows.
-
-### Services Engineer Intern
-**Lanspeed**  
-*June 2021 – August 2021*
-
-- Supported IT systems for 50+ clients and resolved infrastructure issues affecting system reliability.
-- Executed 30+ server backups and supported continuity across client environments.
-
----
-
-## Leadership & Startup Experience
-
-### Angel Fund Investment Analyst
-**Willamette Angel Fund / Oregon Venture Fund**  
-*2025 – 2026*
-
-- Evaluated early-stage startups through product, market, competitive, and financial analysis.
-- Conducted due diligence on product-market fit, growth, and business models and presented recommendations.
-
----
-
-## Skills
-
-**Product:** Product Management, Product Strategy, Requirements Gathering, Feature Prioritization, Product Analytics, Stakeholder Management, Project Management
-
-**Technical:** Python, SQL, Java, C++, React, Next.js, Supabase, PostgreSQL, APIs, Cloud Infrastructure, Git/GitHub
-
-**Analytics:** Data Science, Power BI, Tableau, Excel, Statistical Analysis, A/B Testing, KPI Development
-
----
-
-## PDF Resume
-
-<iframe src="resume.pdf"
-        width="100%"
-        height="1000px"
-        style="border: 1px solid #ddd; margin-top: 1rem;">
-</iframe>
+```

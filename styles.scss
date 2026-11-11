@@ -487,3 +487,27 @@ body:has(.experience-page) .quarto-title-block {display:none!important;}
   .experience-hero {padding-top:2.8rem;}
   .experience-prose p {font-size:.97rem;line-height:1.8;}
 }
+
+
+/* Resume PDF is the single source of truth for the portfolio Resume page. */
+.resume-document {max-width:940px;margin:1.75rem auto 4.5rem;}
+.resume-document-intro {
+  display:flex;align-items:center;justify-content:space-between;
+  flex-wrap:wrap;gap:1.25rem 2rem;margin:0 0 1.6rem;
+}
+.resume-document-intro p {
+  margin:0;max-width:570px;color:var(--body);
+  font-size:1rem;line-height:1.7;
+}
+.resume-document-intro .btn {flex-shrink:0;}
+.resume-document iframe {
+  display:block;max-width:100%;
+  border:1px solid #d7e3ee;background:white;
+  border-radius:3px;
+}
+.resume-document-fallback {font-size:.86rem;color:var(--muted);margin:1rem 0 0;}
+@media (max-width:750px) {
+  .resume-document {margin:1rem auto 3rem;}
+  .resume-document-intro {align-items:flex-start;flex-direction:column;}
+  .resume-document iframe {height:780px;}
+}
