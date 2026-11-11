@@ -1,16 +1,156 @@
 ---
 title: "Resume"
-description: "Alexander Jackson's one-page professional resume."
+pagetitle: "Resume | Alexander Jackson"
+description: "Alexander Jackson's professional experience, selected projects, education and technical skills."
+page-layout: full
 toc: false
 ---
 
 ```{=html}
-<div class="resume-document">
-  <div class="resume-document-intro">
-    <p>Explore my background in software development, technical product work, analytics, and business.</p>
-    <a class="btn btn-primary" href="resume.pdf" download="Alexander_Jackson_Resume.pdf">Download resume (PDF) <span aria-hidden="true">↘</span></a>
-  </div>
-  <iframe src="resume.pdf#view=FitH" title="Alexander Jackson professional resume PDF" width="100%" height="1100" loading="lazy"></iframe>
-  <p class="resume-document-fallback">Having trouble viewing the preview? <a href="resume.pdf" target="_blank" rel="noopener noreferrer">Open the PDF directly ↗</a></p>
+<div class="resume-profile">
+  <header class="resume-profile-hero">
+    <div class="resume-profile-heading">
+      <div>
+        <p class="eyebrow">PROFESSIONAL PROFILE</p>
+        <h1>Resume</h1>
+        <p class="resume-profile-deck">Technical product work, software engineering, and analytics, grounded in real projects and measurable results.</p>
+      </div>
+      <div class="resume-profile-cta">
+        <a class="btn btn-primary" href="resume.pdf" download="Alexander_Jackson_Resume.pdf">Download one-page PDF <span aria-hidden="true">↓</span></a>
+        <span>Printable · Black and white · One page</span>
+      </div>
+    </div>
+    <nav class="resume-profile-contact" aria-label="Contact and professional links">
+      <a href="mailto:awjackson00@gmail.com">awjackson00@gmail.com</a>
+      <a href="https://www.linkedin.com/in/alexander-jackson5/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+      <a href="https://github.com/awjackson00" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      <a href="tel:+18053501654">(805) 350-1654</a>
+    </nav>
+  </header>
+
+  <section class="resume-profile-section resume-profile-summary" aria-labelledby="resume-profile-summary-heading">
+    <p class="resume-profile-section-no">01 / OVERVIEW</p>
+    <div>
+      <h2 id="resume-profile-summary-heading">Professional summary</h2>
+      <p>Technical product and analytics professional with an MBA, M.S. in Data Science, and B.A. in Computer Science. Built Python software and consumer-facing applications, improved cloud and database infrastructure, and translated stakeholder needs into measurable workflow gains.</p>
+    </div>
+  </section>
+
+  <section class="resume-profile-section" aria-labelledby="resume-profile-experience-heading">
+    <p class="resume-profile-section-no">02 / EXPERIENCE</p>
+    <div class="resume-profile-section-content">
+      <h2 id="resume-profile-experience-heading">Professional experience</h2>
+
+      <article class="resume-profile-role">
+        <div class="resume-profile-role-top"><p>Willamette Angel Fund / Oregon Venture Fund</p><time>Aug 2025 – Aug 2026</time></div>
+        <h3>Angel Fund Investment Analyst</h3>
+        <ul>
+          <li>Evaluated early-stage startups through product-market, competitive, growth, and financial diligence to assess business models and market opportunity.</li>
+          <li>Synthesized findings on customer needs, differentiation, and investment risks into structured recommendations for fund discussions.</li>
+        </ul>
+      </article>
+
+      <article class="resume-profile-role">
+        <div class="resume-profile-role-top"><p>Marion Berries Baseball Club</p><time>Apr 2025 – Aug 2025</time></div>
+        <h3>Product/Growth Operations</h3>
+        <ul>
+          <li>Coordinated cross-functional marketing timelines, promotional deliverables, and game-day activities to meet fixed inaugural-season event deadlines.</li>
+          <li>Analyzed fan engagement, attendance, and event outcomes to identify effective promotions and inform audience-focused event decisions.</li>
+          <li>Improved ticketing and event workflows, reducing processing inefficiencies by approximately <strong>15%</strong>.</li>
+        </ul>
+      </article>
+
+      <article class="resume-profile-role">
+        <div class="resume-profile-role-top"><p>Macfarlane Faletti &amp; Co</p><time>Mar 2023 – Aug 2024</time></div>
+        <h3>Database Manager and Cloud Administrator</h3>
+        <ul>
+          <li>Diagnosed cloud and database bottlenecks affecting <strong>150+ weekly clients</strong>; translated stakeholder needs into improvements that reduced latency by approximately <strong>20–30%</strong>.</li>
+          <li>Modernized legacy data-processing and access workflows, improving speeds by approximately <strong>25%</strong>; developed operational reporting and dashboard outputs.</li>
+          <li>Resolved <strong>22+ infrastructure issues</strong>, improving reliability and continuity across business-critical client workflows.</li>
+        </ul>
+      </article>
+
+      <article class="resume-profile-role">
+        <div class="resume-profile-role-top"><p>Los Angeles Dodgers</p><time>Aug 2022 – Jan 2023</time></div>
+        <h3>Software Developer</h3>
+        <ul>
+          <li>Built a Python scouting analytics platform using statistical modeling and <strong>100+ player variables</strong> to support consistent player evaluation.</li>
+          <li>Partnered with scouts on requirements, feature iterations, and reporting; helped reduce manual evaluation time by approximately <strong>15–20%</strong>.</li>
+        </ul>
+      </article>
+
+      <article class="resume-profile-role">
+        <div class="resume-profile-role-top"><p>Lanspeed</p><time>Jun 2021 – Aug 2021</time></div>
+        <h3>Services Engineer Intern</h3>
+        <ul>
+          <li>Supported IT systems for <strong>50+ clients</strong>, troubleshooting server, network, and workstation issues to restore reliable operations.</li>
+          <li>Completed <strong>30+ server backups</strong> and communicated issue updates to clients, supporting business continuity and timely resolution.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="resume-profile-section" aria-labelledby="resume-profile-projects-heading">
+    <p class="resume-profile-section-no">03 / SELECTED WORK</p>
+    <div class="resume-profile-section-content">
+      <h2 id="resume-profile-projects-heading">Selected projects</h2>
+      <div class="resume-profile-projects">
+        <article class="resume-profile-project">
+          <div><h3><a href="projects/pairname.html">PairName <span aria-hidden="true">↗</span></a></h3><span>JavaScript · Supabase</span></div>
+          <p>Designed and built a mobile-first app with authentication, partner pairing, independent name swipes, mutual matching, undo, and persistent preferences.</p>
+        </article>
+        <article class="resume-profile-project">
+          <div><h3><a href="projects/risky-business.html">Risky Business <span aria-hidden="true">↗</span></a></h3><span>Python · pandas · NumPy</span></div>
+          <p>Co-developed a backtesting study of five portfolio strategies across nine market regimes, comparing returns, volatility, and Sharpe and Sortino ratios.</p>
+        </article>
+        <article class="resume-profile-project">
+          <div><h3><a href="projects/traffic-accidents.html">U.S. Traffic Accident Dashboard <span aria-hidden="true">↗</span></a></h3><span>R Shiny · Leaflet · Plotly</span></div>
+          <p>Built an interactive U.S. crash dashboard with national and county views, population-adjusted comparisons, roadway heatmaps, and time and weather filters.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-profile-section" aria-labelledby="resume-profile-education-heading">
+    <p class="resume-profile-section-no">04 / EDUCATION</p>
+    <div class="resume-profile-section-content">
+      <h2 id="resume-profile-education-heading">Education</h2>
+      <div class="resume-profile-education-item">
+        <div><h3>Willamette University</h3><p>MBA · M.S. in Data Science</p><span>Business and Technology Association President · Atkinson Student Association Treasurer</span></div>
+        <time>Aug 2026</time>
+      </div>
+      <div class="resume-profile-education-item">
+        <div><h3>Whitman College</h3><p>B.A. in Computer Science</p></div>
+        <time>Dec 2022</time>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume-profile-section" aria-labelledby="resume-profile-skills-heading">
+    <p class="resume-profile-section-no">05 / SKILLS</p>
+    <div class="resume-profile-section-content">
+      <h2 id="resume-profile-skills-heading">Skills</h2>
+      <div class="resume-profile-skills">
+        <p><strong>Product</strong><span>Requirements gathering, feature iteration, stakeholder management, user workflows, product analytics, market research, process improvement</span></p>
+        <p><strong>Technical &amp; data</strong><span>Python, SQL, R, JavaScript, Supabase, PostgreSQL, Power BI, Tableau, Excel, statistical analysis, dashboards, cloud and database administration</span></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="resume-profile-footer">
+    <div>
+      <p class="eyebrow">FULL RESUME</p>
+      <h2>Need the one-page version?</h2>
+      <p>The PDF has the same professional background, optimized for sharing or printing.</p>
+    </div>
+    <a class="btn btn-primary" href="resume.pdf" download="Alexander_Jackson_Resume.pdf">Download resume (PDF) <span aria-hidden="true">↓</span></a>
+  </footer>
+  <details class="resume-profile-preview">
+    <summary>Preview the printable PDF</summary>
+    <div class="resume-profile-preview-frame">
+      <iframe title="Preview of Alexander Jackson's one-page resume PDF" src="resume.pdf#view=FitH" loading="lazy"></iframe>
+    </div>
+    <p><a href="resume.pdf" target="_blank" rel="noopener noreferrer">Open PDF in a new tab ↗</a></p>
+  </details>
 </div>
 ```

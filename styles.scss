@@ -489,25 +489,115 @@ body:has(.experience-page) .quarto-title-block {display:none!important;}
 }
 
 
-/* Resume PDF is the single source of truth for the portfolio Resume page. */
-.resume-document {max-width:940px;margin:1.75rem auto 4.5rem;}
-.resume-document-intro {
-  display:flex;align-items:center;justify-content:space-between;
-  flex-wrap:wrap;gap:1.25rem 2rem;margin:0 0 1.6rem;
+/* Resume: editorial, accessible web presentation of the approved PDF. */
+body:has(.resume-profile) #title-block-header,
+body:has(.resume-profile) .quarto-title-block {display:none!important;}
+.resume-profile {width:min(1100px,calc(100% - 3.5rem));margin:0 auto;padding:0 0 5.5rem;}
+.resume-profile-hero {padding:clamp(3.5rem,6vw,5.75rem) 0 0;}
+.resume-profile-heading {display:flex;justify-content:space-between;align-items:end;gap:2.2rem 3rem;}
+.resume-profile-heading > div:first-child {max-width:695px;}
+.resume-profile-heading .eyebrow {margin:0 0 .8rem;}
+.resume-profile-heading h1 {
+  font:500 clamp(3.3rem,6vw,5.4rem)/1.06 var(--serif);
+  letter-spacing:-.045em;color:var(--ink);margin:0 0 .85rem;
 }
-.resume-document-intro p {
-  margin:0;max-width:570px;color:var(--body);
-  font-size:1rem;line-height:1.7;
+.resume-profile-deck {font-size:clamp(1.06rem,1.55vw,1.23rem);line-height:1.68;color:#445e78;margin:0;}
+.resume-profile-cta {display:flex;flex-direction:column;align-items:flex-start;gap:.7rem;padding-bottom:.3rem;flex:none;}
+.resume-profile-cta .btn {white-space:nowrap;}
+.resume-profile-cta > span {font-size:.76rem;color:var(--muted);}
+.resume-profile-contact {
+  display:flex;flex-wrap:wrap;gap:.6rem 1.8rem;align-items:center;
+  padding:1.25rem 0;margin:2.8rem 0 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
 }
-.resume-document-intro .btn {flex-shrink:0;}
-.resume-document iframe {
-  display:block;max-width:100%;
-  border:1px solid #d7e3ee;background:white;
-  border-radius:3px;
+.resume-profile-contact a {color:var(--ink);font-size:.88rem;font-weight:550;text-decoration:none;}
+.resume-profile-contact a:hover {color:var(--accent);text-decoration:underline;}
+.resume-profile-section {
+  display:grid;grid-template-columns:minmax(130px,182px) minmax(0,1fr);
+  column-gap:clamp(2rem,4vw,4rem);
+  padding:3.45rem 0 3.65rem;border-bottom:1px solid var(--line);
 }
-.resume-document-fallback {font-size:.86rem;color:var(--muted);margin:1rem 0 0;}
-@media (max-width:750px) {
-  .resume-document {margin:1rem auto 3rem;}
-  .resume-document-intro {align-items:flex-start;flex-direction:column;}
-  .resume-document iframe {height:780px;}
+.resume-profile-section-no {
+  color:#6b89a9;font:700 .71rem/1.5 var(--sans);
+  letter-spacing:.12em;margin:.42rem 0 0;
+}
+.resume-profile-section h2 {
+  font:500 clamp(1.9rem,3vw,2.55rem)/1.2 var(--serif);
+  letter-spacing:-.027em;color:var(--ink);margin:0 0 1.5rem;
+}
+.resume-profile-summary p:not(.resume-profile-section-no) {
+  margin:0;max-width:780px;color:#405a73;font-size:1.08rem;line-height:1.84;
+}
+.resume-profile-role {padding:1.5rem 0 1.65rem;border-top:1px solid #e0e8f1;}
+.resume-profile-role:first-of-type {padding-top:0;border-top:0;}
+.resume-profile-role:last-child {padding-bottom:0;}
+.resume-profile-role-top {display:flex;justify-content:space-between;align-items:baseline;gap:.4rem 1.5rem;flex-wrap:wrap;}
+.resume-profile-role-top p {
+  margin:0;font-size:.91rem;font-weight:700;line-height:1.5;color:#375e83;
+}
+.resume-profile-role-top time {white-space:nowrap;color:#70849a;font-size:.82rem;line-height:1.5;}
+.resume-profile-role h3 {
+  font:500 clamp(1.18rem,1.8vw,1.5rem)/1.28 var(--serif);
+  letter-spacing:-.015em;color:var(--ink);margin:.24rem 0 .75rem;
+}
+.resume-profile-role ul {margin:0;padding:0 0 0 1.1rem;}
+.resume-profile-role li {
+  color:#465d74;line-height:1.72;font-size:.93rem;
+  padding-left:.13rem;margin:0 0 .42rem;
+}
+.resume-profile-role li:last-child {margin-bottom:0;}
+.resume-profile-role li::marker {color:#7c9cba;}
+.resume-profile-project {padding:1.35rem 0;border-top:1px solid #e0e8f1;}
+.resume-profile-project:first-child {padding-top:0;border-top:0;}
+.resume-profile-project:last-child {padding-bottom:0;}
+.resume-profile-project > div {display:flex;align-items:baseline;gap:.6rem 1.5rem;justify-content:space-between;flex-wrap:wrap;margin:0 0 .4rem;}
+.resume-profile-project h3 {font:500 1.33rem/1.25 var(--serif);margin:0;}
+.resume-profile-project h3 a {text-decoration:none;color:var(--ink);}
+.resume-profile-project h3 a:hover {color:var(--accent);}
+.resume-profile-project > div > span {font:500 .77rem/1.5 var(--sans);color:#6f8296;}
+.resume-profile-project p {font-size:.93rem;line-height:1.7;margin:0;color:#465d74;}
+.resume-profile-education-item {display:flex;justify-content:space-between;gap:.6rem 1.5rem;padding:1.2rem 0;border-top:1px solid #e0e8f1;align-items:baseline;}
+.resume-profile-education-item:first-of-type {border-top:0;padding-top:0;}
+.resume-profile-education-item:last-child {padding-bottom:0;}
+.resume-profile-education-item h3 {font:600 1.06rem/1.4 var(--sans);margin:0 0 .25rem;}
+.resume-profile-education-item p {margin:0;font-size:.93rem;color:#425c75;}
+.resume-profile-education-item span {display:block;margin-top:.4rem;font-size:.79rem;color:#71849a;line-height:1.65;}
+.resume-profile-education-item time {font-size:.82rem;color:#71849a;white-space:nowrap;}
+.resume-profile-skills {display:grid;gap:.85rem;}
+.resume-profile-skills p {margin:0;display:grid;grid-template-columns:155px minmax(0,1fr);gap:1rem;font-size:.92rem;line-height:1.75;}
+.resume-profile-skills strong {color:var(--ink);font-weight:650;}
+.resume-profile-skills span {color:#486078;}
+.resume-profile-footer {
+  display:flex;justify-content:space-between;align-items:center;
+  gap:1.4rem 3rem;flex-wrap:wrap;padding:4.1rem 0 2rem;
+}
+.resume-profile-footer .eyebrow {margin:0 0 .75rem;}
+.resume-profile-footer h2 {font:500 2.2rem/1.2 var(--serif);margin:0 0 .6rem;}
+.resume-profile-footer p:last-child {margin:0;font-size:.92rem;}
+.resume-profile-preview {
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  padding:1rem 0;
+}
+.resume-profile-preview summary {cursor:pointer;color:var(--ink);font-weight:600;font-size:.94rem;}
+.resume-profile-preview summary:hover {color:var(--accent);}
+.resume-profile-preview-frame {background:#edf3f9;padding:1rem;margin:1.2rem 0 .7rem;border:1px solid var(--line);}
+.resume-profile-preview-frame iframe {display:block;width:100%;height:min(85vh,990px);border:1px solid #d1dce8;background:#fff;}
+.resume-profile-preview > p {margin:.6rem 0 0;font-size:.85rem;}
+@media (max-width:820px) {
+  .resume-profile-heading {align-items:flex-start;flex-direction:column;gap:1.75rem;}
+  .resume-profile-contact {margin-top:2rem;}
+  .resume-profile-section {grid-template-columns:1fr;row-gap:1rem;padding:2.6rem 0 2.8rem;}
+  .resume-profile-section-no {margin:0;}
+}
+@media (max-width:560px) {
+  .resume-profile {width:calc(100% - 2.5rem);padding-bottom:3rem;}
+  .resume-profile-hero {padding-top:2.8rem;}
+  .resume-profile-heading h1 {font-size:3.8rem;}
+  .resume-profile-contact {gap:.8rem 1.25rem;}
+  .resume-profile-role-top {align-items:flex-start;flex-direction:column;}
+  .resume-profile-role h3 {font-size:1.3rem;}
+  .resume-profile-education-item {align-items:flex-start;flex-direction:column;}
+  .resume-profile-skills p {grid-template-columns:1fr;gap:.1rem;}
+  .resume-profile-footer {padding-top:3rem;}
+  .resume-profile-preview-frame {padding:.25rem;}
+  .resume-profile-preview-frame iframe {height:72vh;}
 }
