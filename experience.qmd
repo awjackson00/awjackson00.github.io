@@ -36,7 +36,7 @@ toc: false
       <h2 id="career-berries-title">Project Manager, Inaugural Season Marketing Campaign</h2>
       <div class="experience-prose">
         <p>I managed priorities and coordination for the Marion Berries' inaugural-season marketing campaign. With games and events driving fixed deadlines, I organized campaign schedules, monitored deliverables and dependencies, and worked with marketing and event stakeholders to keep activities moving toward launch. The role involved turning promotional goals into specific tasks while balancing the needs of the fans and the teams responsible for delivering each event.</p>
-        <p>I used fan engagement, attendance, and ticketing information to inform marketing and event decisions. I also looked for friction in ticketing and event operations, helping improve processes that created unnecessary delays for staff. Those changes contributed to an estimated <strong>15% reduction in ticketing and event processing inefficiencies</strong>. The experience connected audience insight with practical project management and the operational details behind a positive game-day experience.</p>
+        <p>I used fan engagement, attendance, and ticketing information to inform marketing and event decisions. I also looked for friction in ticketing and event operations, helping improve processes that created unnecessary delays for staff. Those changes contributed to an estimated 15% reduction in ticketing and event processing inefficiencies. The experience connected audience insight with practical project management and the operational details behind a positive game-day experience.</p>
       </div>
     </article>
 
@@ -47,8 +47,8 @@ toc: false
       </div>
       <h2 id="career-mfco-title">Database Manager and Cloud Administrator</h2>
       <div class="experience-prose">
-        <p>I managed cloud and database systems supporting business workflows for more than <strong>150 weekly clients</strong>. Much of my work started with understanding why a process was slow, unreliable, or difficult for the people using it. I investigated performance bottlenecks, worked with stakeholders to clarify requirements, and helped prioritize improvements to legacy infrastructure and data access.</p>
-        <p>I worked through infrastructure incidents and supported changes to cloud and database workflows intended to improve reliability and speed. Across these efforts I resolved <strong>22+ infrastructure issues</strong>, helped reduce latency by approximately <strong>20–30%</strong>, and improved data-processing and access performance by around <strong>25%</strong>. The results came from connecting hands-on troubleshooting with the day-to-day needs of the teams and clients relying on those systems.</p>
+        <p>I managed cloud and database systems supporting business workflows for more than 150 weekly clients. Much of my work started with understanding why a process was slow, unreliable, or difficult for the people using it. I investigated performance bottlenecks, worked with stakeholders to clarify requirements, and helped prioritize improvements to legacy infrastructure and data access.</p>
+        <p>I worked through infrastructure incidents and supported changes to cloud and database workflows intended to improve reliability and speed. Across these efforts I resolved 22+ infrastructure issues, helped reduce latency by approximately 20–30%, and improved data-processing and access performance by around 25%. The results came from connecting hands-on troubleshooting with the day-to-day needs of the teams and clients relying on those systems.</p>
       </div>
     </article>
 
@@ -59,8 +59,8 @@ toc: false
       </div>
       <h2 id="career-dodgers-title">Software Developer</h2>
       <div class="experience-prose">
-        <p>I developed a Python-based scouting analytics platform that brought together statistical modeling and more than <strong>100 player variables</strong>. The objective was to make player comparisons more consistent and reduce the time scouts spent gathering and interpreting information manually. I built analytical functionality around the evaluation process and organized the outputs to support how scouts reviewed potential players.</p>
-        <p>I worked directly with scouts to understand their workflows, gather requirements, and learn which comparisons were most useful in real decisions. That feedback shaped iterations to the platform's features and reporting. The resulting tool helped reduce manual evaluation time by approximately <strong>15–20%</strong> while making the analysis more repeatable. It was a practical example of using conversations with users to guide technical development.</p>
+        <p>I developed a Python-based scouting analytics platform that brought together statistical modeling and more than 100 player variables. The objective was to make player comparisons more consistent and reduce the time scouts spent gathering and interpreting information manually. I built analytical functionality around the evaluation process and organized the outputs to support how scouts reviewed potential players.</p>
+        <p>I worked directly with scouts to understand their workflows, gather requirements, and learn which comparisons were most useful in real decisions. That feedback shaped iterations to the platform's features and reporting. The resulting tool helped reduce manual evaluation time by approximately 15–20% while making the analysis more repeatable. It was a practical example of using conversations with users to guide technical development.</p>
       </div>
     </article>
 
@@ -71,8 +71,8 @@ toc: false
       </div>
       <h2 id="career-lanspeed-title">Services Engineer Intern</h2>
       <div class="experience-prose">
-        <p>As a Services Engineer Intern at Lanspeed, I supported technical environments for more than <strong>50 clients</strong>. I helped investigate service interruptions and issues across servers, networks, and workstations, working to identify what was failing and support the restoration of reliable systems. The role exposed me to different client environments and the importance of keeping everyday business technology available.</p>
-        <p>I also supported routine infrastructure maintenance and business continuity, including completing more than <strong>30 server backups</strong>. I assisted with troubleshooting and communicated progress as technical issues were resolved. Working across these tasks gave me experience with the practical side of IT service delivery, where careful diagnosis and dependable follow-through matter as much as the immediate fix.</p>
+        <p>As a Services Engineer Intern at Lanspeed, I supported technical environments for more than 50 clients. I helped investigate service interruptions and issues across servers, networks, and workstations, working to identify what was failing and support the restoration of reliable systems. The role exposed me to different client environments and the importance of keeping everyday business technology available.</p>
+        <p>I also supported routine infrastructure maintenance and business continuity, including completing more than 30 server backups. I assisted with troubleshooting and communicated progress as technical issues were resolved. Working across these tasks gave me experience with the practical side of IT service delivery, where careful diagnosis and dependable follow-through matter as much as the immediate fix.</p>
       </div>
     </article>
   </section>
